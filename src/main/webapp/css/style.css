@@ -959,6 +959,10 @@ input{
 		.full-container-responsive-element {
 			width : 100% !important;
 		}
+		
+		.image-box-shadow {
+			box-shadow:2px 2px 5px 1px #595d688f;
+		}
 
 	/* Copyright */
 
@@ -1059,6 +1063,9 @@ input{
 	#successMessage {
 		color: green !important;
 		font-size: 1.2em !important;
+	}
+	#home-people {
+	box-shadow:0px 1px 10px 4px #89919b
 	}
 			
 			
