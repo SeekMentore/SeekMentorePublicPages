@@ -1039,5 +1039,26 @@ input{
 	#find-tutor #sidebar .major h2 {
 				font-size: 1.8em;
 	}
+	
+	/*
+	Hide the textbox of recaptcha
+	*/
+	.g-recaptcha textarea {
+	    display: none !important;
+	}
+	
+	.noscreen {
+		display : none !important;
+	}
+	
+	#failureMessage {
+		color: red !important;
+		font-size: 1.2em !important;
+	}
+	
+	#successMessage {
+		color: green !important;
+		font-size: 1.2em !important;
+	}
 			
 			

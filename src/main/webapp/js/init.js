@@ -80,7 +80,3 @@
 
 })(jQuery);
 
-
-var correctCaptcha = function(response) {
-    alert(response);
-};
