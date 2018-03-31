@@ -17,6 +17,40 @@
 		<link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"/>
 		<!-- Load chosen -->
 		<link rel="stylesheet" href="chosen/chosen.css">
+		<!-- ReCaptcha V2 Script -->
+  		<script src="https://www.google.com/recaptcha/api.js" async defer ></script>
+  		<script type="text/javascript">
+  		    var captchaAuthFulfilled = false;
+  		    var captchaResponseToken = null; 
+  		    
+  		    var captchaResponseCallback = function(recaptchaResponseToken) {
+  		        captchaResponseToken = recaptchaResponseToken;
+  		        captchaAuthFulfilled = true;
+  		    }
+  		    
+  		    var captchaExpiredCallback = function() {
+  		        grecaptcha.reset();
+  		        captchaResponseToken = null;
+  		        captchaAuthFulfilled = false;
+  		    }
+  		    
+  		    var captchaErrorCallback = function() {
+  		        grecaptcha.reset();
+  		        captchaResponseToken = null;
+  		        captchaAuthFulfilled = false;
+  		    }
+  		    
+  		    var submitForm = function() {
+  		        if (!captchaAuthFulfilled) {
+  		        	$('#failureMessage').html('Form cannot be submitted as Captcha not provided');
+  		            return;
+  		        }
+  		        alert('Submitting form');
+  		        // The below code will go in ajax success failure functions
+  		      	$('#become-a-tutor-form').addClass('noscreen');
+  		      	$('#become-a-tutor-form-success-message').removeClass('noscreen');
+  		    }
+  		</script>
 	</head>
 	<body class="page">
 
@@ -95,7 +129,19 @@
 							<span class="byline">Subscribe to us to know about latest curriculum and elite tutors. Provide your details below and receive latest updates. </span>
 						</header>
 						<form>
-							<div class="input-form-content" >
+							<div class="row input-form-row">
+								<div class="12u skel-cell-important input-form-column-first-row">
+									<p id="failureMessage"></p>
+								</div>
+							</div>
+							<div id="become-a-tutor-form-success-message" class="noscreen">
+								<div class="row input-form-row">
+									<div class="12u skel-cell-important input-form-column-first-row">
+										<p id="successMessage">Thank you for placing your request. Someone from Academic Team will get back to you shortly.</p>
+									</div>
+								</div>
+							</div>
+							<div id="become-a-tutor-form" class="input-form-content" >
 								<div class="row input-form-row">
 									<div class="12u skel-cell-important input-form-column-first-row">
 										<input type="text" name="first-name" placeholder="Name" /> 
@@ -139,8 +185,17 @@
 									</div>
 								</div>
 								<div class="row input-form-row">
+								    <div class="6u skel-cell-important input-form-column">
+								        <div class="g-recaptcha" 
+							        		  data-sitekey="6LdFBlAUAAAAACzDGmG9pLG76RbV1YPhegqBOZq5" 
+							        		  data-callback="captchaResponseCallback" 
+							        		  data-expired-callback="captchaExpiredCallback" 
+							        		  data-error-callback="captchaErrorCallback"></div>
+								    </div>
+								</div>
+								<div class="row input-form-row">
 									<div class="12u skel-cell-important input-form-column" align="center">
-										<a href="#" class="button">Subscribe</a>
+										<a href="javascript:void(0);" onclick="submitForm()" class="button">Subscribe</a>
 									</div>
 								</div>				
 							</div>
@@ -150,7 +205,7 @@
 				<!-- Sidebar -->
 				<div id="sidebar" class="4u skel-cell-important">
 					<section>
-						<img class="full-container-responsive-element"
+						<img class="full-container-responsive-element image-box-shadow"
 							src="images/Subscribe-PNG-8.png" />
 					</section>
 				</div>
