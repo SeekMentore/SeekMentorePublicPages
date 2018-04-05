@@ -1078,10 +1078,10 @@ input{
 	}
 	
 	#speciality {
-	padding-left: 110px;
+	padding-left: 90px;
 	}
 	
-	#panel, #panel1 {
+/* 	.panel {
 	padding: 5px;
 	text-align: center;
 	background-color: #a8cdf4;
@@ -1089,12 +1089,15 @@ input{
 	border-radius: 50%; //
 	width: 30%;
 	margin-left: 50px;
-}
+} */
 
-#panel, #panel1 {
+  .panel {
 	padding: 50px;
 	border-radius: 10%;
 	color: #10213a;
 	background: white;
+	text-align: center;
+	border: solid 1px #10213a;	
+	margin-left: 50px;
 }		
 			
