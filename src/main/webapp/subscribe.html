@@ -19,38 +19,6 @@
 		<link rel="stylesheet" href="chosen/chosen.css">
 		<!-- ReCaptcha V2 Script -->
   		<script src="https://www.google.com/recaptcha/api.js" async defer ></script>
-  		<script type="text/javascript">
-  		    var captchaAuthFulfilled = false;
-  		    var captchaResponseToken = null; 
-  		    
-  		    var captchaResponseCallback = function(recaptchaResponseToken) {
-  		        captchaResponseToken = recaptchaResponseToken;
-  		        captchaAuthFulfilled = true;
-  		    }
-  		    
-  		    var captchaExpiredCallback = function() {
-  		        grecaptcha.reset();
-  		        captchaResponseToken = null;
-  		        captchaAuthFulfilled = false;
-  		    }
-  		    
-  		    var captchaErrorCallback = function() {
-  		        grecaptcha.reset();
-  		        captchaResponseToken = null;
-  		        captchaAuthFulfilled = false;
-  		    }
-  		    
-  		    var submitForm = function() {
-  		        if (!captchaAuthFulfilled) {
-  		        	$('#failureMessage').html('Form cannot be submitted as Captcha not provided');
-  		            return;
-  		        }
-  		        alert('Submitting form');
-  		        // The below code will go in ajax success failure functions
-  		      	$('#become-a-tutor-form').addClass('noscreen');
-  		      	$('#become-a-tutor-form-success-message').removeClass('noscreen');
-  		    }
-  		</script>
 	</head>
 	<body class="page">
 
@@ -139,18 +107,6 @@
 							<span class="byline">Subscribe to us to know about latest curriculum and elite tutors. Provide your details below and receive latest updates. </span>
 						</header>
 						<form>
-							<div class="row input-form-row">
-								<div class="12u skel-cell-important input-form-column-first-row">
-									<p id="failureMessage"></p>
-								</div>
-							</div>
-							<div id="become-a-tutor-form-success-message" class="noscreen">
-								<div class="row input-form-row">
-									<div class="12u skel-cell-important input-form-column-first-row">
-										<p id="successMessage">Thank you for placing your request. Someone from Academic Team will get back to you shortly.</p>
-									</div>
-								</div>
-							</div>
 							<div id="become-a-tutor-form" class="input-form-content" >
 								<div class="row input-form-row">
 									<div class="12u skel-cell-important input-form-column-first-row">
@@ -205,7 +161,7 @@
 								</div>
 								<div class="row input-form-row">
 									<div class="12u skel-cell-important input-form-column" align="center">
-										<a href="javascript:void(0);" onclick="submitForm()" class="button">Subscribe</a>
+										<a href="javascript:void(0);" onclick="submitFormSubscribe()" class="button">Subscribe</a>
 									</div>
 								</div>				
 							</div>
@@ -279,6 +235,14 @@
 			© Developed and Maintained by <a href="http://www.seekmentore.com">Seek Mentore</a>
 		</div>
 	</div>
+	<!-- The Modal -->
+	<div id="notification-popup-modal" class="modal noscreen">
+	  <!-- Modal content -->
+	  <div class="modal-content">
+	    <span id="close-notification-popup-modal" class="close-modal" onclick="closeNotificationPopUpModal()">&times;</span>
+	    <p id="notification-popup-model-content-section"></p>
+	  </div>
+	</div>
 
 	<!-- Load Scripts -->
 		<script src="js/jquery.min.js"></script>
@@ -290,5 +254,10 @@
 		<!-- Load chosen -->
 		<script src="chosen/chosen.jquery.js" type="text/javascript"></script>
   		<script src="chosen/docsupport/init.js" type="text/javascript" charset="utf-8"></script>
+  		<!-- Load scripts for taking action on page -->
+  		<script src="js/applicationCommon.js"></script>
+  		<script>
+  			loadDropdowns('CUSTOMER_SUBSCRIBE');
+  		</script>
 	</body>
 </html>
