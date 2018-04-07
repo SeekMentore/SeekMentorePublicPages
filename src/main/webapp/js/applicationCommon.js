@@ -188,7 +188,7 @@ function submitFormBecomeTutor() {
 		showNotificationModal('Please fill captcha.', false);
 		return;
 	}
-	successMessage = 'Thanks for registering with us.<br/>Someone from tutor support team will contact you shortly.';
+	successMessage = 'Thanks for registering with us.<br/>Someone from Tutor Support team will contact you shortly.';
 	callWebservice('/rest/publicaccess/becomeTutor', encodeObjectAsJSON(getApplicationToBecomeTutor()));
 }
 
@@ -197,7 +197,7 @@ function submitFormFindTutor() {
 		showNotificationModal('Please fill captcha.', false);
 		return;
 	}
-	successMessage = 'Thanks for your enquiry.<br/>Someone from customer support team will contact you shortly.';
+	successMessage = 'Thanks for your enquiry.<br/>Someone from Customer Support team will contact you shortly.';
 	callWebservice('/rest/publicaccess/findTutor', encodeObjectAsJSON(getApplicationToFindTutor()));
 }
 
@@ -209,12 +209,12 @@ function submitFormSubscribe() {
 	//callWebservice('/rest/publicaccess/becomeTutor', encodeObjectAsJSON(getApplicationToBecomeTutor()));
 }
 
-function submitFormQuery() {
+function submitQuery() {
 	if (!captchaAuthFulfilled) {
 		showNotificationModal('Please fill captcha.', false);
 		return;
 	}
-	successMessage = 'Thanks for your query.<br/>Someone from system support team will contact you shortly.';
+	successMessage = 'Thanks for your query.<br/>Someone from Systems Support team will contact you shortly.';
 	callWebservice('/rest/publicaccess/submitQuery', encodeObjectAsJSON(getApplicationToSubmitQuery()));
 }
 

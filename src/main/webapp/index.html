@@ -16,6 +16,8 @@
 		<link rel="stylesheet" href="css/style.css" />
 		
 		<script src="js/jssor.slider-27.1.0.min.js" type="text/javascript"></script>
+		<!-- ReCaptcha V2 Script -->
+  		<script src="https://www.google.com/recaptcha/api.js"></script>
     <script type="text/javascript">
         jssor_1_slider_init = function() {
 
@@ -446,8 +448,18 @@ And, dear parents and students, now Seek Mentore is there to provide quality tut
 									</div>
 								</div>
 								<div class="row input-form-row">
+								    <div class="6u skel-cell-important input-form-column">
+								        <div class="g-recaptcha" 
+							        		  data-sitekey="6LdFBlAUAAAAACzDGmG9pLG76RbV1YPhegqBOZq5" 
+							        		  data-callback="captchaResponseCallback" 
+							        		  data-expired-callback="captchaExpiredCallback" 
+							        		  data-error-callback="captchaErrorCallback"></div>
+								    </div>
+								    <div class="6u">&nbsp;</div>
+								</div>
+								<div class="row input-form-row">
 									<div class="12u skel-cell-important input-form-column" align="center">
-										<a href="#" class="button">Submit your query</a>
+										<a href="javascript:void(0);" onclick="submitQuery()" class="button">Submit your query</a>
 									</div>
 								</div>
 							</div>
@@ -494,6 +506,9 @@ And, dear parents and students, now Seek Mentore is there to provide quality tut
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script type="text/javascript">jssor_1_slider_init();</script>
+		<script src="js/applicationCommon.js"></script>
+		<script type="text/javascript">
+			jssor_1_slider_init();
+		</script>
 	</body>
 </html>
