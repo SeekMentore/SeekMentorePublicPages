@@ -106,14 +106,14 @@ function getApplicationToSubmitQuery() {
 
 function getApplicationToFindTutor() {
 	var application = {
-			name 				: 'Dummy Parent',
-			contactNumber 		: $('#findTutorContact').val(),
-			emailId 			: $('#findTutorEmail').val(),
-			studentGrade 		: 'MS-7',
-			subjects 			: '12-P;11-C;10-B',
-			preferredTimeToCall : 'T2;T4',
-			additionalDetails 	: 'Nothing much to provide.',
-			captchaResponse		: 'Dummy Captcha'
+			name 				: getAttributeValue('name', false),
+			contactNumber 		: getAttributeValue('contact-number', false),
+			emailId 			: getAttributeValue('email', false),
+			studentGrade 		: getAttributeValue('student-grade', true),
+			subjects 			: getAttributeValue('subjects', true, true),
+			preferredTimeToCall : getAttributeValue('preferred-time', true, true),
+			additionalDetails 	: getAttributeValue('additional-details', false),
+			captchaResponse		: captchaResponseToken
 		};
 	return application;
 }
