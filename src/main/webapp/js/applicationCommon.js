@@ -104,8 +104,8 @@ function callWebservice(url, data, success, failure, method, contentType) {
 
 function getApplicationToSubmitQuery() {
 	var application = {
-			emailId 			: getAttributeValue('email', false),
-			queryDetails 		: getAttributeValue('additional-details', false),
+			emailId 			: getAttributeValue('email', true),
+			queryDetails 		: getAttributeValue('query-details', false),
 			captchaResponse		: captchaResponseToken
 		};
 	return application;
