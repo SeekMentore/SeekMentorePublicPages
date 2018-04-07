@@ -17,7 +17,7 @@
 		<!-- Load chosen -->
   		<link rel="stylesheet" href="chosen/chosen.css">
   		<!-- ReCaptcha V2 Script -->
-  		<script src="https://www.google.com/recaptcha/api.js" async defer ></script>
+  		<!--  <script src="https://www.google.com/recaptcha/api.js" async defer ></script>-->
   		<script type="text/javascript">
   		    var captchaAuthFulfilled = false;
   		    var captchaResponseToken = null; 
@@ -45,9 +45,10 @@
   		            return;
   		        }
   		        alert('Submitting form');
+  		        callWebservice('/rest/publicaccess/becomeTutor', encodeObjectAsJSON(getApplicationToBecomeTutor()));
   		        // The below code will go in ajax success failure functions
-  		      	$('#become-a-tutor-form').addClass('noscreen');
-  		      	$('#become-a-tutor-form-success-message').removeClass('noscreen');
+  		      	/* $('#become-a-tutor-form').addClass('noscreen');
+  		      	$('#become-a-tutor-form-success-message').removeClass('noscreen'); */
   		    }
   		</script>
 	</head>
@@ -455,5 +456,6 @@
 		<!-- Load chosen -->
   		<script src="chosen/chosen.jquery.js" type="text/javascript"></script>
   		<script src="chosen/docsupport/init.js" type="text/javascript"></script>
+  		<script src="js/applicationCommon.js"></script>
 	</body>
 </html>
