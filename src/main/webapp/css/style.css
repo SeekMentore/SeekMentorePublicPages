@@ -714,6 +714,7 @@
 	
 	p.why-choose-us {
 		font-size: 1.0em;
+		text-align: justify;
 	}
 	
 	.just-link-no-css {
@@ -1072,13 +1073,15 @@ input{
 	}
 	
   .panel {
-		padding: 50px;
+		padding: 33px;
 		border-radius: 10%;
 		color: #10213a;
 		background: white;
 		text-align: center;
 		border: solid 1px #10213a;	
-		margin-left: 50px;
+		margin-left: 32px;
+		text-align: justify;
+		width: 100%;
    }		
 			
   .primary-action1 ul ,li {
