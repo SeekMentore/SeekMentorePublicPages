@@ -1,6 +1,23 @@
 var serverPath = 'http://localhost:8080'
 var ctxPath = '/seekmentore';
+var screenType = '';
 var output;
+
+// Function to identify screen type based on CSS file loading
+function identifyScreenType() {
+	var styleSheets = document.styleSheets;
+	for (var i = 0; i < styleSheets.length; i++) {
+		var styleSheet = styleSheets[i];
+		var href = styleSheet.href;
+		if (null != href && href.indexOf('style-narrower.css') != -1) {
+			screenType = 'small-screen';
+			return;
+		}
+	}
+	screenType = 'big-screen';
+}
+
+identifyScreenType();
 
 commonErrorHandler = function(error) {
 	output = error;
@@ -103,23 +120,60 @@ function getApplicationToFindTutor() {
 
 function getApplicationToBecomeTutor() {
 	var form = {
-			firstName 					: 'Shantanu',
-			lastName 					: 'Mukherjee',
-			dateOfBirth 				: new Date(),
-			contactNumber				: $('#becomeTutorContact').val(),
-			emailId 					: $('#becomeTutorEmail').val(),
-			gender 						: 'M',
-			qualification 				: 'B-Tech',
-			primaryProfession 			: 'Software Expert1',
-			transportMode 				: '4-W',
-			teachingExp 				: '3',
-			subjects					: '12-P;11-C;10-B',
-			locations 					: 'Z1-L2;Z1-L9;Z3-L34',
-			preferredTimeToCall 		: 'T2;T4',
-			additionalDetails 			: 'I am awesome!!!',
-			captchaResponse				: 'Dummy Captcha'
+			firstName 					: getAttributeValue('first-name', false),
+			lastName 					: getAttributeValue('last-name', false),
+			dateOfBirth 				: getDateValue(getAttributeValue('date-of-birth', true)),
+			contactNumber				: getAttributeValue('contact-number', false),
+			emailId 					: getAttributeValue('email', false),
+			gender 						: getAttributeValue('gender', true),
+			qualification 				: getAttributeValue('qualification', true),
+			primaryProfession 			: getAttributeValue('primary-profession', true),
+			transportMode 				: getAttributeValue('transport-mode', true),
+			teachingExp 				: getAttributeValue('teaching-experience', false),
+			subjects					: getAttributeValue('subjects', true, true),
+			locations 					: getAttributeValue('locations', true, true),
+			preferredTimeToCall 		: getAttributeValue('preferred-time', true, true),
+			additionalDetails 			: getAttributeValue('additional-details', false),
+			captchaResponse				: captchaResponseToken
 		};
 	return form;
+}
+
+function getDateValue(value) {
+	if (null != value && value.trim() != '') {
+		return new Date(value);
+	}
+	return null;
+}
+
+function getAttributeValue(id, checkScreens, isArray) {
+	var element;
+	if (!checkScreens) {
+		element = $('#'+id);
+	} else {
+		element = $('#'+id+'-'+screenType);
+	}
+	var value;
+	if (null != element) {
+		if (isArray) {
+			if (element.val().length > 0) {
+				value = '';
+			}
+			for (var i = 0; i < element.val().length; i++) {
+				value += element.val()[i];
+				if (i != element.val().length - 1) {
+					value += ';';
+				}
+			}
+		} else {
+			value = element.val().trim();
+		}
+		if (null != value && value.trim() != '') {
+			return value;
+		}
+		return null;
+	} 
+	return null;
 }
 
 function submitFormBecomeTutor() {
