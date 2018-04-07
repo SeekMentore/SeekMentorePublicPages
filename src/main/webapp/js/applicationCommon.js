@@ -59,7 +59,8 @@ function callWebservice(url, data, success, failure, method, contentType) {
         contentType	: ((null != contentType) ? contentType : 'application/json'),
         cache		: false,
         dataType	: 'json',
-        success		: function(response) {
+        success		: function(data) {
+        				var response = decodeObjectFromJSON(data.response)
 			        	if (null != success) {
 			        		success(response);
 			        	} else {
@@ -67,10 +68,11 @@ function callWebservice(url, data, success, failure, method, contentType) {
 			        	}
 		},
 		error		: function(error) {
+			output = error;
 			        	if (null != failure) {
-			        		failure(response);
+			        		failure(error);
 			        	} else {
-			        		commonErrorHandler(response);
+			        		commonErrorHandler(error);
 			        	}
 		}
     });
@@ -152,6 +154,17 @@ function submitFormQuery() {
 	callWebservice('/rest/publicaccess/submitQuery', encodeObjectAsJSON(getApplicationToSubmitQuery()));
 }
 
+function loadDropdowns(page) {
+	if (page == 'TUTOR_REGISTRATION') {
+		callWebservice('/rest/publicaccess/getDropdownListDataBecomeTutor', null, loadBecomeTutorDropdowns);
+	} else if (page == 'TUTOR_ENQUIRY') {
+		callWebservice('/rest/publicaccess/getDropdownListDataFindTutor', null, loadFindTutorDropdowns);
+	} else if (page == 'CUSTOMER_SUBSCRIBE') {
+		loadSubscribeDropdowns();
+		//callWebservice('/rest/publicaccess/getDropdownListDataSubscribe', null, loadSubscribeDropdowns);
+	} 
+}
+
 function showNotificationModal(message, isSuccess) {
 	$('#notification-popup-modal').removeClass('noscreen');
 	$('#notification-popup-model-content-section').html(message);
@@ -162,4 +175,82 @@ function showNotificationModal(message, isSuccess) {
 		$('#notification-popup-model-content-section').addClass('failureMessage');
 		$('#notification-popup-model-content-section').removeClass('successMessage');
 	}
+}
+
+function loadBecomeTutorDropdowns(response) {
+	var genderSelectHTML = createSelectOptionOutOfSelectLookupArray(response.genderLookUp);
+	$('#gender-big-screen').html($('#gender-big-screen').html() + genderSelectHTML);
+	$('#gender-small-screen').html($('#gender-small-screen').html() + genderSelectHTML);
+	
+	var qualificationSelectHTML = createSelectOptionOutOfSelectLookupArray(response.qualificationLookUp);
+	$('#qualification-big-screen').html($('#qualification-big-screen').html() + qualificationSelectHTML);
+	$('#qualification-small-screen').html($('#qualification-small-screen').html() + qualificationSelectHTML);
+	
+	var primaryProfessionSelectHTML = createSelectOptionOutOfSelectLookupArray(response.professionLookUp);
+	$('#primary-profession-big-screen').html($('#primary-profession-big-screen').html() + primaryProfessionSelectHTML);
+	$('#primary-profession-small-screen').html($('#primary-profession-small-screen').html() + primaryProfessionSelectHTML);
+	
+	var transportModeSelectHTML = createSelectOptionOutOfSelectLookupArray(response.transportModeLookUp);
+	$('#transport-mode-big-screen').html($('#transport-mode-big-screen').html() + transportModeSelectHTML);
+	$('#transport-mode-small-screen').html($('#transport-mode-small-screen').html() + transportModeSelectHTML);
+	
+	var subjectsSelectHTML = createSelectOptionOutOfSelectLookupArray(response.subjectsLookUp);
+	$('#subjects-big-screen').html($('#subjects-big-screen').html() + subjectsSelectHTML);
+	$('#subjects-small-screen').html($('#subjects-small-screen').html() + subjectsSelectHTML);
+	
+	var locationsSelectHTML = createSelectOptionOutOfSelectLookupArray(response.locationsLookUp);
+	$('#locations-big-screen').html($('#locations-big-screen').html() + locationsSelectHTML);
+	$('#locations-small-screen').html($('#locations-small-screen').html() + locationsSelectHTML);
+	
+	var preferredTimeSelectHTML = createSelectOptionOutOfSelectLookupArray(response.preferredTimeLookUp);
+	$('#preferred-time-big-screen').html($('#preferred-time-big-screen').html() + preferredTimeSelectHTML);
+	$('#preferred-time-small-screen').html($('#preferred-time-small-screen').html() + preferredTimeSelectHTML);
+	
+	instantiateChosen();
+}
+
+function loadSubscribeDropdowns(response) {
+	instantiateChosen();
+}
+
+function loadFindTutorDropdowns(response) {
+	var studentGradeSelectHTML = createSelectOptionOutOfSelectLookupArray(response.studentGradeLookUp);
+	$('#student-grade-big-screen').html($('#student-grade-big-screen').html() + studentGradeSelectHTML);
+	$('#student-grade-small-screen').html($('#student-grade-small-screen').html() + studentGradeSelectHTML);
+	
+	var subjectsSelectHTML = createSelectOptionOutOfSelectLookupArray(response.subjectsLookUp);
+	$('#subjects-big-screen').html($('#subjects-big-screen').html() + subjectsSelectHTML);
+	$('#subjects-small-screen').html($('#subjects-small-screen').html() + subjectsSelectHTML);
+	
+	var preferredTimeSelectHTML = createSelectOptionOutOfSelectLookupArray(response.preferredTimeLookUp);
+	$('#preferred-time-big-screen').html($('#preferred-time-big-screen').html() + preferredTimeSelectHTML);
+	$('#preferred-time-small-screen').html($('#preferred-time-small-screen').html() + preferredTimeSelectHTML);
+	
+	instantiateChosen();
+}
+
+function createSelectOptionOutOfSelectLookupArray(lookupArray) {
+	var html = '';
+	var previousCategory = null;
+	var categoryOpen = false;
+	for(var i = 0; i < lookupArray.length; i++) {		
+		var selectLookupItem = lookupArray[i];
+		var currentCategory = selectLookupItem.category;
+		if (previousCategory != currentCategory) {
+			if (null != previousCategory) {
+				categoryOpen = false;
+				html += '</optgroup>';
+			}
+			if (null != currentCategory) {
+				categoryOpen = true;
+				html += '<optgroup label="' + currentCategory + '">';
+			}
+		}
+		html += '<option value="' + selectLookupItem.value + '">' + selectLookupItem.label + '</option>';
+		previousCategory = currentCategory;
+	}
+	if (categoryOpen) {
+		html += '</optgroup>';
+	}
+	return html;
 }
