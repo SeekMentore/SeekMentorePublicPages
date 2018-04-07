@@ -1132,3 +1132,12 @@ input{
 	    text-decoration: none;
 	    cursor: pointer;
 	}
+	
+	#subscribe-about-us {
+	  color:red;
+	  text-shadow: 1px 1px 1px #060635;
+	}
+	#subscribe-about-us:hover {
+	  color:#060635;
+	  text-shadow: 1px 1px 1px #060635;
+	}
