@@ -1,27 +1,12 @@
+var serverPath = 'http://localhost:8080'
 var ctxPath = '/seekmentore';
 var output;
+
 commonErrorHandler = function(error) {
 	output = error;
-	alert(encodeObjectAsJSON(output));
 }
 commmonSuccessHandler = function(response) {
-	if (null != response) {
-		output = response;
-	}
-	alert(encodeObjectAsJSON(output));
-}
-
-function callWebservice(url, data, success, failure, method, contentType) {
-	$.ajax({
-        url			: ctxPath + url,
-        type		: ((null != method) ? method : 'POST'),
-        data		: data,
-        contentType	: ((null != contentType) ? contentType : 'application/json'),
-        cache		: false,
-        dataType	: 'json',
-        success		: ((null != success) ? success : commmonSuccessHandler),
-        error		: ((null != failure) ? failure : commonErrorHandler)
-    });
+	output = response;
 }
 
 function encodeObjectAsJSON(object) {
@@ -32,11 +17,70 @@ function decodeObjectFromJSON(json) {
 	return null != json ? JSON.parse(json) : null;
 }
 
+// Configure Captcha settings and functions
+var captchaAuthFulfilled = false;
+var captchaResponseToken = null; 
+  
+var captchaResponseCallback = function(recaptchaResponseToken) {
+    captchaResponseToken = recaptchaResponseToken;
+    captchaAuthFulfilled = true;
+}
+  
+var captchaExpiredCallback = function() {
+    grecaptcha.reset();
+    captchaResponseToken = null;
+    captchaAuthFulfilled = false;
+}
+  
+var captchaErrorCallback = function() {
+    grecaptcha.reset();
+    captchaResponseToken = null;
+    captchaAuthFulfilled = false;
+}
+
+
+// Configure notification popup modal and register events
+function closeNotificationPopUpModal() {
+	$('#notification-popup-modal').addClass('noscreen');
+}
+
+window.onclick = function(event) {
+	var modal = document.getElementById('notification-popup-modal');
+	if (event.target == modal) {
+		$('#notification-popup-modal').addClass('noscreen');
+	}
+}
+
+function callWebservice(url, data, success, failure, method, contentType) {
+	$.ajax({
+        url			: serverPath + ctxPath + url,
+        type		: ((null != method) ? method : 'POST'),
+        data		: data,
+        contentType	: ((null != contentType) ? contentType : 'application/json'),
+        cache		: false,
+        dataType	: 'json',
+        success		: function(response) {
+			        	if (null != success) {
+			        		success(response);
+			        	} else {
+			        		commmonSuccessHandler(response);
+			        	}
+		},
+		error		: function(error) {
+			        	if (null != failure) {
+			        		failure(response);
+			        	} else {
+			        		commonErrorHandler(response);
+			        	}
+		}
+    });
+}
+
 function getApplicationToSubmitQuery() {
 	var application = {
 			emailId 			: $('#submitQueryEmail').val(),
 			queryDetails 		: 'This is just a simple query.',
-			captchaResponse				: 'Dummy Captcha'
+			captchaResponse		: 'Dummy Captcha'
 		};
 	return application;
 }
@@ -50,7 +94,7 @@ function getApplicationToFindTutor() {
 			subjects 			: '12-P;11-C;10-B',
 			preferredTimeToCall : 'T2;T4',
 			additionalDetails 	: 'Nothing much to provide.',
-			captchaResponse				: 'Dummy Captcha'
+			captchaResponse		: 'Dummy Captcha'
 		};
 	return application;
 }
@@ -76,14 +120,46 @@ function getApplicationToBecomeTutor() {
 	return form;
 }
 
-$('#submitQuery').on('click', function() {
-	callWebservice('/rest/publicaccess/submitQuery', encodeObjectAsJSON(getApplicationToSubmitQuery()));
-}); 
-
-$('#findTutor').on('click', function() {
-	callWebservice('/rest/publicaccess/findTutor', encodeObjectAsJSON(getApplicationToFindTutor()));
-}); 
-
-$('#becomeTutor').on('click', function() {
+function submitFormBecomeTutor() {
+	if (!captchaAuthFulfilled) {
+		showNotificationModal('Please fill captcha.', false);
+		return;
+	}
 	callWebservice('/rest/publicaccess/becomeTutor', encodeObjectAsJSON(getApplicationToBecomeTutor()));
-}); 
+}
+
+function submitFormFindTutor() {
+	if (!captchaAuthFulfilled) {
+		showNotificationModal('Please fill captcha.', false);
+		return;
+	}
+	callWebservice('/rest/publicaccess/findTutor', encodeObjectAsJSON(getApplicationToFindTutor()));
+}
+
+function submitFormSubscribe() {
+	if (!captchaAuthFulfilled) {
+		showNotificationModal('Please fill captcha.', false);
+		return;
+	}
+	//callWebservice('/rest/publicaccess/becomeTutor', encodeObjectAsJSON(getApplicationToBecomeTutor()));
+}
+
+function submitFormQuery() {
+	if (!captchaAuthFulfilled) {
+		showNotificationModal('Please fill captcha.', false);
+		return;
+	}
+	callWebservice('/rest/publicaccess/submitQuery', encodeObjectAsJSON(getApplicationToSubmitQuery()));
+}
+
+function showNotificationModal(message, isSuccess) {
+	$('#notification-popup-modal').removeClass('noscreen');
+	$('#notification-popup-model-content-section').html(message);
+	if (isSuccess) {
+		$('#notification-popup-model-content-section').addClass('successMessage');
+		$('#notification-popup-model-content-section').removeClass('failureMessage');
+	} else {
+		$('#notification-popup-model-content-section').addClass('failureMessage');
+		$('#notification-popup-model-content-section').removeClass('successMessage');
+	}
+}
