@@ -1102,7 +1102,7 @@ input{
 	.modal {
 	    position: fixed; /* Stay in place */
 	    z-index: 1; /* Sit on top */
-	    padding-top: 100px; /* Location of the box */
+	    padding-top: 200px; /* Location of the box */
 	    left: 0;
 	    top: 0;
 	    width: 100%; /* Full width */
@@ -1117,8 +1117,10 @@ input{
 	    background-color: #fefefe;
 	    margin: auto;
 	    padding: 20px;
-	    border: 1px solid #888;
+	    border: 1px solid #10213a;
 	    width: 80%;
+	    max-width: 750px;
+		border-radius: 40px;
 	}
 	
 	/* The Close Button */
@@ -1127,6 +1129,7 @@ input{
 	    float: right;
 	    font-size: 28px;
 	    font-weight: bold;
+	    border: 1px Solid #aaaaaa;
 	}
 	
 	.close-modal:hover,
@@ -1134,6 +1137,26 @@ input{
 	    color: #000;
 	    text-decoration: none;
 	    cursor: pointer;
+	    border: 1px Solid #000000;
+	}
+	
+	.close-modal-button {
+	    color: #aaaaaa;
+	    float: right;
+	    font-size: 28px;
+	    font-weight: bold;
+	    border: 1px Solid #aaaaaa;
+	    border-radius: 40px;
+	    width: 40%;
+	    text-align: center;
+	}
+	
+	.close-modal-button:hover,
+	.close-modal-button:focus {
+	    color: #000;
+	    text-decoration: none;
+	    cursor: pointer;
+	    border: 1px Solid #000000;
 	}
 	
 	#subscribe-about-us {
