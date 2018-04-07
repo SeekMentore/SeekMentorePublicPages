@@ -104,9 +104,9 @@ function callWebservice(url, data, success, failure, method, contentType) {
 
 function getApplicationToSubmitQuery() {
 	var application = {
-			emailId 			: $('#submitQueryEmail').val(),
-			queryDetails 		: 'This is just a simple query.',
-			captchaResponse		: 'Dummy Captcha'
+			emailId 			: getAttributeValue('email', false),
+			queryDetails 		: getAttributeValue('additional-details', false),
+			captchaResponse		: captchaResponseToken
 		};
 	return application;
 }

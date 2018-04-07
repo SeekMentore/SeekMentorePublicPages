@@ -194,18 +194,18 @@
 						<form>
 							<div class="input-form-content-withput-border-and-bgcolor" >
 								<div class="row input-form-row">
-									<div class="12u skel-cell-important input-form-column">
+									<div class="12u skel-cell-important input-form-column-first-row">
 										<div class="big-screen">
-											<input type="text" placeholder="Type your Email Id here (eg: firstname_surname@domain.com)" />
+											<input type="text" name="email" id="email-big-screen" placeholder="Type your Email Id here (eg: firstname_surname@domain.com)" />
 										</div>
 										<div class="small-screen">
-											<input type="text" placeholder="Type your Email Id" />
+											<input type="text" name="email" id="email-small-screen" placeholder="Type your Email Id" />
 										</div>
 									</div>
 								</div>
 								<div class="row input-form-row">
 									<div class="12u skel-cell-important input-form-column">
-										<textarea rows="4" cols="70" placeholder="Provide details of your query and hear back from us within 8 hrs!!!"></textarea>
+										<textarea rows="4" cols="70" id="query-details" placeholder="Provide details of your query and hear back from us within 8 hrs!!!"></textarea>
 									</div>
 								</div>
 								<div class="row input-form-row">
@@ -258,6 +258,15 @@
 			<div id="copyright">
 				© Developed and Maintained by <a href="http://www.seekmentore.com">Seek Mentore</a>
 			</div>			
+		</div>
+		
+		<!-- The Modal -->
+		<div id="notification-popup-modal" class="modal noscreen">
+		  <!-- Modal content -->
+		  <div class="modal-content">
+		    <span id="close-notification-popup-modal" class="close-modal" onclick="closeNotificationPopUpModal()">&times;</span>
+		    <p id="notification-popup-model-content-section"></p>
+		  </div>
 		</div>
 
 		<!-- Load Scripts -->
