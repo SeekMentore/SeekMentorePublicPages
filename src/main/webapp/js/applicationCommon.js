@@ -2,6 +2,7 @@ var serverPath = 'http://localhost:8080'
 var ctxPath = '/seekmentore';
 var screenType = '';
 var output;
+var successMessage ='';
 
 // Function to identify screen type based on CSS file loading
 function identifyScreenType() {
@@ -20,10 +21,15 @@ function identifyScreenType() {
 identifyScreenType();
 
 commonErrorHandler = function(error) {
-	output = error;
+	showNotificationModal('Connection lost.<br/>Please check your network connection and refresh the page.', false);
 }
 commmonSuccessHandler = function(response) {
-	output = response;
+	var failure = response.FAILURE;
+	if (failure) {
+		showNotificationModal(response.FAILURE_MESSAGE, false);
+		return;
+	}
+	showNotificationModal(successMessage, true);
 }
 
 function encodeObjectAsJSON(object) {
@@ -77,6 +83,7 @@ function callWebservice(url, data, success, failure, method, contentType) {
         cache		: false,
         dataType	: 'json',
         success		: function(data) {
+        				output = data;
         				var response = decodeObjectFromJSON(data.response)
 			        	if (null != success) {
 			        		success(response);
@@ -85,7 +92,7 @@ function callWebservice(url, data, success, failure, method, contentType) {
 			        	}
 		},
 		error		: function(error) {
-			output = error;
+						output = error;
 			        	if (null != failure) {
 			        		failure(error);
 			        	} else {
@@ -181,6 +188,7 @@ function submitFormBecomeTutor() {
 		showNotificationModal('Please fill captcha.', false);
 		return;
 	}
+	successMessage = 'Thanks for registering with us.<br/>Someone from tutor support team will contact you shortly.';
 	callWebservice('/rest/publicaccess/becomeTutor', encodeObjectAsJSON(getApplicationToBecomeTutor()));
 }
 
@@ -189,6 +197,7 @@ function submitFormFindTutor() {
 		showNotificationModal('Please fill captcha.', false);
 		return;
 	}
+	successMessage = 'Thanks for your enquiry.<br/>Someone from customer support team will contact you shortly.';
 	callWebservice('/rest/publicaccess/findTutor', encodeObjectAsJSON(getApplicationToFindTutor()));
 }
 
@@ -205,6 +214,7 @@ function submitFormQuery() {
 		showNotificationModal('Please fill captcha.', false);
 		return;
 	}
+	successMessage = 'Thanks for your query.<br/>Someone from system support team will contact you shortly.';
 	callWebservice('/rest/publicaccess/submitQuery', encodeObjectAsJSON(getApplicationToSubmitQuery()));
 }
 
