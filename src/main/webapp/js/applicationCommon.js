@@ -1,20 +1,3 @@
-<<<<<<< HEAD
-var ctxPath = '/seekmentore';
-var output;
-commonErrorHandler = function(error) {
-	output = error;
-	//$('#responseDiv').html(encodeObjectAsJSON(output));
-	//console.error('error', error);
-	alert(error);
-}
-commmonSuccessHandler = function(response) {
-	if (null != response) {
-		output = response;
-	}
-	/*$('#responseDiv').html(encodeObjectAsJSON(output));
-	console.log('response', response);*/
-	alert(response);
-=======
 var serverPath = 'http://localhost:8080'
 var ctxPath = '/seekmentore';
 var screenType = '';
@@ -83,36 +66,16 @@ window.onclick = function(event) {
 	if (event.target == modal) {
 		$('#notification-popup-modal').addClass('noscreen');
 	}
->>>>>>> 82b2ade6c636e4fb761f204c998c7294ec5ead74
 }
 
 function callWebservice(url, data, success, failure, method, contentType) {
 	$.ajax({
-<<<<<<< HEAD
-        url			: ctxPath + url,
-=======
         url			: serverPath + ctxPath + url,
->>>>>>> 82b2ade6c636e4fb761f204c998c7294ec5ead74
         type		: ((null != method) ? method : 'POST'),
         data		: data,
         contentType	: ((null != contentType) ? contentType : 'application/json'),
         cache		: false,
         dataType	: 'json',
-<<<<<<< HEAD
-        success		: ((null != success) ? success : commmonSuccessHandler),
-        error		: ((null != failure) ? failure : commonErrorHandler)
-    });
-}
-
-function encodeObjectAsJSON(object) {
-	return null != object ? JSON.stringify(object) : null;
-}
-
-function decodeObjectFromJSON(json) {
-	return null != json ? JSON.parse(json) : null;
-}
-
-=======
         success		: function(data) {
         				var response = decodeObjectFromJSON(data.response)
 			        	if (null != success) {
@@ -132,16 +95,11 @@ function decodeObjectFromJSON(json) {
     });
 }
 
->>>>>>> 82b2ade6c636e4fb761f204c998c7294ec5ead74
 function getApplicationToSubmitQuery() {
 	var application = {
 			emailId 			: $('#submitQueryEmail').val(),
 			queryDetails 		: 'This is just a simple query.',
-<<<<<<< HEAD
-			captchaResponse				: 'Dummy Captcha'
-=======
 			captchaResponse		: 'Dummy Captcha'
->>>>>>> 82b2ade6c636e4fb761f204c998c7294ec5ead74
 		};
 	return application;
 }
@@ -155,11 +113,7 @@ function getApplicationToFindTutor() {
 			subjects 			: '12-P;11-C;10-B',
 			preferredTimeToCall : 'T2;T4',
 			additionalDetails 	: 'Nothing much to provide.',
-<<<<<<< HEAD
-			captchaResponse				: 'Dummy Captcha'
-=======
 			captchaResponse		: 'Dummy Captcha'
->>>>>>> 82b2ade6c636e4fb761f204c998c7294ec5ead74
 		};
 	return application;
 }
@@ -185,7 +139,6 @@ function getApplicationToBecomeTutor() {
 	return form;
 }
 
-<<<<<<< HEAD
 function getDateValue(value) {
 	if (null != value && value.trim() != '') {
 		return new Date(value);
@@ -223,21 +176,6 @@ function getAttributeValue(id, checkScreens, isArray) {
 	return null;
 }
 
-=======
-<<<<<<< HEAD
-$('#submitQuery').on('click', function() {
-	callWebservice('/rest/publicaccess/submitQuery', encodeObjectAsJSON(getApplicationToSubmitQuery()));
-}); 
-
-$('#findTutor').on('click', function() {
-	callWebservice('/rest/publicaccess/findTutor', encodeObjectAsJSON(getApplicationToFindTutor()));
-}); 
-
-$('#becomeTutor').on('click', function() {
-	callWebservice('/rest/publicaccess/becomeTutor', encodeObjectAsJSON(getApplicationToBecomeTutor()));
-}); 
-=======
->>>>>>> 9099f840764479eb1402c20b4eea1e91677ec66f
 function submitFormBecomeTutor() {
 	if (!captchaAuthFulfilled) {
 		showNotificationModal('Please fill captcha.', false);
@@ -370,4 +308,3 @@ function createSelectOptionOutOfSelectLookupArray(lookupArray) {
 	}
 	return html;
 }
->>>>>>> 82b2ade6c636e4fb761f204c998c7294ec5ead74
