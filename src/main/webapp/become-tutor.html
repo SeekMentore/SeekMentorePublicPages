@@ -18,7 +18,44 @@
 		<!-- Load chosen -->
   		<link rel="stylesheet" href="chosen/chosen.css">
   		<!-- ReCaptcha V2 Script -->
+<<<<<<< HEAD
+  		<!--  <script src="https://www.google.com/recaptcha/api.js" async defer ></script>-->
+  		<script type="text/javascript">
+  		    var captchaAuthFulfilled = false;
+  		    var captchaResponseToken = null; 
+  		    
+  		    var captchaResponseCallback = function(recaptchaResponseToken) {
+  		        captchaResponseToken = recaptchaResponseToken;
+  		        captchaAuthFulfilled = true;
+  		    }
+  		    
+  		    var captchaExpiredCallback = function() {
+  		        grecaptcha.reset();
+  		        captchaResponseToken = null;
+  		        captchaAuthFulfilled = false;
+  		    }
+  		    
+  		    var captchaErrorCallback = function() {
+  		        grecaptcha.reset();
+  		        captchaResponseToken = null;
+  		        captchaAuthFulfilled = false;
+  		    }
+  		    
+  		    var submitForm = function() {
+  		        if (!captchaAuthFulfilled) {
+  		        	$('#failureMessage').html('Form cannot be submitted as Captcha not provided');
+  		            return;
+  		        }
+  		        alert('Submitting form');
+  		        callWebservice('/rest/publicaccess/becomeTutor', encodeObjectAsJSON(getApplicationToBecomeTutor()));
+  		        // The below code will go in ajax success failure functions
+  		      	/* $('#become-a-tutor-form').addClass('noscreen');
+  		      	$('#become-a-tutor-form-success-message').removeClass('noscreen'); */
+  		    }
+  		</script>
+=======
   		<script src="https://www.google.com/recaptcha/api.js" async defer ></script>
+>>>>>>> 82b2ade6c636e4fb761f204c998c7294ec5ead74
 	</head>
 	<body class="page">
 
@@ -347,10 +384,14 @@
 		<!-- Load chosen -->
   		<script src="chosen/chosen.jquery.js" type="text/javascript"></script>
   		<script src="chosen/docsupport/init.js" type="text/javascript"></script>
+<<<<<<< HEAD
+  		<script src="js/applicationCommon.js"></script>
+=======
   		<!-- Load scripts for taking action on page -->
   		<script src="js/applicationCommon.js"></script>
   		<script>
   			loadDropdowns('TUTOR_REGISTRATION');
   		</script>
+>>>>>>> 82b2ade6c636e4fb761f204c998c7294ec5ead74
 	</body>
 </html>
