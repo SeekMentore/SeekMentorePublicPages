@@ -1114,7 +1114,7 @@ input{
 	
 	/* Modal Content */
 	.modal-content {
-	    background-color: #fefefe;
+	    background-color: #a8cdf4;
 	    margin: auto;
 	    padding: 20px;
 	    border: 1px solid #10213a;
@@ -1142,7 +1142,6 @@ input{
 	
 	.close-modal-button {
 	    color: #aaaaaa;
-	    float: right;
 	    font-size: 28px;
 	    font-weight: bold;
 	    border: 1px Solid #aaaaaa;
