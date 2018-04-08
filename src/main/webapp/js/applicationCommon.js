@@ -76,6 +76,9 @@ window.onclick = function(event) {
 }
 
 function callWebservice(url, data, success, failure, method, contentType) {
+	if (null != $('#loader-popup-modal')) {
+		$('#loader-popup-modal').removeClass('noscreen');
+	}
 	$.ajax({
         url			: serverPath + ctxPath + url,
         type		: ((null != method) ? method : 'POST'),
@@ -84,6 +87,9 @@ function callWebservice(url, data, success, failure, method, contentType) {
         cache		: false,
         dataType	: 'json',
         success		: function(data) {
+        				if (null != $('#loader-popup-modal')) {
+        					$('#loader-popup-modal').addClass('noscreen');
+        				}
         				output = data;
         				var response = decodeObjectFromJSON(data.response)
 			        	if (null != success) {
@@ -93,6 +99,9 @@ function callWebservice(url, data, success, failure, method, contentType) {
 			        	}
 		},
 		error		: function(error) {
+						if (null != $('#loader-popup-modal')) {
+							$('#loader-popup-modal').addClass('noscreen');
+						}
 						output = error;
 			        	if (null != failure) {
 			        		failure(error);
