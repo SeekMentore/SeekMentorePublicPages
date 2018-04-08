@@ -1090,12 +1090,12 @@ input{
   
   .failureMessage {
 		color: red !important;
-		font-size: 1.2em !important;
+		font-size: 1em !important;
 	}
 	
 	.successMessage {
 		color: green !important;
-		font-size: 1.2em !important;
+		font-size: 1em !important;
 	}
   
   	/* The Modal (background) */
@@ -1117,45 +1117,67 @@ input{
 	    background-color: #a8cdf4;
 	    margin: auto;
 	    padding: 20px;
-	    border: 1px solid #10213a;
+	    border: 8px solid #5d5858;
 	    width: 80%;
 	    max-width: 750px;
-		border-radius: 40px;
+	    border-radius: 10px;
 	}
 	
 	/* The Close Button */
 	.close-modal {
-	    color: #aaaaaa;
+	    color: #FFFFFF;
 	    float: right;
 	    font-size: 28px;
 	    font-weight: bold;
-	    border: 1px Solid #aaaaaa;
+	    border: 1px Solid #10213a;
+	    background-color: #10213a;
 	}
 	
 	.close-modal:hover,
 	.close-modal:focus {
-	    color: #000;
+	    color: #FFFFFF;
 	    text-decoration: none;
 	    cursor: pointer;
-	    border: 1px Solid #000000;
+	    border: 1px Solid #10213a;
+	    background-color: #10213a;
 	}
 	
 	.close-modal-button {
-	    color: #aaaaaa;
+	    color: #FFFFFF;
 	    font-size: 28px;
 	    font-weight: bold;
-	    border: 1px Solid #aaaaaa;
 	    border-radius: 40px;
 	    width: 40%;
 	    text-align: center;
+	    border: 1px Solid #10213a;
+	    background-color: #10213a;
+	    margin-left: 30%;
+	    height: 1.3em;
 	}
 	
 	.close-modal-button:hover,
 	.close-modal-button:focus {
-	    color: #000;
+	    color: #FFFFFF;
 	    text-decoration: none;
 	    cursor: pointer;
-	    border: 1px Solid #000000;
+	    border: 1px Solid #10213a;
+	    background-color: #10213a;
+	}
+	
+	#notification-popup-model-content-section {
+		clear: both;
+		margin-left: 10%;
+	}
+	
+	#alert-title {
+		float: left;
+		font-size: 2em !important;
+	}
+	
+	.modal-line {
+		border-bottom: 1px solid #10213a;
+		clear: both;
+		margin-top: 2.5em;
 	}
 	
 	#subscribe-about-us {

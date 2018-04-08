@@ -234,9 +234,19 @@ function showNotificationModal(message, isSuccess) {
 	$('#notification-popup-modal').removeClass('noscreen');
 	$('#notification-popup-model-content-section').html(message);
 	if (isSuccess) {
+		$('#alert-title').html('Success');
+		
+		$('#alert-title').addClass('successMessage');
+		$('#alert-title').removeClass('failureMessage');
+		
 		$('#notification-popup-model-content-section').addClass('successMessage');
 		$('#notification-popup-model-content-section').removeClass('failureMessage');
 	} else {
+		$('#alert-title').html('Error');
+		
+		$('#alert-title').addClass('failureMessage');
+		$('#alert-title').removeClass('successMessage');
+		
 		$('#notification-popup-model-content-section').addClass('failureMessage');
 		$('#notification-popup-model-content-section').removeClass('successMessage');
 	}
