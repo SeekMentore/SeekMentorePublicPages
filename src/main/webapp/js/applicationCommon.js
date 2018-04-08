@@ -62,6 +62,7 @@ var captchaErrorCallback = function() {
     captchaAuthFulfilled = false;
 }
 
+var resetCaptcha = false;
 
 // Configure notification popup modal and register events
 function closeNotificationPopUpModal() {
@@ -76,8 +77,14 @@ window.onclick = function(event) {
 }
 
 function callWebservice(url, data, success, failure, method, contentType) {
+	// Show Pop up loader 
 	if (null != $('#loader-popup-modal')) {
 		$('#loader-popup-modal').removeClass('noscreen');
+	}
+	if (resetCaptcha) {
+		// Reset Captcha
+		grecaptcha.reset();
+		resetCaptcha = false;
 	}
 	$.ajax({
         url			: serverPath + ctxPath + url,
@@ -203,6 +210,7 @@ function submitFormBecomeTutor() {
 		return;
 	}
 	successMessage = 'Thanks for registering with us.<br/>Someone from Tutor Support team will contact you shortly.';
+	resetCaptcha = true;
 	callWebservice('/rest/publicaccess/becomeTutor', encodeObjectAsJSON(getApplicationToBecomeTutor()));
 }
 
@@ -216,6 +224,7 @@ function submitFormFindTutor() {
 		return;
 	}
 	successMessage = 'Thanks for your enquiry.<br/>Someone from Customer Support team will contact you shortly.';
+	resetCaptcha = true;
 	callWebservice('/rest/publicaccess/findTutor', encodeObjectAsJSON(getApplicationToFindTutor()));
 }
 
@@ -237,6 +246,7 @@ function submitQuery() {
 		return;
 	}
 	successMessage = 'Thanks for your query.<br/>Someone from Systems Support team will contact you shortly.';
+	resetCaptcha = true;
 	callWebservice('/rest/publicaccess/submitQuery', encodeObjectAsJSON(getApplicationToSubmitQuery()));
 }
 
