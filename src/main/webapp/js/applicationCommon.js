@@ -30,6 +30,8 @@ commmonSuccessHandler = function(response) {
 		showNotificationModal(response.FAILURE_MESSAGE, false);
 		return;
 	}
+	resetForm(resetButton);
+	resetButton = null;
 	showNotificationModal(successMessage, true);
 }
 
@@ -63,6 +65,7 @@ var captchaErrorCallback = function() {
 }
 
 var resetCaptcha = false;
+var resetButton = null;
 
 // Configure notification popup modal and register events
 function closeNotificationPopUpModal() {
@@ -211,6 +214,7 @@ function submitFormBecomeTutor() {
 	}
 	successMessage = 'Thanks for registering with us.<br/>Someone from Tutor Support team will contact you shortly.';
 	resetCaptcha = true;
+	resetButton = 'become-tutor-form-reset';
 	callWebservice('/rest/publicaccess/becomeTutor', encodeObjectAsJSON(getApplicationToBecomeTutor()));
 }
 
@@ -225,6 +229,7 @@ function submitFormFindTutor() {
 	}
 	successMessage = 'Thanks for your enquiry.<br/>Someone from Customer Support team will contact you shortly.';
 	resetCaptcha = true;
+	resetButton = 'find-tutor-form-reset';
 	callWebservice('/rest/publicaccess/findTutor', encodeObjectAsJSON(getApplicationToFindTutor()));
 }
 
@@ -237,7 +242,9 @@ function submitFormSubscribe() {
 		showNotificationModal('Please fill captcha.', false);
 		return;
 	}
-	//callWebservice('/rest/publicaccess/becomeTutor', encodeObjectAsJSON(getApplicationToBecomeTutor()));
+	//resetCaptcha = true;
+	//resetButton = 'subscribe-form-reset';
+	//callWebservice('/rest/publicaccess/subscribe', encodeObjectAsJSON(getApplicationToSubscribe()));
 }
 
 function submitQuery() {
@@ -247,6 +254,7 @@ function submitQuery() {
 	}
 	successMessage = 'Thanks for your query.<br/>Someone from Systems Support team will contact you shortly.';
 	resetCaptcha = true;
+	resetButton = 'submit-query-form-reset';
 	callWebservice('/rest/publicaccess/submitQuery', encodeObjectAsJSON(getApplicationToSubmitQuery()));
 }
 
@@ -359,4 +367,14 @@ function createSelectOptionOutOfSelectLookupArray(lookupArray) {
 		html += '</optgroup>';
 	}
 	return html;
+}
+
+function resetForm(resetBtnId) {
+	var resetBtn = document.getElementById(resetBtnId);
+	if (null !=  resetBtn) {
+		resetBtn.click()
+	}
+	if (screenType == 'big-screen') {
+		resetChosenDropdowns();
+	}
 }

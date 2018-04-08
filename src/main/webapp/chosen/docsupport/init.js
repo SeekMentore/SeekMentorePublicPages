@@ -12,3 +12,9 @@ function instantiateChosen() {
 		$(selector).chosen(config[selector]);
 	}
 }
+
+function resetChosenDropdowns() {
+	for (var selector in config) {
+		$(selector).trigger('chosen:updated');
+	}
+}
