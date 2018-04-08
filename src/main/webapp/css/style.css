@@ -1113,10 +1113,10 @@ input{
 	
 	/* Modal Content */
 	.modal-content {
-	    background-color: #a8cdf4;
+	    background-color: white;
 	    margin: auto;
 	    padding: 20px;
-	    border: 8px solid #5d5858;
+	    border: 2px solid #5d5871;
 	    width: 80%;
 	    max-width: 750px;
 	    border-radius: 10px;
@@ -1129,7 +1129,7 @@ input{
 	    font-size: 28px;
 	    font-weight: bold;
 	    border: 1px Solid #10213a;
-	    background-color: #10213a;
+	    background-color: #5d5871;
 	}
 	
 	.close-modal:hover,
@@ -1149,7 +1149,7 @@ input{
 	    width: 40%;
 	    text-align: center;
 	    border: 1px Solid #10213a;
-	    background-color: #10213a;
+	    background-color: #5d5871;
 	    margin-left: 30%;
 	    height: 1.3em;
 	}
