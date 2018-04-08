@@ -194,6 +194,10 @@ function getAttributeValue(id, checkScreens, isArray) {
 }
 
 function submitFormBecomeTutor() {
+	if (!document.getElementById('agree-with-terms').checked) {
+		showNotificationModal('Please agree to Terms and Conditions.', false);
+		return;
+	}
 	if (!captchaAuthFulfilled) {
 		showNotificationModal('Please fill captcha.', false);
 		return;
@@ -203,6 +207,10 @@ function submitFormBecomeTutor() {
 }
 
 function submitFormFindTutor() {
+	if (!document.getElementById('agree-with-terms').checked) {
+		showNotificationModal('Please agree to Terms and Conditions.', false);
+		return;
+	}
 	if (!captchaAuthFulfilled) {
 		showNotificationModal('Please fill captcha.', false);
 		return;
@@ -212,6 +220,10 @@ function submitFormFindTutor() {
 }
 
 function submitFormSubscribe() {
+	if (!document.getElementById('agree-with-terms').checked) {
+		showNotificationModal('Please agree to Terms and Conditions.', false);
+		return;
+	}
 	if (!captchaAuthFulfilled) {
 		showNotificationModal('Please fill captcha.', false);
 		return;
