@@ -173,6 +173,7 @@ function getApplicationToBecomeTutor() {
 			primaryProfession 			: getAttributeValue('primary-profession', true),
 			transportMode 				: getAttributeValue('transport-mode', true),
 			teachingExp 				: getAttributeValue('teaching-experience', false),
+			studentGrade 				: getAttributeValue('student-grade', true, true),
 			subjects					: getAttributeValue('subjects', true, true),
 			locations 					: getAttributeValue('locations', true, true),
 			preferredTimeToCall 		: getAttributeValue('preferred-time', true, true),
@@ -280,7 +281,7 @@ function loadDropdowns(page) {
 	} else if (page == 'TUTOR_ENQUIRY') {
 		callWebservice('/rest/publicaccess/getDropdownListDataFindTutor', null, loadFindTutorDropdowns);
 	} else if (page == 'CUSTOMER_SUBSCRIBE') {
-		callWebservice('/rest/publicaccess/getDropdownListDataSubscribe', null, loadSubscribeDropdowns);
+		callWebservice('/rest/publicaccess/getDropdownListDataSubscribeWithUs', null, loadSubscribeDropdowns);
 	} 
 }
 
@@ -322,6 +323,10 @@ function loadBecomeTutorDropdowns(response) {
 	var transportModeSelectHTML = createSelectOptionOutOfSelectLookupArray(response.transportModeLookUp);
 	$('#transport-mode-big-screen').html($('#transport-mode-big-screen').html() + transportModeSelectHTML);
 	$('#transport-mode-small-screen').html($('#transport-mode-small-screen').html() + transportModeSelectHTML);
+	
+	var studentGradeSelectHTML = createSelectOptionOutOfSelectLookupArray(response.studentGradeLookUp);
+	$('#student-grade-big-screen').html($('#student-grade-big-screen').html() + studentGradeSelectHTML);
+	$('#student-grade-small-screen').html($('#student-grade-small-screen').html() + studentGradeSelectHTML);
 	
 	var subjectsSelectHTML = createSelectOptionOutOfSelectLookupArray(response.subjectsLookUp);
 	$('#subjects-big-screen').html($('#subjects-big-screen').html() + subjectsSelectHTML);
