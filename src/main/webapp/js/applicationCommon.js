@@ -1,5 +1,6 @@
 // Placing Dev Server Path
-var serverPath = 'http://13.127.139.107:8080';
+//var serverPath = 'http://13.127.139.107:8080';
+var serverPath = 'http://localhost:8080';
 var ctxPath = '/seekmentore';
 var screenType = '';
 var output;
@@ -131,13 +132,28 @@ function getApplicationToSubmitQuery() {
 	return application;
 }
 
+function getApplicationToSubscribeWithUs() {
+	var application = {
+			firstName 			: getAttributeValue('first-name', false),
+			lastName 			: getAttributeValue('last-name', false),
+			contactNumber 		: getAttributeValue('contact-number', false),
+			emailId 			: getAttributeValue('email', false),
+			studentGrade 		: getAttributeValue('student-grade', true, true),
+			subjects 			: getAttributeValue('subjects', true, true),
+			preferredTimeToCall : getAttributeValue('preferred-time', true, true),
+			additionalDetails 	: getAttributeValue('additional-details', false),
+			captchaResponse		: captchaResponseToken
+		};
+	return application;
+}
+
 function getApplicationToFindTutor() {
 	var application = {
 			name 				: getAttributeValue('name', false),
 			contactNumber 		: getAttributeValue('contact-number', false),
 			emailId 			: getAttributeValue('email', false),
 			studentGrade 		: getAttributeValue('student-grade', true),
-			subjects 			: getAttributeValue('subjects', true, true),
+			subjects 			: getAttributeValue('subjects', true),
 			preferredTimeToCall : getAttributeValue('preferred-time', true, true),
 			additionalDetails 	: getAttributeValue('additional-details', false),
 			captchaResponse		: captchaResponseToken
@@ -242,9 +258,9 @@ function submitFormSubscribe() {
 		showNotificationModal('Please fill captcha.', false);
 		return;
 	}
-	//resetCaptcha = true;
-	//resetButton = 'subscribe-form-reset';
-	//callWebservice('/rest/publicaccess/subscribe', encodeObjectAsJSON(getApplicationToSubscribe()));
+	resetCaptcha = true;
+	resetButton = 'subscribe-form-reset';
+	callWebservice('/rest/publicaccess/subscribe', encodeObjectAsJSON(getApplicationToSubscribeWithUs()));
 }
 
 function submitQuery() {
@@ -264,8 +280,7 @@ function loadDropdowns(page) {
 	} else if (page == 'TUTOR_ENQUIRY') {
 		callWebservice('/rest/publicaccess/getDropdownListDataFindTutor', null, loadFindTutorDropdowns);
 	} else if (page == 'CUSTOMER_SUBSCRIBE') {
-		loadSubscribeDropdowns();
-		//callWebservice('/rest/publicaccess/getDropdownListDataSubscribe', null, loadSubscribeDropdowns);
+		callWebservice('/rest/publicaccess/getDropdownListDataSubscribe', null, loadSubscribeDropdowns);
 	} 
 }
 
@@ -324,6 +339,18 @@ function loadBecomeTutorDropdowns(response) {
 }
 
 function loadSubscribeDropdowns(response) {
+	var studentGradeSelectHTML = createSelectOptionOutOfSelectLookupArray(response.studentGradeLookUp);
+	$('#student-grade-big-screen').html($('#student-grade-big-screen').html() + studentGradeSelectHTML);
+	$('#student-grade-small-screen').html($('#student-grade-small-screen').html() + studentGradeSelectHTML);
+	
+	var subjectsSelectHTML = createSelectOptionOutOfSelectLookupArray(response.subjectsLookUp);
+	$('#subjects-big-screen').html($('#subjects-big-screen').html() + subjectsSelectHTML);
+	$('#subjects-small-screen').html($('#subjects-small-screen').html() + subjectsSelectHTML);
+	
+	var preferredTimeSelectHTML = createSelectOptionOutOfSelectLookupArray(response.preferredTimeLookUp);
+	$('#preferred-time-big-screen').html($('#preferred-time-big-screen').html() + preferredTimeSelectHTML);
+	$('#preferred-time-small-screen').html($('#preferred-time-small-screen').html() + preferredTimeSelectHTML);
+	
 	instantiateChosen();
 }
 
