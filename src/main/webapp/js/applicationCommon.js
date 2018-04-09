@@ -259,6 +259,7 @@ function submitFormSubscribe() {
 		showNotificationModal('Please fill captcha.', false);
 		return;
 	}
+	successMessage = 'Thanks for your enquiry.<br/>Someone from Customer Support team will contact you shortly.';
 	resetCaptcha = true;
 	resetButton = 'subscribe-form-reset';
 	callWebservice('/rest/publicaccess/subscribe', encodeObjectAsJSON(getApplicationToSubscribeWithUs()));
