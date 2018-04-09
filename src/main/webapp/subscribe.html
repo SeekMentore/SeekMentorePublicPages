@@ -4,7 +4,7 @@
 -->
 <html>
 	<head>
-		<title>Seek Mentore - Find Your Tutor</title>
+		<title>Seek Mentore - Subscribe with Us</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -92,62 +92,90 @@
 		</div>
 		
 		<!-- Main -->
-	<div id="main"
+	<div id="find-tutor"
 		class="small-screen-second-element-after-menu wrapper style4 second-element-after-menu">
 		<div class="container">
 			<header class="major page-header">
-				<h2>Subscribe</h2>
+				<h2>Subscribe with Us</h2>
 			</header>
 			<hr class="page-header" />
 			<div class="row">
-				<!-- Content -->
-				<div id="content" class="8u">
+				<!-- Sidebar -->
+				<div id="sidebar" class="3u big-screen">
 					<section>
-						<header class="major page-header">
-							<span class="byline">Subscribe to us to know about latest curriculum and elite tutors. Provide your details below and receive latest updates. </span>
-						</header>
+						<img class="full-container-responsive-element "
+							src="images/parent.png"  />
+					</section>
+				</div>
+				<!-- Content -->
+				<div id="content" class="6u">
+					<section>
 						<form>
-							<div id="become-a-tutor-form" class="input-form-content" >
+							<div id="subscribe-form" class="input-form-content" >
 								<div class="row input-form-row">
-									<div class="12u skel-cell-important input-form-column-first-row">
-										<input type="text" name="first-name" placeholder="Name" /> 
+									<div class="6u skel-cell-important input-form-column-first-row">
+										<input type="text" name="first-name" id="first-name" placeholder="First Name" />
+									</div>
+									<div class="6u input-form-column-first-row">
+										<input type="text" name="last-name" id="last-name" placeholder="Last Name" />
 									</div>
 								</div>		
 								<div class="row input-form-row">
 									<div class="6u skel-cell-important input-form-column">
-										<input type="text" name="contact-number" placeholder="Contact Number" /> 
+										<input type="text" name="contact-number" id="contact-number" placeholder="Contact Number" />
 									</div>
 									<div class="6u input-form-column">
-										<input type="email" name="email" placeholder="Email ID" />
+										<input type="email" name="email" id="email" placeholder="Email Id" />
 									</div>
-								</div>	
+								</div>
 								<div class="row input-form-row">
-									<div class="12u skel-cell-important input-form-column">
+									<div class="6u skel-cell-important input-form-column">
 										<div class="big-screen">
-											<select name="updates-for" class="chosen-select-deselect" data-placeholder="Receive Updates For" multiple>
-											    <option value=""></option>
-											    <option value="tutors">Tutors</option>
-											    <option value="curriculum">Curriculum</option>
-											</select> 
+											<select name="student-grade" id="student-grade-big-screen" class="chosen-select-deselect" data-placeholder="Student Grades" multiple>
+												<option value=""></option>
+											</select>
 										</div>
 										<div class="small-screen">
-											<p class="form-content-color">Receive Updates For</p>
-											<select name="updates-for" multiple>
+											<p class="form-content-color">Student Grades</p>
+											<select name="student-grade" id="student-grade-small-screen" multiple>
+											</select>
+										</div>
+									</div>
+									<div class="6u input-form-column">
+										<div class="big-screen">
+											<select name="subjects" id="subjects-big-screen" class="chosen-select-deselect" data-placeholder="Subjects for Tutoring" multiple>
+												<option value=""></option>
+											</select>
+										</div>
+										<div class="small-screen">
+											<p class="form-content-color">Subjects for Tutoring</p>
+											<select name="subjects" id="subjects-small-screen" multiple>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="row input-form-row">
+									<div class="12u input-form-column">
+										<div class="big-screen">
+											<select name="preferred-time" id="preferred-time-big-screen" class="chosen-select-deselect" data-placeholder="Preferred Time to Call" multiple>
 											    <option value=""></option>
-											    <option value="tutors">Tutors</option>
-											    <option value="curriculum">Curriculum</option>																					
-											</select> 
+											</select>
+										</div>
+										<div class="small-screen">
+											<p class="form-content-color">Preferred Time to Call</p>
+											<select name="preferred-time" id="preferred-time-small-screen" multiple>
+											</select>
 										</div>
 									</div>
 								</div>
 								<div class="row input-form-row">
 									<div class="12u skel-cell-important input-form-column">
-										<textarea rows="4" cols="70" placeholder="Please provide any additional details."></textarea>
+										<textarea rows="4" cols="70" id="additional-details" placeholder="Please provide any additional details and we will get back within 8 hrs!!!"></textarea>
 									</div>
 								</div>
 								<div class="row input-form-row">
 									<div class="12u skel-cell-important input-form-column">
-										<input type="checkbox" name="agree-with-terms" /> I hereby provide my consent to seekmentore to contact me on the above details.
+										<input type="checkbox" name="agree-with-terms" /> I hereby provide my consent to "Seek Mentore" to contact me on the above details.
 									</div>
 								</div>
 								<div class="row input-form-row">
@@ -165,7 +193,7 @@
 										<a href="javascript:void(0);" onclick="resetForm('subscribe-form-reset')" class="button">Reset Form</a>
 									</div>
 									<div class="6u input-form-column" align="center">
-										<a href="javascript:void(0);" onclick="submitFormSubscribe()" class="button">Subscribe</a>
+										<a href="javascript:void(0);" onclick="submitFormSubscribe()" class="button">Request Callback</a>
 									</div>
 								</div>				
 							</div>
@@ -173,7 +201,7 @@
 					</section>
 				</div>
 				<!-- Sidebar -->
-				<div id="sidebar" class="4u skel-cell-important">
+				<div id="sidebar" class="3u skel-cell-important">
 					<section>
 						<img class="full-container-responsive-element"	src="images/subscribe.png" />	
 					</section>
