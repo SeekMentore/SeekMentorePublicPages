@@ -1221,12 +1221,7 @@ input{
 	    border: 1px solid #6eaf98;
 	}
 	
-	/* On mouse-over, add a grey background color */
-	.checkbox-container:hover input ~ .checkmark {
-	    background-color: #ccc;
-	}
-	
-	/* When the checkbox is checked, add a blue background */
+	/* When the checkbox is checked, add a background */
 	.checkbox-container input:checked ~ .checkmark {
 	    background-color: #084154
 	}
