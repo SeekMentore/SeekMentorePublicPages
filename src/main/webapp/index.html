@@ -20,11 +20,9 @@
   		<script src="https://www.google.com/recaptcha/api.js"></script>
     <script type="text/javascript">
         jssor_1_slider_init = function() {
-
             var jssor_1_SlideshowTransitions = [
               {$Duration:800,$Opacity:2}
             ];
-
             var jssor_1_options = {
               $AutoPlay: 1,
               $SlideshowOptions: {
@@ -39,35 +37,51 @@
                 $Class: $JssorBulletNavigator$
               }
             };
-
             var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
-
             /*#region responsive code begin*/
-
             var MAX_WIDTH = 700;
-
             function ScaleSlider() {
                 var containerElement = jssor_1_slider.$Elmt.parentNode;
                 var containerWidth = containerElement.clientWidth;
-
                 if (containerWidth) {
-
                     var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
-
                     jssor_1_slider.$ScaleWidth(expectedWidth);
                 }
                 else {
                     window.setTimeout(ScaleSlider, 30);
                 }
             }
-
             ScaleSlider();
-
             $Jssor$.$AddEvent(window, "load", ScaleSlider);
             $Jssor$.$AddEvent(window, "resize", ScaleSlider);
             $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
             /*#endregion responsive code end*/
         };
+        
+        /* Testimonial Slider*/
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
     </script>
     <style>
         /*jssor slider loading skin spin css*/
@@ -96,6 +110,30 @@
         .jssora051:hover {opacity:.8;}
         .jssora051.jssora051dn {opacity:.5;}
         .jssora051.jssora051ds {opacity:.3;pointer-events:none;}
+        
+        /* Testimonials Slider */
+		/* The dot/bullet/indicator container */
+		.dot-container {
+		    text-align: center;
+		    padding: 20px;
+		}
+
+		/* The dots/bullets/indicators */
+		.dot {
+		  cursor: pointer;
+		  height: 15px;
+		  width: 15px;
+		  margin: 0 2px;
+		  background-color: #bbb;
+		  border-radius: 50%;
+		  display: inline-block;
+		  transition: background-color 0.6s ease;
+		}
+		
+		/* Add a background color to the active dot/circle */
+		.dot:hover {
+		  background-color: #717171;
+		}
     </style>
 	</head>
 	<body class="page">
@@ -266,22 +304,67 @@
 						<span class="byline">Our work speaks </span>
 					</header>
 				</a>
-				<div class="row flush">
-					<div class="2u">
-						&nbsp;
-					</div>
-					<div class="8u">
-						<div class="row testimonial-calligraphy-font">
-							&#34;&#32;
+				<div class="mySlides">
+					<div class="row flush">
+						<div class="2u">
+							&nbsp;
 						</div>
-						<br/>
-						<div class="row testimonial-writer">
-							- A R Moron
+						<div class="8u">
+							<div class="row testimonial-calligraphy-font">
+								&#34;&#32;Just focus on core teaching, leave other headaches on us. No more struggling with parents for your due fees.&#34;
+							</div>
+							<br/>
+							<div class="row testimonial-writer">
+								- Shantanu Mukherjee
+							</div>
+						</div>
+						<div class="2u">
+							&nbsp;
 						</div>
 					</div>
-					<div class="2u">
-						&nbsp;
+				</div>
+				<div class="mySlides">
+					<div class="row flush">
+						<div class="2u">
+							&nbsp;
+						</div>
+						<div class="8u">
+							<div class="row testimonial-calligraphy-font">
+								&#34;&#32;Increase your reach, no more limited to neighbourhood students only. We advertise your calibre and your students’ success stories, for FREE, yes believe it.&#34;
+							</div>
+							<br/>
+							<div class="row testimonial-writer">
+								- Jigyasa Singh Tomar
+							</div>
+						</div>
+						<div class="2u">
+							&nbsp;
+						</div>
 					</div>
+				</div>
+				<div class="mySlides">
+					<div class="row flush">
+						<div class="2u">
+							&nbsp;
+						</div>
+						<div class="8u">
+							<div class="row testimonial-calligraphy-font">
+								&#34;&#32;Get your own Virtual Office Staff to handle sales, accounts and getting students to you. We will serve you, not you serving us.You are our elite Business Associate not an employee.&#34;
+							</div>
+							<br/>
+							<div class="row testimonial-writer">
+								- Silky Mukerjee
+							</div>
+						</div>
+						<div class="2u">
+							&nbsp;
+						</div>
+					</div>
+				</div>
+				<div class="dot-container">
+				  <span class="dot" onclick="currentSlide(1)"></span> 
+				  <span class="dot" onclick="currentSlide(2)"></span> 
+				  <span class="dot" onclick="currentSlide(3)"></span> 
 				</div>
 			</section>
 		</div>
@@ -529,6 +612,7 @@
 		<script src="js/applicationCommon.js"></script>
 		<script type="text/javascript">
 			jssor_1_slider_init();
+			currentSlide(1);
 		</script>
 	</body>
 </html>
