@@ -554,8 +554,8 @@
 			}
 
 		.wrapper.style4 {
-			background: #f2f2f2;
-			
+			/* background: #f2f2f2; */
+			background: white;
 		}
 		
 		.wrapper.style5 {
@@ -1080,7 +1080,7 @@ input{
 		border: solid 1px #10213a;	
 		text-align: justify;
 		width: 100%;
-		box-shadow: 9px 9px 30px 6px #838383;
+		box-shadow: 9px 9px 0px 4px #838383;
    }		
 			
   .primary-action1 ul ,li {
