@@ -1072,7 +1072,7 @@ input{
 	
   .panel {
 		padding: 33px;
-		border-radius: 10%;
+		border-radius: 6em;
 		color: #10213a;
 		background: white;
 		text-align: center;
