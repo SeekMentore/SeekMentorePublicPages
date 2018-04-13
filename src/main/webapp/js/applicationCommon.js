@@ -4,7 +4,11 @@ var serverPath = 'http://13.127.139.107:8080';
 var ctxPath = '/seekmentore';
 var screenType = '';
 var output;
-var successMessage ='';
+var successMessage = '';
+var testimonials = null;
+var currentTestimonialDisplay = 0;
+
+loadTestimonialContent();
 
 // Function to identify screen type based on CSS file loading
 function identifyScreenType() {
@@ -410,4 +414,50 @@ function resetForm(resetBtnId) {
 	if (screenType == 'big-screen') {
 		resetChosenDropdowns();
 	}
+}
+
+function loadTestimonialContent() {
+	testimonials = [{
+		content : '&#34;&#32;Just focus on core teaching, leave other headaches on us. No more struggling with parents for your due fees.&#34;',
+		author : '- Shantanu Mukherjee'
+	}, {
+		content : '&#34;&#32;Increase your reach, no more limited to neighbourhood students only. We advertise your calibre and your students’ success stories, for FREE, yes believe it.&#34;',
+		author : '- Jigyasa Singh Tomar'
+	}, {
+		content : '&#34;&#32;Get your own Virtual Office Staff to handle sales, accounts and getting students to you. We will serve you, not you serving us.You are our elite Business Associate not an employee.&#34;',
+		author : '- Silky Mukerjee'
+	}];
+}
+
+function nextTestimonialArrowClicked() {
+	currentTestimonialDisplay += 1;
+	if (currentTestimonialDisplay >= testimonials.length) {
+		currentTestimonialDisplay = 0;
+	}
+	setTestimonialContentOnUI();
+}
+
+function prevTestimonialArrowClicked() {
+	currentTestimonialDisplay -= 1;
+	if (currentTestimonialDisplay < 0) {
+		currentTestimonialDisplay = testimonials.length - 1;
+	}
+	setTestimonialContentOnUI();
+}
+
+function testimonialDotClicked(contentNumber) {
+	if (null != contentNumber) {
+		if (contentNumber > 0 && contentNumber <= testimonials.length) {
+			currentTestimonialDisplay = contentNumber - 1;
+		} else {
+			currentTestimonialDisplay = 0;
+		}
+		setTestimonialContentOnUI();
+	}
+}
+
+function setTestimonialContentOnUI() {
+	var testimonial = testimonials[currentTestimonialDisplay];
+	$('#testimonial-slide-content').html(testimonial.content);
+	$('#testimonial-slide-author').html(testimonial.author);
 }
