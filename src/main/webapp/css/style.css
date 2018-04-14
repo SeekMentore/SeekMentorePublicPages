@@ -1231,6 +1231,10 @@ input{
 	    border: 1px solid #6eaf98;
 	}
 	
+	#jssor_1 {
+		width: inherit !important;
+	}
+	
 	/* When the checkbox is checked, add a background */
 	.checkbox-container input:checked ~ .checkmark {
 	    background-color: #084154
