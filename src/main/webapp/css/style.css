@@ -960,6 +960,15 @@ input{
 			width : 100% !important;
 		}
 		
+		.full-container-responsive-element-jssor {
+			 width : 100% !important;
+		}
+		
+		/* .jssor_slides {
+			width: inherit !important;
+			height:  inherit !important;
+		} */
+		
 		.restrain-width-for-interleaf-container-responsive-element {
 			max-width : 250px !important;
 		}
