@@ -1,6 +1,5 @@
 // Placing Dev Server Path
 var serverPath = 'http://13.127.139.107:8080';
-//var serverPath = 'http://localhost:8080';
 var ctxPath = '/seekmentore';
 var screenType = '';
 var output;
@@ -460,4 +459,13 @@ function setTestimonialContentOnUI() {
 	var testimonial = testimonials[currentTestimonialDisplay];
 	$('#testimonial-slide-content').html(testimonial.content);
 	$('#testimonial-slide-author').html(testimonial.author);
+}
+
+toggleAnswer = function(id) {
+	id = '#' + 'answer-panel-' + id;
+	if ($(id).hasClass('noscreen')) {
+		$(id).removeClass('noscreen');
+	} else {
+		$(id).addClass('noscreen');
+	}
 }

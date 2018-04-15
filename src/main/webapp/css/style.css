@@ -1318,3 +1318,85 @@ input{
 		border-left: 1px solid #10213a;
 		border-right: 1px solid #10213a;
 	}
+	
+	.accordion {
+	    background-color: #ccc;
+	    cursor: pointer;
+	    padding: 18px;
+	    width: 100%;
+	    border: none;
+	    text-align: left;
+	    outline: none;
+	    transition: 0.4s;
+	}
+	
+	.accordion:hover, .accordion:active, .accordion:focus {
+	    background-color: #ccc; 
+	}
+	
+	/*jssor slider loading skin spin css*/
+       .jssorl-009-spin img {
+           animation-name: jssorl-009-spin;
+           animation-duration: 1.6s;
+           animation-iteration-count: infinite;
+           animation-timing-function: linear;
+       }
+
+       @keyframes jssorl-009-spin {
+           from { transform: rotate(0deg); }
+           to { transform: rotate(360deg); }
+       }
+
+       /*jssor slider bullet skin 051 css*/
+       .jssorb051 .i {position:absolute;cursor:pointer;}
+       .jssorb051 .i .b {fill:#fff;fill-opacity:0.5;}
+       .jssorb051 .i:hover .b {fill-opacity:.7;}
+       .jssorb051 .iav .b {fill-opacity: 1;}
+       .jssorb051 .i.idn {opacity:.3;}
+
+       /*jssor slider arrow skin 051 css*/
+       .jssora051 {display:block;position:absolute;cursor:pointer;}
+       .jssora051 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
+       .jssora051:hover {opacity:.8;}
+       .jssora051.jssora051dn {opacity:.5;}
+       .jssora051.jssora051ds {opacity:.3;pointer-events:none;}
+       
+       /* Testimonials Slider */
+       .prev, .next {
+       	font-size: 2.5em;
+       }
+	/* The dot/bullet/indicator container */
+	.dot-container {
+	    text-align: center;
+	    padding: 20px;
+	}
+
+	/* The dots/bullets/indicators */
+	.dot {
+	  cursor: pointer;
+	  height: 15px;
+	  width: 15px;
+	  margin: 0 2px;
+	  background-color: #bbb;
+	  border-radius: 50%;
+	  display: inline-block;
+	  transition: background-color 0.6s ease;
+	}
+	
+	/* Add a background color to the active dot/circle */
+	.dot:hover {
+	  background-color: #717171;
+	}
+	
+	.question {
+		border: 1px solid #10213a;
+	}
+	
+	.answer-panel {
+	    padding: 10px 10px 0px 10px;
+	    background-color: #c9dfed;
+	    overflow: hidden;
+	    border-bottom: 1px solid #10213a;
+		border-left: 1px solid #10213a;
+		border-right: 1px solid #10213a;
+	}

@@ -16,45 +16,7 @@
 		<link rel="stylesheet" href="css/style.css" />
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script>
-			toggleAnswer = function(id) {
-				id = '#' + 'answer-panel-' + id;
-				if ($(id).hasClass('noscreen')) {
-					$(id).removeClass('noscreen');
-				} else {
-					$(id).addClass('noscreen');
-				}
-			}
 		</script>
-		<style>
-		.accordion {
-		    background-color: #ccc;
-		    cursor: pointer;
-		    padding: 18px;
-		    width: 100%;
-		    border: none;
-		    text-align: left;
-		    outline: none;
-		    transition: 0.4s;
-		}
-		
-		.accordion:hover, .accordion:active, .accordion:focus {
-		    background-color: #ccc; 
-		}
-		
-		.question {
-			border: 1px solid #10213a;
-		}
-		
-		.answer-panel {
-		    padding: 10px 10px 0px 10px;
-		    background-color: #c9dfed;
-		    overflow: hidden;
-		    border-bottom: 1px solid #10213a;
-			border-left: 1px solid #10213a;
-			border-right: 1px solid #10213a;
-		}
-		</style>
-		
 	</head>
 	<body class="page">
 
@@ -343,5 +305,6 @@
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="js/applicationCommon.js"></script>
 	</body>
 </html>

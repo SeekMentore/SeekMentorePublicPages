@@ -18,105 +18,8 @@
 		<script src="js/jssor.slider-27.1.0.min.js" type="text/javascript"></script>
 		<!-- ReCaptcha V2 Script -->
   		<script src="https://www.google.com/recaptcha/api.js"></script>
-    <script type="text/javascript">
-        jssor_1_slider_init = function() {
-            var jssor_1_SlideshowTransitions = [
-              {$Duration:800,$Opacity:2}
-            ];
-            var jssor_1_options = {
-              $AutoPlay: 1,
-              $SlideshowOptions: {
-                $Class: $JssorSlideshowRunner$,
-                $Transitions: jssor_1_SlideshowTransitions,
-                $TransitionsOrder: 1
-              },
-              $ArrowNavigatorOptions: {
-                $Class: $JssorArrowNavigator$
-              },
-              $BulletNavigatorOptions: {
-                $Class: $JssorBulletNavigator$
-              }
-            };
-            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
-            /*#region responsive code begin*/
-            var MAX_WIDTH = 700;
-            function ScaleSlider() {
-                var containerElement = jssor_1_slider.$Elmt.parentNode;
-                var containerWidth = containerElement.clientWidth;
-                if (containerWidth) {
-                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
-                    jssor_1_slider.$ScaleWidth(expectedWidth);
-                }
-                else {
-                    window.setTimeout(ScaleSlider, 30);
-                }
-            }
-            ScaleSlider();
-            $Jssor$.$AddEvent(window, "load", ScaleSlider);
-            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
-            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
-            /*#endregion responsive code end*/
-        };
-        
-    </script>
-    <style>
-        /*jssor slider loading skin spin css*/
-        .jssorl-009-spin img {
-            animation-name: jssorl-009-spin;
-            animation-duration: 1.6s;
-            animation-iteration-count: infinite;
-            animation-timing-function: linear;
-        }
-
-        @keyframes jssorl-009-spin {
-            from { transform: rotate(0deg); }
-            to { transform: rotate(360deg); }
-        }
-
-        /*jssor slider bullet skin 051 css*/
-        .jssorb051 .i {position:absolute;cursor:pointer;}
-        .jssorb051 .i .b {fill:#fff;fill-opacity:0.5;}
-        .jssorb051 .i:hover .b {fill-opacity:.7;}
-        .jssorb051 .iav .b {fill-opacity: 1;}
-        .jssorb051 .i.idn {opacity:.3;}
-
-        /*jssor slider arrow skin 051 css*/
-        .jssora051 {display:block;position:absolute;cursor:pointer;}
-        .jssora051 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
-        .jssora051:hover {opacity:.8;}
-        .jssora051.jssora051dn {opacity:.5;}
-        .jssora051.jssora051ds {opacity:.3;pointer-events:none;}
-        
-        /* Testimonials Slider */
-        .prev, .next {
-        	font-size: 2.5em;
-        }
-		/* The dot/bullet/indicator container */
-		.dot-container {
-		    text-align: center;
-		    padding: 20px;
-		}
-
-		/* The dots/bullets/indicators */
-		.dot {
-		  cursor: pointer;
-		  height: 15px;
-		  width: 15px;
-		  margin: 0 2px;
-		  background-color: #bbb;
-		  border-radius: 50%;
-		  display: inline-block;
-		  transition: background-color 0.6s ease;
-		}
-		
-		/* Add a background color to the active dot/circle */
-		.dot:hover {
-		  background-color: #717171;
-		}
-    </style>
 	</head>
 	<body class="page">
-
 		<!-- Header -->
 		<div class="small-screen-top-menu wrapper style1 top-menu">
 			<!-- Banner -->
@@ -531,6 +434,7 @@
   		<script src="chosen/docsupport/init.js" type="text/javascript"></script>
   		<!-- Load scripts for taking action on page -->
 		<script src="js/applicationCommon.js"></script>
+		<script src="js/jssor-slider.js"></script>
 		<script type="text/javascript">
 			jssor_1_slider_init();
 			testimonialDotClicked(1);
