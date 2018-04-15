@@ -1298,3 +1298,23 @@ input{
 	  0% { transform: rotate(0deg); }
 	  100% { transform: rotate(360deg); }
 	}
+	
+	.terms-heading {
+	    background-color: #ccc;
+	    cursor: pointer;
+	    padding: 18px;
+	    width: 100%;
+	    border: 1px solid #10213a;
+	    text-align: left;
+	    outline: none;
+	    transition: 0.4s;
+	}
+	
+	.terms-points {
+	    padding: 10px 10px 0px 10px;
+	    background-color: #c9dfed;
+	    overflow: hidden;
+	    border-bottom: 1px solid #10213a;
+		border-left: 1px solid #10213a;
+		border-right: 1px solid #10213a;
+	}
