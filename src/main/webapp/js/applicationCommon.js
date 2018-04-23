@@ -127,6 +127,7 @@ function callWebservice(url, data, success, failure, method, contentType) {
 }
 
 function getApplicationToSubmitQuery() {
+	identifyScreenType();
 	var application = {
 			emailId 			: getAttributeValue('email', true),
 			queryDetails 		: getAttributeValue('query-details', false),
@@ -136,6 +137,7 @@ function getApplicationToSubmitQuery() {
 }
 
 function getApplicationToSubscribeWithUs() {
+	identifyScreenType();
 	var application = {
 			firstName 			: getAttributeValue('first-name', false),
 			lastName 			: getAttributeValue('last-name', false),
@@ -151,6 +153,7 @@ function getApplicationToSubscribeWithUs() {
 }
 
 function getApplicationToFindTutor() {
+	identifyScreenType();
 	var application = {
 			name 				: getAttributeValue('name', false),
 			contactNumber 		: getAttributeValue('contact-number', false),
@@ -165,6 +168,7 @@ function getApplicationToFindTutor() {
 }
 
 function getApplicationToBecomeTutor() {
+	identifyScreenType();
 	var form = {
 			firstName 					: getAttributeValue('first-name', false),
 			lastName 					: getAttributeValue('last-name', false),
