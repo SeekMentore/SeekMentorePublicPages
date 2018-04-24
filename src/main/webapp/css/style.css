@@ -683,6 +683,11 @@
 		float: left;
 	}
 	
+	#company-strip a img {
+		width: 21em;
+		margin-top: .6em;
+	}
+	
 	#primary-action {
 		float: right;
 		padding-top: 1.3em;
