@@ -4,8 +4,10 @@
 -->
 <html>
 	<head>
-		<title>Company Name - FAQ's</title>
+		<title>Seek Mentore - FAQ's</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		
@@ -14,6 +16,9 @@
 		<!-- Load CSS -->
 		<link rel="stylesheet" href="css/skel.css" />
 		<link rel="stylesheet" href="css/style.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+		</script>
 	</head>
 	<body class="page">
 
@@ -24,21 +29,14 @@
 				<section class="container">
 					<div id="company-strip">
 						<a href="index.html" class="just-link-no-css">
-							<div id="company-logo">
-								<img src="images/company-logo.png" alt="logo"/>
-							</div>
-							<div>
-								<div id="company-name">
-									Company Name
-								</div>
-								<div id="tagline">Guidance@doorstep</div>
-							</div>
+							<img src="images/company-logo-complete.png" alt="logo"/>
 						</a>
 					</div>
-					<div id="primary-action">
+					<div id="primary-action" >
 						<ul>
-							<li><a href="find-tutor.html" class="button">Find Your Tutor</a></li>
-							<li><a href="become-tutor.html" class="button">Become a Tutor</a></li>
+						    <li><a href="./subscribe.html" class="button">Subscribe with Us</a></li>
+							<li><a href="./find-tutor.html" class="button">Find Your Tutor</a></li>
+							<li><a href="./become-tutor.html" class="button">Become a Tutor</a></li>
 						</ul>
 					</div>
 				</section>
@@ -47,31 +45,31 @@
 			<div id="header">
 				<div id="top-navigation" class="container">
 					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li class="active">
-									<a href="index.html">Home</a>
-								</li>
-								<li>
-									<a href="our-services.html">Our Services</a>
-									<ul>
-										<li><a href="private-tutor.html">Private Tutor</a></li>
-										<li><a href="combined-tutoring.html">Combined Tutoring</a></li>
-										<li><a href="online-tutor.html">Online Tutor</a></li>
-										<li><a href="study-materials.html">Study Materials</a></li>
-										<li><a href="student-network.html">Student Network</a></li>
-										<li><a href="career-focussed-counselling.html">Career Focussed Counselling</a></li>
-									</ul>
-								</li>
-								<li>
-									<a href="about-us.html">About Us</a>
-								</li>
-								<li>
-									<a href="faqs.html">Faq's</a>
-								</li>
-							</ul>
-						</nav>
-
+					<nav id="nav">
+						<ul>
+							<li>
+								<a href="index.html">Home</a>
+							</li>
+							<li>
+								<a href="our-specialty.html">Our Specialty</a>
+							</li>
+							<li>
+								<a href="our-services.html">Our Services</a>
+								<ul>
+									<li><a href="private-tutor.html">Private Tutor</a></li>
+									<li><a href="combined-tutoring.html">Combined Tutoring</a></li>
+									<li><a href="study-materials.html">Study Materials</a></li>
+									<li><a href="career-focussed-counselling.html">Career Focussed Counselling</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="about-us.html">About Us</a>
+							</li>
+							<li class="active">
+								<a href="faqs.html">Faq's</a>
+							</li>
+						</ul>
+					</nav>
 				</div>
 			</div>
 		</div>
@@ -87,43 +85,145 @@
 				<section>
 					<div class="row">
 						<div class="12u">
-							<div class="row flush">
-								<div class="12u question-font">
-									<h3>Q 1 : This is a question ?</h3>
+							<div class="question">
+								<div class="accordion" onclick="toggleAnswer(1);">
+									<b>Q1 - What is "Seek Mentore" all about?</b>
 								</div>
 							</div>
-							<div class="row flush">
-								<div class="12u answer-font">
-									<p>Answer : And this is the answer.</p>
-								</div>
+							<div id="answer-panel-1" class="answer-panel noscreen">
+							  <p>Seek Mentore is an online portal to connect the passionate, qualified tutors with the students and their parents. We provide a platform to parents to find the best tutors for their child from a network of highly verified and proficient tutors.</p>
 							</div>
 						</div>
 					</div>
 					<div class="row">
 						<div class="12u">
-							<div class="row flush">
-								<div class="12u question-font">
-									<h3>Q 2 : This is a question ?</h3>
+							<div class="question">
+								<div class="accordion" onclick="toggleAnswer(2);">
+									<b>Q2 - How can I arrange Tutor for my child through "Seek Mentore"? Do i need to visit any office for registration?</b>
 								</div>
 							</div>
-							<div class="row flush">
-								<div class="12u answer-font">
-									<p>Answer : And this is the answer.</p>
-								</div>
+							<div id="answer-panel-2" class="answer-panel noscreen">
+							  <p>You can get a tutor matching your child's needs through our online portal. Just proceed with "Find Your Tutor" link and fill a simple form giving contact details and student's grade and subjects to be learnt. No need to go anywhere.</p>
 							</div>
 						</div>
 					</div>
 					<div class="row">
 						<div class="12u">
-							<div class="row flush">
-								<div class="12u question-font">
-									<h3>Q 2 : This is a question This is a question This is a question This is a question This is a question ?</h3>
+							<div class="question">
+								<div class="accordion" onclick="toggleAnswer(3);">
+									<b>Q3 - Will you randomly allocate a teacher according to grade and subjects mentioned? I am afraid if my child will get comfortable with just anyone?</b>
 								</div>
 							</div>
-							<div class="row flush">
-								<div class="12u answer-font">
-									<p>Answer : And this is the answer And this is the answer And this is the answer And this is the answer And this is the answer And this is the answer And this is the answer And this is the answer And this is the answer And this is the answer And this is the answer And this is the answer And this is the answer And this is the answer And this is the answer And this is the answer And this is the answer And this is the answer.</p>
+							<div id="answer-panel-3" class="answer-panel noscreen">
+							  <p>We understand that student must be comfortable with tutor's style of teaching to grasp the concepts well. We provide the facility of Free Demo Class per tutor. We will arrange for your interaction with the tutor, demo class at your home. Only after you and your child is satisfied with the tutor, go ahead for the payment.</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="12u">
+							<div class="question">
+								<div class="accordion" onclick="toggleAnswer(4);">
+									<b>Q4 - How do you hire tutors? Are they experienced?</b>
 								</div>
+							</div>
+							<div id="answer-panel-4" class="answer-panel noscreen">
+							  <p>Tutors are added to our business network only after complete background check and verification of their teaching abilities through exhaustive tests and interview with our experts.</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="12u">
+							<div class="question">
+								<div class="accordion" onclick="toggleAnswer(5);">
+									<b>Q5 - Can I cancel the class in case I have to go out of station? Will I be charged for the class my child doesn't attend due to being ill or some emergency?</b>
+								</div>
+							</div>
+							<div id="answer-panel-5" class="answer-panel noscreen">
+							  <p>You can cancel the class. You have to do this at least 2 hours prior to the scheduled time to become eligible for the refund.</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="12u">
+							<div class="question">
+								<div class="accordion" onclick="toggleAnswer(6);">
+									<b>Q6 - How much will you charge from me for the registration?</b>
+								</div>
+							</div>
+							<div id="answer-panel-6" class="answer-panel noscreen">
+							  <p>All services by Seek Mentore like registration, your publicity, getting students for you, maintaining your accounts, taking care of your due payment, handling the schedule of your lectures, all this will be done for FREE. </p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="12u">
+							<div class="question">
+								<div class="accordion" onclick="toggleAnswer(7);">
+									<b>Q7 - As a tutor, do I have to call at the provided contact number and enquire if any student matches have been found?</b>
+								</div>
+							</div>
+							<div id="answer-panel-7" class="answer-panel noscreen">
+							  <p>The team at Seek Mentore will contact you after registration. We will be calling you and providing you information about students wanting to learn from you. If the time,location and tutoring style suits, you can say yes and start teaching the student.</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="12u">
+							<div class="question">
+								<div class="accordion" onclick="toggleAnswer(8);">
+									<b>Q8 - Before going for the demo class, what preparations should I do as a tutor?</b>
+								</div>
+							</div>
+							<div id="answer-panel-8" class="answer-panel noscreen">
+							  <p>Seek Mentore team provides you all the information about the grade, board and requirements of the student.</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="12u">
+							<div class="question">
+								<div class="accordion" onclick="toggleAnswer(9);">
+									<b>Q9 - If I face any problems in tutor's performance or have any queries reagrding my child's progress, how can i seek help?</b>
+								</div>
+							</div>
+							<div id="answer-panel-9" class="answer-panel noscreen">
+							  <p>Seek Mentore's team is always there to help you in case you are facing any difficulty in services provided through us. You can freely contact us on helpline numbers provided on the portal and can also write to us on support@seekmentore.com</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="12u">
+							<div class="question">
+								<div class="accordion" onclick="toggleAnswer(10);">
+									<b>Q10 - In how much time can i expect my issue to be resolved?</b>
+								</div>
+							</div>
+							<div id="answer-panel-10" class="answer-panel noscreen">
+							  <p>We will get back to you and get the details as soon as you connect with us. Our people do their best efforts to resolve your difficulty within 12 hours of your connect with us.</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="12u">
+							<div class="question">
+								<div class="accordion" onclick="toggleAnswer(11);">
+									<b>Q11 - What if the tutor takes a leave for some day? Will I be charged for that class?</b>
+								</div>
+							</div>
+							<div id="answer-panel-11" class="answer-panel noscreen">
+							  <p>If the tutor takes a day off, you will not have to pay for that missed class. The fee will be adjusted for future classes or refunded as per the subscription.</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="12u">
+							<div class="question">
+								<div class="accordion" onclick="toggleAnswer(12);">
+									<b>Q12 - Is there any provision to rate the tutor?</b>
+								</div>
+							</div>
+							<div id="answer-panel-12" class="answer-panel noscreen">
+							  <p>Seek Mentore assigns ranking to its tutor partners. But we believe that true judgement can be given by the students who learn from them and their parents who experience the progress in their child as well as difficulties in the tutoring process. So parents are given full fledged facility to rate the tutors on various parameters and rank them accordingly. Your views matter the most.</p>
 							</div>
 						</div>
 					</div>
@@ -136,16 +236,16 @@
 			<section class="container">
 				<div id="contact-info">
 					<ul>
-						<li><i class="fa fa-envelope"></i><a href="mailto:support@companyname.com">&#32;support@companyname.com</a></li>
-						<li><i class="fa fa-phone"></i>&#32;<a href="tel:919739936482">+91 9739936482</a></li>
-						<li><i class="fa fa-mobile"></i>&#32;<a href="tel:918588076802">+91 8588076802</a></li>
+						<li><i class="fa fa-envelope"></i><a href="mailto:support@seekmentore.com">&#32;support@seekmentore.com</a></li>
+						<li><i class="fa fa-phone"></i>&#32;<a href="tel:+91 8318939844">+91 8318939844</a></li>
+						<li><i class="fa fa-mobile"></i>&#32;<a href="tel:+91 8960818347">+91 8960818347</a></li>
 					</ul>
 				</div>
 				<div id="contact-info-address">
 					<ul>
 						<li>
 							<i class="fa fa-map-marker"></i>&#32;
-							Office, Street City Pincode State <br/>
+							Seek Mentore, Plot No 1037 Part B, Kiran Enclave, Near Integral University, Lucknow 226026 (U.P.) <br/>
 						</li>
 					</ul>
 				</div>
@@ -154,8 +254,7 @@
 			<div id="footerlinks">
 				<div class="big-screen">
 					<ul>
-						<li><a href="our-specialty.html">Our Specialty</a></li>
-						<li><a href="subscribe.html">Subscribe</a></li>
+						<li><a href="our-team.html">Our Team</a></li>
 						<li><a href="testimonials.html">Testimonials</a></li>
 						<li><a href="social-communications.html">Blog</a></li>
 					</ul>
@@ -166,8 +265,7 @@
 				</div>
 				<div class="small-screen">
 					<ul>
-						<li><a href="our-specialty.html">Our Specialty</a></li>
-						<li><a href="subscribe.html">Subscribe</a></li>
+						<li><a href="our-team.html">Our Team</a></li>
 						<li><a href="testimonials.html">Testimonials</a></li>
 						<li><a href="social-communications.html">Blog</a></li>
 						<li><a href="terms-of-use.html">Terms of Use</a></li>
@@ -175,13 +273,13 @@
 					</ul>
 				</div>
 				<ul>
-					<li><a href="https://www.facebook.com/company-name/" target="_blank" class="fa fa-facebook fa-2x"></a></li>
-					<li><a href="https://twitter.com/company-name?lang=en" target="_blank" class="fa fa-twitter fa-2x"></a></li>
-					<li><a href="https://plus.google.com/communities/108973791037427626012" target="_blank" class="fa fa-google-plus fa-2x"></a></li>
+					<li><a href="https://www.facebook.com/seek.mentore" target="_blank" class="fa fa-facebook fa-2x"></a></li>
+					<li><a href="https://twitter.com/SeekMentore?lang=en" target="_blank" class="fa fa-twitter fa-2x"></a></li>
+					<li><a href="https://plus.google.com/u/0/110537788171941821319" target="_blank" class="fa fa-google-plus fa-2x"></a></li>
 				</ul>
 			</div>
 			<div id="copyright">
-				© Developed and Maintained by <a href="http://www.companyname.com">Company Name</a>
+				© Developed and Maintained by <a href="http://www.seekmentore.com">Seek Mentore</a>
 			</div>			
 		</div>
 
@@ -192,5 +290,6 @@
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="js/applicationCommon.js"></script>
 	</body>
 </html>

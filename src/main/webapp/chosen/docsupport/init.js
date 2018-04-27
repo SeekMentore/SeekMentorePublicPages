@@ -6,6 +6,15 @@ var config = {
   '.chosen-select-rtl'       : { rtl: true },
   '.chosen-select-width'     : { width: '95%' }
 }
-for (var selector in config) {
-  $(selector).chosen(config[selector]);
+
+function instantiateChosen() {
+	for (var selector in config) {
+		$(selector).chosen(config[selector]);
+	}
+}
+
+function resetChosenDropdowns() {
+	for (var selector in config) {
+		$(selector).trigger('chosen:updated');
+	}
 }

@@ -4,8 +4,10 @@
 -->
 <html>
 	<head>
-		<title>Company Name - Become a Tutor</title>
+		<title>Seek Mentore - Become a Tutor</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		
@@ -14,42 +16,11 @@
 		<!-- Load CSS -->
 		<link rel="stylesheet" href="css/skel.css" />
 		<link rel="stylesheet" href="css/style.css" />
+		<link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"/>
 		<!-- Load chosen -->
   		<link rel="stylesheet" href="chosen/chosen.css">
   		<!-- ReCaptcha V2 Script -->
-  		<script src="https://www.google.com/recaptcha/api.js" async defer ></script>
-  		<script type="text/javascript">
-  		    var captchaAuthFulfilled = false;
-  		    var captchaResponseToken = null; 
-  		    
-  		    var captchaResponseCallback = function(recaptchaResponseToken) {
-  		        captchaResponseToken = recaptchaResponseToken;
-  		        captchaAuthFulfilled = true;
-  		    }
-  		    
-  		    var captchaExpiredCallback = function() {
-  		        grecaptcha.reset();
-  		        captchaResponseToken = null;
-  		        captchaAuthFulfilled = false;
-  		    }
-  		    
-  		    var captchaErrorCallback = function() {
-  		        grecaptcha.reset();
-  		        captchaResponseToken = null;
-  		        captchaAuthFulfilled = false;
-  		    }
-  		    
-  		    var submitForm = function() {
-  		        if (!captchaAuthFulfilled) {
-  		        	$('#failureMessage').html('Form cannot be submitted as Captcha not provided');
-  		            return;
-  		        }
-  		        alert('Submitting form');
-  		        // The below code will go in ajax success failure functions
-  		      	$('#become-a-tutor-form').addClass('noscreen');
-  		      	$('#become-a-tutor-form-success-message').removeClass('noscreen');
-  		    }
-  		</script>
+  		<script src="https://www.google.com/recaptcha/api.js"></script>
 	</head>
 	<body class="page">
 
@@ -60,21 +31,14 @@
 				<section class="container">
 					<div id="company-strip">
 						<a href="index.html" class="just-link-no-css">
-							<div id="company-logo">
-								<img src="images/company-logo.png" alt="logo"/>
-							</div>
-							<div>
-								<div id="company-name">
-									Company Name
-								</div>
-								<div id="tagline">Guidance@doorstep</div>
-							</div>
+							<img src="images/company-logo-complete.png" alt="logo"/>
 						</a>
 					</div>
-					<div id="primary-action">
+					<div id="primary-action" >
 						<ul>
-							<li><a href="find-tutor.html" class="button">Find Your Tutor</a></li>
-							<li><a href="become-tutor.html" class="button">Become a Tutor</a></li>
+						    <li><a href="./subscribe.html" class="button">Subscribe with Us</a></li>
+							<li><a href="./find-tutor.html" class="button">Find Your Tutor</a></li>
+							<li><a href="./become-tutor.html" class="button">Become a Tutor</a></li>
 						</ul>
 					</div>
 				</section>
@@ -83,31 +47,31 @@
 			<div id="header">
 				<div id="top-navigation" class="container">
 					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li class="active">
-									<a href="index.html">Home</a>
-								</li>
-								<li>
-									<a href="our-services.html">Our Services</a>
-									<ul>
-										<li><a href="private-tutor.html">Private Tutor</a></li>
-										<li><a href="combined-tutoring.html">Combined Tutoring</a></li>
-										<li class="noscreen"><a href="online-tutor.html">Online Tutor</a></li>
-										<li class="noscreen"><a href="study-materials.html">Study Materials</a></li>
-										<li class="noscreen"><a href="student-network.html">Student Network</a></li>
-										<li class="noscreen"><a href="career-focussed-counselling.html">Career Focussed Counselling</a></li>
-									</ul>
-								</li>
-								<li>
-									<a href="about-us.html">About Us</a>
-								</li>
-								<li>
-									<a href="faqs.html">Faq's</a>
-								</li>
-							</ul>
-						</nav>
-
+					<nav id="nav">
+						<ul>
+							<li>
+								<a href="index.html">Home</a>
+							</li>
+							<li>
+								<a href="our-specialty.html">Our Specialty</a>
+							</li>
+							<li>
+								<a href="our-services.html">Our Services</a>
+								<ul>
+									<li><a href="private-tutor.html">Private Tutor</a></li>
+									<li><a href="combined-tutoring.html">Combined Tutoring</a></li>
+									<li><a href="study-materials.html">Study Materials</a></li>
+									<li><a href="career-focussed-counselling.html">Career Focussed Counselling</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="about-us.html">About Us</a>
+							</li>
+							<li>
+								<a href="faqs.html">Faq's</a>
+							</li>
+						</ul>
+					</nav>
 				</div>
 			</div>
 		</div>
@@ -119,36 +83,26 @@
 					<h2>Become a Tutor</h2>
 				</header>
 				<hr class="page-header" />
+				<div class="blinking">Tutors register here and let your talent reach the world .</div>
+				<hr/>
 				<div class="row">
 					<!-- Sidebar -->
-					<div id="sidebar" class="3u skel-cell-important">
+					<div id="sidebar" class="3u big-screen">
 						<section>
-							<img class="full-container-responsive-element image-box-shadow" src="images/register as tutor.png" />
+							<img class="full-container-responsive-element"  src="images/tutor1.png" />
 						</section>
 					</div>
 					<!-- Content -->
 					<div id="content" class="6u">
-						<div class="row input-form-row">
-							<div class="12u skel-cell-important input-form-column-first-row">
-								<p id="failureMessage"></p>
-							</div>
-						</div>
 						<section>
 							<form>
-								<div id="become-a-tutor-form-success-message" class="noscreen">
-									<div class="row input-form-row">
-										<div class="12u skel-cell-important input-form-column-first-row">
-											<p id="successMessage">Thank you for placing your request. Someone from Academic Team will get back to you shortly.</p>
-										</div>
-									</div>
-								</div>
-								<div id="become-a-tutor-form" class="input-form-content" >
+								<div id="become-tutor-form" class="input-form-content" >
 									<div class="row input-form-row">
 										<div class="6u skel-cell-important input-form-column-first-row">
-											<input type="text" name="first-name" placeholder="First Name" />
+											<input type="text" name="first-name" id="first-name" placeholder="First Name" />
 										</div>
 										<div class="6u input-form-column-first-row">
-											<input type="text" name="last-name" placeholder="Last Name" />
+											<input type="text" name="last-name" id="last-name" placeholder="Last Name" />
 										</div>
 									</div>
 									<div class="row input-form-row">
@@ -159,58 +113,46 @@
 														<p class="form-content-color">Date of Birth</p>
 													</div>
 													<div class="9u input-form-column">
-														<input type="date" name="date-of-birth" />
+														<input type="date" name="date-of-birth" id="date-of-birth-big-screen" />
 													</div>
 												</div>
 											</div>
 											<div class="small-screen">
 												<p class="form-content-color">Date of Birth</p>
-												<input type="date" name="date-of-birth" />
+												<input type="date" name="date-of-birth" id="date-of-birth-small-screen"/>
 											</div>
 										</div>
 									</div>
 									<div class="row input-form-row">
 										<div class="6u skel-cell-important input-form-column">
-											<input type="text" name="contact-number" placeholder="Contact Number" />
+											<input type="text" name="contact-number" id="contact-number" placeholder="Contact Number" />
 										</div>
 										<div class="6u input-form-column">
-											<input type="email" name="email" placeholder="Email Id" />
+											<input type="email" name="email" id="email" placeholder="Email Id" />
 										</div>
 									</div>
 									<div class="row input-form-row">
 										<div class="6u skel-cell-important input-form-column">
 											<div class="big-screen">
-												<select name="gender" class="chosen-select-deselect" data-placeholder="Gender">
+												<select name="gender" id="gender-big-screen" class="chosen-select-deselect" data-placeholder="Gender">
 													<option value=""></option>
-													<option value="male">Male</option>
-													<option value="female">Female</option>
-													<option value="other">Other</option>
 												</select>	
 											</div>
 											<div class="small-screen">
-												<select name="gender">
+												<select name="gender" id="gender-small-screen" >
 													<option value="">Gender</option>
-													<option value="male">Male</option>
-													<option value="female">Female</option>
-													<option value="other">Other</option>
 												</select>
 											</div>
 										</div>
 										<div class="6u input-form-column">
 											<div class="big-screen">
-												<select name="qualification" class="chosen-select-deselect" data-placeholder="Qualification">
+												<select name="qualification" id="qualification-big-screen" class="chosen-select-deselect" data-placeholder="Qualification">
 													<option value=""></option>
-													<option value="b-tech">B-Tech</option>
-													<option value="m-tech">M-Tech</option>
-													<option value="phd">Phd</option>
 												</select>
 											</div>
 											<div class="small-screen">
-												<select name="qualification">
+												<select name="qualification" id="qualification-small-screen" >
 													<option value="">Qualification</option>
-													<option value="b-tech">B-Tech</option>
-													<option value="m-tech">M-Tech</option>
-													<option value="phd">Phd</option>
 												</select>
 											</div>
 										</div>
@@ -218,37 +160,51 @@
 									<div class="row input-form-row">
 										<div class="6u skel-cell-important input-form-column">
 											<div class="big-screen">
-												<select name="primary-profession" class="chosen-select-deselect" data-placeholder="Primary Profession">
+												<select name="primary-profession" id="primary-profession-big-screen" class="chosen-select-deselect" data-placeholder="Primary Profession">
 													<option value=""></option>
-													<option value="teacher">Teacher</option>
-													<option value="it">IT</option>
-													<option value="other">Other</option>
 												</select>
 											</div>
 											<div class="small-screen">
-												<select name="primary-profession">
+												<select name="primary-profession" id="primary-profession-small-screen" >
 													<option value="">Primary Profession</option>
-													<option value="teacher">Teacher</option>
-													<option value="it">IT</option>
-													<option value="other">Other</option>
 												</select>
 											</div>
 										</div>
 										<div class="6u input-form-column">
 											<div class="big-screen">
-												<select name="transport-mode" class="chosen-select-deselect" data-placeholder="Transport Mode">
+												<select name="transport-mode" id="transport-mode-big-screen" class="chosen-select-deselect" data-placeholder="Transport Mode">
 													<option value=""></option>
-													<option value="public">Public</option>
-													<option value="two-wheeler">2 Wheeler</option>
-													<option value="four-wheeler">4 Wheeler</option>
 												</select>
 											</div>
 											<div class="small-screen">
-												<select name="transport-mode">
+												<select name="transport-mode" id="transport-mode-small-screen" >
 													<option value="">Transport Mode</option>
-													<option value="public">Public</option>
-													<option value="two-wheeler">2 Wheeler</option>
-													<option value="four-wheeler">4 Wheeler</option>
+												</select>
+											</div>
+										</div>
+									</div>
+									<div class="row input-form-row">
+										<div class="6u skel-cell-important input-form-column">
+											<div class="big-screen">
+												<select name="student-grade" id="student-grade-big-screen" class="chosen-select-deselect" data-placeholder="Grades you Teach" multiple>
+													<option value=""></option>
+												</select>
+											</div>
+											<div class="small-screen">
+												<p class="form-content-color">Grades you Teach</p>
+												<select name="student-grade" id="student-grade-small-screen" multiple>
+												</select>
+											</div>
+										</div>
+										<div class="6u input-form-column">
+											<div class="big-screen">
+												<select name="subjects" id="subjects-big-screen" class="chosen-select-deselect" data-placeholder="Subjects you Teach" multiple>
+													<option value=""></option>
+												</select>
+											</div>
+											<div class="small-screen">
+												<p class="form-content-color">Subjects you Teach</p>
+												<select name="subjects" id="subjects-small-screen" multiple>
 												</select>
 											</div>
 										</div>
@@ -256,103 +212,45 @@
 									<div class="row input-form-row">
 										<div class="12u input-form-column">
 											<div class="big-screen">
-												<select name="locations" class="chosen-select" data-placeholder="Comfortable Locations" multiple>
-													<optgroup label="Zone One">
-														<option value="tedhipulia">Tedhi Pulia</option>
-														<option value="hazratganj">Hazratganj</option>
-														<option value="kapoorthala">Kapoorthala</option>
-													</optgroup>
-													<optgroup label="Zone Two">
-														<option value="tedhipulia">Tedhi Pulia1</option>
-														<option value="hazratganj">Hazratganj1</option>
-														<option value="kapoorthala">Kapoorthala1</option>
-													</optgroup>
-													<optgroup label="Zone Three">
-														<option value="tedhipulia">Tedhi Pulia2</option>
-														<option value="hazratganj">Hazratganj2</option>
-														<option value="kapoorthala">Kapoorthala2</option>
-													</optgroup>
+												<select name="locations" id="locations-big-screen" class="chosen-select" data-placeholder="Comfortable Locations" multiple>
+													<option value=""></option>
 												</select>
 											</div>
 											<div class="small-screen">
 												<p class="form-content-color">Comfortable Locations</p>
-												<select name="locations" multiple>
-													<optgroup label="Zone One">
-														<option value="tedhipulia">Tedhi Pulia</option>
-														<option value="hazratganj">Hazratganj</option>
-														<option value="kapoorthala">Kapoorthala</option>
-													</optgroup>
-													<optgroup label="Zone Two">
-														<option value="tedhipulia">Tedhi Pulia1</option>
-														<option value="hazratganj">Hazratganj1</option>
-														<option value="kapoorthala">Kapoorthala1</option>
-													</optgroup>
-													<optgroup label="Zone Three">
-														<option value="tedhipulia">Tedhi Pulia2</option>
-														<option value="hazratganj">Hazratganj2</option>
-														<option value="kapoorthala">Kapoorthala2</option>
-													</optgroup>
+												<select name="locations" id="locations-small-screen" multiple>
 												</select>
 											</div>
 										</div>
 									</div>
 									<div class="row input-form-row">
 										<div class="6u skel-cell-important input-form-column">
-											<input type="number" name="teaching-experience" placeholder="Teaching Exp in Years (Rounded)" />
+											<input type="number" name="teaching-experience" id="teaching-experience" placeholder="Teaching Exp in Years" />
 										</div>
 										<div class="6u input-form-column">
 											<div class="big-screen">
-												<select name="preferred-time" class="chosen-select-deselect" data-placeholder="Preferred Time to Call" multiple>
+												<select name="preferred-time" id="preferred-time-big-screen" class="chosen-select-deselect" data-placeholder="Preferred Time to Call" multiple>
 												    <option value=""></option>
-												    <optgroup label="Morning">
-													    <option value="8-10A">8:00 AM - 10:00 AM</option>
-													    <option value="10-12A">10:00 AM - 12:00 PM</option>
-												    </optgroup>
-												    <optgroup label="Noon">
-													    <option value="12-2P">12:00 PM - 2:00 PM</option>
-													    <option value="2-4P">2:00 PM - 4:00 PM</option>
-												    </optgroup>
-												    <optgroup label="Evening">
-													    <option value="4-6P">4:00 PM - 6:00 PM</option>
-													    <option value="6-8P">6:00 PM - 8:00 PM</option>
-												    </optgroup>
-												    <optgroup label="Night">
-													    <option value="8-10P">8:00 PM - 10:00 PM</option>
-													    <option value="10-12P">10:00 PM - 12:00 PM</option>
-												    </optgroup>
 												</select>
 											</div>
 											<div class="small-screen">
 												<p class="form-content-color">Preferred Time to Call</p>
-												<select name="preferred-time" multiple>
-												    <optgroup label="Morning">
-													    <option value="8-10A">8:00 AM - 10:00 AM</option>
-													    <option value="10-12A">10:00 AM - 12:00 PM</option>
-												    </optgroup>
-												    <optgroup label="Noon">
-													    <option value="12-2P">12:00 PM - 2:00 PM</option>
-													    <option value="2-4P">2:00 PM - 4:00 PM</option>
-												    </optgroup>
-												    <optgroup label="Evening">
-													    <option value="4-6P">4:00 PM - 6:00 PM</option>
-													    <option value="6-8P">6:00 PM - 8:00 PM</option>
-												    </optgroup>
-												    <optgroup label="Night">
-													    <option value="8-10P">8:00 PM - 10:00 PM</option>
-													    <option value="10-12P">10:00 PM - 12:00 PM</option>
-												    </optgroup>
+												<select name="preferred-time" id="preferred-time-small-screen" multiple>
 												</select>
 											</div>
 										</div>
 									</div>
 									<div class="row input-form-row">
 										<div class="12u skel-cell-important input-form-column">
-											<textarea rows="4" cols="70" placeholder="Provide any additional details about you and we will get back to you within 8 hrs!!!"></textarea>
+											<textarea rows="4" cols="70" id="additional-details" placeholder="Provide any additional details about you and we will get back to you within 8 hrs!!!"></textarea>
 										</div>
 									</div>
 									<div class="row input-form-row">
 										<div class="12u skel-cell-important input-form-column">
-											<input type="checkbox" name="agree-with-terms" /> I hereby provide my consent to CompanyName to contact me on the above details.
+											<label class="checkbox-container">I hereby provide my consent to "Seek Mentore" to contact me on the above details.
+											  <input type="checkbox" name="agree-with-terms" id="agree-with-terms">
+											  <span class="checkmark"></span>
+											</label>
 										</div>
 									</div>
 									<div class="row input-form-row">
@@ -365,8 +263,12 @@
 									    </div>
 									</div>
 									<div class="row input-form-row">
-										<div class="12u skel-cell-important input-form-column" align="center">
-											<a href="javascript:void(0);" onclick="submitForm()" class="button">Request Callback</a>
+										<div class="6u skel-cell-important input-form-column" align="center">
+											<input type="reset" id="become-tutor-form-reset" class="noscreen" value="Reset form">
+											<a href="javascript:void(0);" onclick="resetForm('become-tutor-form-reset')" class="button">Reset Form</a>
+										</div>
+										<div class="6u input-form-column" align="center">
+											<a href="javascript:void(0);" onclick="submitFormBecomeTutor()" class="button">Submit Form</a>
 										</div>
 									</div>
 								</div>
@@ -374,9 +276,9 @@
 						</section>
 					</div>						
 					<!-- Sidebar -->
-					<div id="sidebar" class="3u">
+					<div id="sidebar" class="3u skel-cell-important">
 						<section>
-							<img class="full-container-responsive-element image-box-shadow" src="images/register as tutor.png" />
+							<img class="full-container-responsive-element" src="images/tutor2.png" />
 						</section>
 					</div>
 				</div>
@@ -388,16 +290,16 @@
 			<section class="container">
 				<div id="contact-info">
 					<ul>
-						<li><i class="fa fa-envelope"></i><a href="mailto:support@companyname.com">&#32;support@companyname.com</a></li>
-						<li><i class="fa fa-phone"></i>&#32;<a href="tel:919739936482">+91 9739936482</a></li>
-						<li><i class="fa fa-mobile"></i>&#32;<a href="tel:918588076802">+91 8588076802</a></li>
+						<li><i class="fa fa-envelope"></i><a href="mailto:support@seekmentore.com">&#32;support@seekmentore.com</a></li>
+						<li><i class="fa fa-phone"></i>&#32;<a href="tel:+91 8318939844">+91 8318939844</a></li>
+						<li><i class="fa fa-mobile"></i>&#32;<a href="tel:+91 8960818347">+91 8960818347</a></li>
 					</ul>
 				</div>
 				<div id="contact-info-address">
 					<ul>
 						<li>
 							<i class="fa fa-map-marker"></i>&#32;
-							Office, Street City Pincode State <br/>
+							Seek Mentore, Plot No 1037 Part B, Kiran Enclave, Near Integral University, Lucknow 226026 (U.P.) <br/>
 						</li>
 					</ul>
 				</div>
@@ -406,8 +308,7 @@
 			<div id="footerlinks">
 				<div class="big-screen">
 					<ul>
-						<li><a href="our-specialty.html">Our Specialty</a></li>
-						<li><a href="subscribe.html">Subscribe</a></li>
+						<li><a href="our-team.html">Our Team</a></li>
 						<li><a href="testimonials.html">Testimonials</a></li>
 						<li><a href="social-communications.html">Blog</a></li>
 					</ul>
@@ -418,8 +319,7 @@
 				</div>
 				<div class="small-screen">
 					<ul>
-						<li><a href="our-specialty.html">Our Specialty</a></li>
-						<li><a href="subscribe.html">Subscribe</a></li>
+						<li><a href="our-team.html">Our Team</a></li>
 						<li><a href="testimonials.html">Testimonials</a></li>
 						<li><a href="social-communications.html">Blog</a></li>
 						<li><a href="terms-of-use.html">Terms of Use</a></li>
@@ -427,14 +327,30 @@
 					</ul>
 				</div>
 				<ul>
-					<li><a href="https://www.facebook.com/company-name/" target="_blank" class="fa fa-facebook fa-2x"></a></li>
-					<li><a href="https://twitter.com/company-name?lang=en" target="_blank" class="fa fa-twitter fa-2x"></a></li>
-					<li><a href="https://plus.google.com/communities/108973791037427626012" target="_blank" class="fa fa-google-plus fa-2x"></a></li>
+					<li><a href="https://www.facebook.com/seek.mentore" target="_blank" class="fa fa-facebook fa-2x"></a></li>
+					<li><a href="https://twitter.com/SeekMentore?lang=en" target="_blank" class="fa fa-twitter fa-2x"></a></li>
+					<li><a href="https://plus.google.com/u/0/110537788171941821319" target="_blank" class="fa fa-google-plus fa-2x"></a></li>
 				</ul>
 			</div>
 			<div id="copyright">
-				© Developed and Maintained by <a href="http://www.companyname.com">Company Name</a>
+				© Developed and Maintained by <a href="http://www.seekmentore.com">Seek Mentore</a>
 			</div>			
+		</div>
+		<!-- The Modal -->
+		<div id="notification-popup-modal" class="modal noscreen">
+		  <!-- Modal content -->
+		  <div class="modal-content">
+		  	<div id="alert-title"></div>
+		    <div id="close-notification-popup-modal" class="close-modal" onclick="closeNotificationPopUpModal()">&times;</div>
+		    <hr class="modal-line" />
+		    <p id="notification-popup-model-content-section"></p>
+		    <hr class="modal-line" />
+		    <div onclick="closeNotificationPopUpModal()" class="close-modal-button">OK</div>
+		  </div>
+		</div>
+		<!-- The Loader Modal -->
+		<div id="loader-popup-modal" class="modal noscreen">
+			<div class="loader"></div>
 		</div>
 
 		<!-- Load Scripts -->
@@ -444,8 +360,15 @@
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<!--  Load Blinker -->
+		<script src="js/commonFunctions.js"></script>
 		<!-- Load chosen -->
   		<script src="chosen/chosen.jquery.js" type="text/javascript"></script>
   		<script src="chosen/docsupport/init.js" type="text/javascript"></script>
+  		<!-- Load scripts for taking action on page -->
+  		<script src="js/applicationCommon.js"></script>
+  		<script>
+  			loadDropdowns('TUTOR_REGISTRATION');
+  		</script>
 	</body>
 </html>
