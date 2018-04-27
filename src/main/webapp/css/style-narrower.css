@@ -252,7 +252,7 @@
 	#banner {
 		text-align: center;
 		color: #FFF;
-		height: 15em;
+		height: 19em;
 	}
 
 		#banner .container {
@@ -270,4 +270,12 @@
 
 		#banner span {
 			padding: 1em 0em;
+		}
+		
+		#notification-popup-model-content-section {
+			margin-left: 0%;
+		}	
+		
+		.tub-basket {
+		    width: 95% !important;
 		}
