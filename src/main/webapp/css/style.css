@@ -683,6 +683,11 @@
 		float: left;
 	}
 	
+	#company-strip a img {
+		width: 21em;
+		margin-top: .6em;
+	}
+	
 	#primary-action {
 		float: right;
 		padding-top: 1.3em;
@@ -1399,4 +1404,13 @@ input{
 	    border-bottom: 1px solid #10213a;
 		border-left: 1px solid #10213a;
 		border-right: 1px solid #10213a;
+	}
+	
+	.blinking {
+	/* text-shadow:1px 1px 3px #060635; */
+	text-shadow:1px 2px 2px #060635;
+	color:red;
+	font-size:22px;
+	font-weight:bold;
+	text-align:center;	
 	}

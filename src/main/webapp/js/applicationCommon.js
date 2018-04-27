@@ -127,6 +127,7 @@ function callWebservice(url, data, success, failure, method, contentType) {
 }
 
 function getApplicationToSubmitQuery() {
+	identifyScreenType();
 	var application = {
 			emailId 			: getAttributeValue('email', true),
 			queryDetails 		: getAttributeValue('query-details', false),
@@ -136,6 +137,7 @@ function getApplicationToSubmitQuery() {
 }
 
 function getApplicationToSubscribeWithUs() {
+	identifyScreenType();
 	var application = {
 			firstName 			: getAttributeValue('first-name', false),
 			lastName 			: getAttributeValue('last-name', false),
@@ -151,6 +153,7 @@ function getApplicationToSubscribeWithUs() {
 }
 
 function getApplicationToFindTutor() {
+	identifyScreenType();
 	var application = {
 			name 				: getAttributeValue('name', false),
 			contactNumber 		: getAttributeValue('contact-number', false),
@@ -165,6 +168,7 @@ function getApplicationToFindTutor() {
 }
 
 function getApplicationToBecomeTutor() {
+	identifyScreenType();
 	var form = {
 			firstName 					: getAttributeValue('first-name', false),
 			lastName 					: getAttributeValue('last-name', false),
@@ -417,14 +421,14 @@ function resetForm(resetBtnId) {
 
 function loadTestimonialContent() {
 	testimonials = [{
-		content : '&#34;&#32;Just focus on core teaching, leave other headaches on us. No more struggling with parents for your due fees.&#34;',
-		author : '- Shantanu Mukherjee'
+		content : '&#34;&#32;Seek Mentore did everything – with almost no time or effort from me! The best part was that I could completely trust their team to find the best tutor of Physics for my son.&#34;',
+		author : '- R S Trivedi (Parent)'
 	}, {
-		content : '&#34;&#32;Increase your reach, no more limited to neighbourhood students only. We advertise your calibre and your students’ success stories, for FREE, yes believe it.&#34;',
-		author : '- Jigyasa Singh Tomar'
+		content : '&#34;&#32;When it comes to digital marketing there are loads of commentators that talk a good game, but Seek Mentore help you make it happen. They have enabled me, and given me the confidence to share my knowledge widely. It’s engaging students and bringing education to a new horizon.&#34;',
+		author : '- Akhil Manik (Tutor)'
 	}, {
-		content : '&#34;&#32;Get your own Virtual Office Staff to handle sales, accounts and getting students to you. We will serve you, not you serving us.You are our elite Business Associate not an employee.&#34;',
-		author : '- Silky Mukerjee'
+		content : '&#34;&#32;You made it so simple. The assistance here is so much faster and easier. I just queried for a tutor; filled the form and clicked save. Found a experienced tutor within no time…Thanks, guys!.&#34;',
+		author : '- Shubhashni Pachouri (Student)'
 	}];
 }
 
