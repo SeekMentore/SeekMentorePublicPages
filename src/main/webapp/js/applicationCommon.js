@@ -191,7 +191,7 @@ function getApplicationToBecomeTutor() {
 			locations 					: getAttributeValue('locations', true, true),
 			preferredTimeToCall 		: getAttributeValue('preferred-time', true, true),
 			additionalDetails 			: getAttributeValue('additional-details', false),
-			preferredTeachingType       : getAttributeValue('preferred-teaching-type', true, true),
+			preferredTeachingType       : getAttributeValue('preferred-teaching-type', true),
 			reference                   : getAttributeValue('reference', true),
 			captchaResponse				: captchaResponseToken,
 		};
@@ -356,14 +356,14 @@ function loadBecomeTutorDropdowns(response) {
 	$('#preferred-time-big-screen').html($('#preferred-time-big-screen').html() + preferredTimeSelectHTML);
 	$('#preferred-time-small-screen').html($('#preferred-time-small-screen').html() + preferredTimeSelectHTML);
 	
-	/*var referenceSelectHTML = createSelectOptionOutOfSelectLookupArray(response.referenceLookUp);
+	var referenceSelectHTML = createSelectOptionOutOfSelectLookupArray(response.referenceLookUp);
 	$('#reference-big-screen').html($('#reference-big-screen').html() + referenceSelectHTML);
 	$('#reference-small-screen').html($('#reference-small-screen').html() + referenceSelectHTML);
 	
 	var preferredTeachingTypeHTML = createSelectOptionOutOfSelectLookupArray(response.preferredTeachingTypeLookUp);
 	$('#preferred-teaching-type-big-screen').html($('#preferred-teaching-type-big-screen').html() + preferredTeachingTypeHTML);
 	$('#preferred-teaching-type-small-screen').html($('#preferred-teaching-type-small-screen').html() + preferredTeachingTypeHTML);
-	*/
+	
 	instantiateChosen();
 }
 
