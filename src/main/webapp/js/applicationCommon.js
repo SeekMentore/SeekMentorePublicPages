@@ -147,6 +147,9 @@ function getApplicationToSubscribeWithUs() {
 			subjects 			: getAttributeValue('subjects', true, true),
 			preferredTimeToCall : getAttributeValue('preferred-time', true, true),
 			additionalDetails 	: getAttributeValue('additional-details', false),
+			addressDetails 	    : getAttributeValue('address-details', false),
+			reference 	        : getAttributeValue('reference', false),
+			location     	    : getAttributeValue('location', false),
 			captchaResponse		: captchaResponseToken
 		};
 	return application;
@@ -162,6 +165,9 @@ function getApplicationToFindTutor() {
 			subjects 			: getAttributeValue('subjects', true),
 			preferredTimeToCall : getAttributeValue('preferred-time', true, true),
 			additionalDetails 	: getAttributeValue('additional-details', false),
+			addressDetails 	    : getAttributeValue('address-details', false),
+			reference 	        : getAttributeValue('reference', false),
+			location     	    : getAttributeValue('location', false),
 			captchaResponse		: captchaResponseToken
 		};
 	return application;
@@ -169,7 +175,7 @@ function getApplicationToFindTutor() {
 
 function getApplicationToBecomeTutor() {
 	identifyScreenType();
-	var form = {
+	var form = { 
 			firstName 					: getAttributeValue('first-name', false),
 			lastName 					: getAttributeValue('last-name', false),
 			dateOfBirth 				: getDateValue(getAttributeValue('date-of-birth', true)),
@@ -185,7 +191,8 @@ function getApplicationToBecomeTutor() {
 			locations 					: getAttributeValue('locations', true, true),
 			preferredTimeToCall 		: getAttributeValue('preferred-time', true, true),
 			additionalDetails 			: getAttributeValue('additional-details', false),
-			captchaResponse				: captchaResponseToken
+			captchaResponse				: captchaResponseToken,
+			preferredTeachingType       : getAttributeValue('preferred-teaching-type', false)
 		};
 	return form;
 }
@@ -348,6 +355,14 @@ function loadBecomeTutorDropdowns(response) {
 	$('#preferred-time-big-screen').html($('#preferred-time-big-screen').html() + preferredTimeSelectHTML);
 	$('#preferred-time-small-screen').html($('#preferred-time-small-screen').html() + preferredTimeSelectHTML);
 	
+	/*var referenceSelectHTML = createSelectOptionOutOfSelectLookupArray(response.referenceLookUp);
+	$('#reference-big-screen').html($('#reference-big-screen').html() + referenceSelectHTML);
+	$('#reference-small-screen').html($('#reference-small-screen').html() + referenceSelectHTML);
+	
+	var preferredTeachingTypeHTML = createSelectOptionOutOfSelectLookupArray(response.preferredTeachingTypeLookUp);
+	$('#preferred-teaching-type-big-screen').html($('#preferred-teaching-type-big-screen').html() + preferredTeachingTypeHTML);
+	$('#preferred-teaching-type-small-screen').html($('#preferred-teaching-type-small-screen').html() + preferredTeachingTypeHTML);
+*/	
 	instantiateChosen();
 }
 
@@ -364,6 +379,13 @@ function loadSubscribeDropdowns(response) {
 	$('#preferred-time-big-screen').html($('#preferred-time-big-screen').html() + preferredTimeSelectHTML);
 	$('#preferred-time-small-screen').html($('#preferred-time-small-screen').html() + preferredTimeSelectHTML);
 	
+	var locationSelectHTML = createSelectOptionOutOfSelectLookupArray(response.locationsLookUp);
+	$('#location-big-screen').html($('#location-big-screen').html() + locationSelectHTML);
+	$('#location-small-screen').html($('#location-small-screen').html() + locationSelectHTML);
+
+	var referenceSelectHTML = createSelectOptionOutOfSelectLookupArray(response.referenceLookUp);
+	$('#reference-big-screen').html($('#reference-big-screen').html() + referenceSelectHTML);
+	$('#reference-small-screen').html($('#reference-small-screen').html() + referenceSelectHTML);
 	instantiateChosen();
 }
 
@@ -379,6 +401,15 @@ function loadFindTutorDropdowns(response) {
 	var preferredTimeSelectHTML = createSelectOptionOutOfSelectLookupArray(response.preferredTimeLookUp);
 	$('#preferred-time-big-screen').html($('#preferred-time-big-screen').html() + preferredTimeSelectHTML);
 	$('#preferred-time-small-screen').html($('#preferred-time-small-screen').html() + preferredTimeSelectHTML);
+	
+	var locationSelectHTML = createSelectOptionOutOfSelectLookupArray(response.locationsLookUp);
+	$('#location-big-screen').html($('#location-big-screen').html() + locationSelectHTML);
+	$('#location-small-screen').html($('#location-small-screen').html() + locationSelectHTML);
+
+	var referenceSelectHTML = createSelectOptionOutOfSelectLookupArray(response.referenceLookUp);
+	$('#reference-big-screen').html($('#reference-big-screen').html() + referenceSelectHTML);
+	$('#reference-small-screen').html($('#reference-small-screen').html() + referenceSelectHTML);
+
 	
 	instantiateChosen();
 }
