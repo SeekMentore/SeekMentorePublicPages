@@ -148,8 +148,8 @@ function getApplicationToSubscribeWithUs() {
 			preferredTimeToCall : getAttributeValue('preferred-time', true, true),
 			additionalDetails 	: getAttributeValue('additional-details', false),
 			addressDetails 	    : getAttributeValue('address-details', false),
-			reference 	        : getAttributeValue('reference', false),
-			location     	    : getAttributeValue('location', false),
+			reference 	        : getAttributeValue('reference', true),
+			location     	    : getAttributeValue('location', true),
 			captchaResponse		: captchaResponseToken
 		};
 	return application;
@@ -166,8 +166,8 @@ function getApplicationToFindTutor() {
 			preferredTimeToCall : getAttributeValue('preferred-time', true, true),
 			additionalDetails 	: getAttributeValue('additional-details', false),
 			addressDetails 	    : getAttributeValue('address-details', false),
-			reference 	        : getAttributeValue('reference', false),
-			location     	    : getAttributeValue('location', false),
+			reference 	        : getAttributeValue('reference', true),
+			location     	    : getAttributeValue('location', true),
 			captchaResponse		: captchaResponseToken
 		};
 	return application;
@@ -175,7 +175,7 @@ function getApplicationToFindTutor() {
 
 function getApplicationToBecomeTutor() {
 	identifyScreenType();
-	var form = { 
+	var form = {
 			firstName 					: getAttributeValue('first-name', false),
 			lastName 					: getAttributeValue('last-name', false),
 			dateOfBirth 				: getDateValue(getAttributeValue('date-of-birth', true)),
@@ -191,8 +191,9 @@ function getApplicationToBecomeTutor() {
 			locations 					: getAttributeValue('locations', true, true),
 			preferredTimeToCall 		: getAttributeValue('preferred-time', true, true),
 			additionalDetails 			: getAttributeValue('additional-details', false),
+			preferredTeachingType       : getAttributeValue('preferred-teaching-type', true, true),
+			reference                   : getAttributeValue('reference', true),
 			captchaResponse				: captchaResponseToken,
-			preferredTeachingType       : getAttributeValue('preferred-teaching-type', false)
 		};
 	return form;
 }
@@ -362,7 +363,7 @@ function loadBecomeTutorDropdowns(response) {
 	var preferredTeachingTypeHTML = createSelectOptionOutOfSelectLookupArray(response.preferredTeachingTypeLookUp);
 	$('#preferred-teaching-type-big-screen').html($('#preferred-teaching-type-big-screen').html() + preferredTeachingTypeHTML);
 	$('#preferred-teaching-type-small-screen').html($('#preferred-teaching-type-small-screen').html() + preferredTeachingTypeHTML);
-*/	
+	*/
 	instantiateChosen();
 }
 
