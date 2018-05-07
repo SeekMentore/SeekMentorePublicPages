@@ -192,7 +192,7 @@ function getApplicationToBecomeTutor() {
 			locations 					: getAttributeValue('locations', true, true),
 			preferredTimeToCall 		: getAttributeValue('preferred-time', true, true),
 			additionalDetails 			: getAttributeValue('additional-details', false),
-			preferredTeachingType       : getAttributeValue('preferred-teaching-type', true),
+			preferredTeachingType       : getAttributeValue('preferred-teaching-type', true, true),
 			reference                   : getAttributeValue('reference', true),
 			captchaResponse				: captchaResponseToken,
 		};
