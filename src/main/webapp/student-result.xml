@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<student-list>
+<student>
+<name>jigyasa</name>
+<class>VI</class>
+<phone-no>1234567890</phone-no>
+<address>blank</address>
+<marks>3</marks>
+<learning-style>Theoritical</learning-style>
+<suggestion>kuch bhi nahi</suggestion>
+</student>
+
+<student>
+<name>shantanu</name>
+<class>VII</class>
+<phone-no>2345678910</phone-no>
+<address>blank</address>
+<marks>5</marks>
+<learning-style>out of scope</learning-style>
+<suggestion>Deserves to live on Mars</suggestion>
+</student>
+
+</student-list>
