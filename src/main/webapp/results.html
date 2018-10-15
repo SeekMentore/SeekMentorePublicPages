@@ -82,25 +82,20 @@
 			<!-- <header class="major page-header">
 				<h2>Find Your Learning Style</h2>
 			</header> -->
+			<div class="blinking">Find Your Learning Style. </div><br>
 			<!-- <hr class="page-header" /> -->
-			<div class="blinking">Find Your Learning Style. </div>
-			<hr/>
 			<div class="row">
 				<!-- Sidebar -->
-				<div id="sidebar" class="3u big-screen">
-					<section>
-						<img class="full-container-responsive-element "
-							src="images/parent.png"  />
-					</section>
-				</div>
-				<!-- Content -->
-				<div id="content" class="6u">
+				<div id="sidebar" class="4u big-screen">
 					<section>
 						<form>
 							<div id="results-form" class="input-form-content" >
 								<div class="row input-form-row">
-									<div class="12u skel-cell-important input-form-column-first-row">
-										<input type="text" name="name" id="name" placeholder="Name" /> 
+									<div class="6u skel-cell-important input-form-column-first-row">
+										<input type="text" name="name" id="firstname" placeholder="First Name" /> 
+									</div>
+									<div class="6u input-form-column-first-row">
+										<input type="text" name="lastname" id="name" placeholder="Last Name" /> 
 									</div>
 								</div>		
 								<div class="row input-form-row">
@@ -131,17 +126,23 @@
 										<a href="javascript:void(0);" onclick="submitFormResult()" class="button">Submit Form</a>
 									</div>
 								</div>				
-							</div>
+							</div>							
 						</form>
 					</section>
 				</div>
+				<!-- Content -->
+				<div id="content" class="7u">
+					<table  style="border-color: black; border-width: thick; box-sizing: border-box;  color: Black;border-style: double;padding: 2em; ">
+							<tbody id ="display-result" ></tbody>							
+							</table>	
+				</div>
 				<!-- Sidebar -->
-				<div id="sidebar" class="3u skel-cell-important">
+				<!-- <div id="sidebar" class="2u skel-cell-important">
 					<section>
 						<img class="full-container-responsive-element"
 							src="images/tutor.png" height="450px"/>
 					</section>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</div>
@@ -231,8 +232,9 @@
   		<script src="chosen/docsupport/init.js" type="text/javascript" charset="utf-8"></script>
   		<!-- Load scripts for taking action on page -->
   		<script src="js/applicationCommon.js"></script>
-  		<script>
+  		<script src="js/resultDisplay.js"></script>
+  	 	<script>
   			loadDropdowns('TUTOR_ENQUIRY');
-  		</script>
+  		</script> 
 	</body>
 </html>
