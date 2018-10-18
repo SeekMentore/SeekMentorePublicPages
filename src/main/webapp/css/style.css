@@ -1421,3 +1421,8 @@ input{
 		display: block;
 		
 	}
+	
+	#student-grade-result
+	{ display: inline-block;
+	}
+	
