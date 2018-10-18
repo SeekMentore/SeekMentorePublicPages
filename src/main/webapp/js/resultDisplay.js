@@ -9,6 +9,7 @@ function submitFormResult() {
 	var classNo = $('#student-grade-result');
 	var contact = $('#contact-number');
 	var dataValidated = true;  
+	var studentMatch = false; 
 	
 
     if(!firstName.val().match(/^[A-Za-z]+$/))
@@ -40,20 +41,22 @@ function submitFormResult() {
 
     	for(i=0; i<JSON_Object.length; i++)
     	{
-
-    		if(firstName.value == JSON_Object[i].firstName && classNo.value == JSON_Object[i].className && contact.value ==  JSON_Object[i].phoneNo  )
+    		if(firstName.val() == JSON_Object[i].firstName && classNo.val() == JSON_Object[i].className && contact.val() ==  JSON_Object[i].phoneNo  )
     		{
-    			$('#display-result').html('');
+    			/*$('#display-result').html('');*/
     			innerHTML += '<tr ><td> Name </td><td>'+ '<input type="text" style="font-family: cursive" value ="'+JSON_Object[i].firstName +'  '+ JSON_Object[i].lastName + '"disabled> </td></tr>';
     			innerHTML += '<tr><td> Class </td><td>'+ '<input type="text" style="font-family: cursive" value ="'+ JSON_Object[i].className +'"disabled></td></tr>';
     			innerHTML += '<tr><td> Marks </td><td>'+ '<input type="text"  style="font-family: cursive" value ="'+ JSON_Object[i].marks +'"disabled></td></tr>';
     			innerHTML += '<tr><td> Learning Style </td><td>'+ '<input type="text" style="font-family: cursive" value ="' + JSON_Object[i].learningStyle + '"disabled></td></tr>';
     			innerHTML += '<tr><td> Suggestions </td><td>'+ '<textarea  style="font-family: cursive  overflow: scroll "rows="2" cols="15"  readonly>'+ JSON_Object[i].suggestions + '</textarea>' +'</td></tr>';
+    			studentMatch=true;
 
+    		}
+    		if(studentMatch)
+    		{
     			$('#details-form').addClass('noscreen');
     			$('#display-result').html(innerHTML);
     		}
-
     		else
     		{
     			$('#display-result').html('Please check your details.One or more details entered is incorrect!!').css('color', 'red');
