@@ -32,19 +32,19 @@ function submitFormResult() {
 
     if(!firstName.val().trim().match(/^[A-Za-z]+$/))
     {
-    	$('#display-result').html('Please enter valid Details.').css('color', 'red');
+    	$('#display-result').html('Please enter valid details.').css('color', 'red');
         firstName.focus();
         dataValidated=false;
     }
     if(!lastName.val().trim().match(/^[A-Za-z]+$/))
     {
-    	$('#display-result').html('Please enter valid Details.').css('color', 'red');
+    	$('#display-result').html('Please enter valid details.').css('color', 'red');
         lastName.focus();
         dataValidated=false;
     }    
     if(!contact.val().trim().match(/^[0-9]+$/))
     {
-    	$('#display-result').html('Please enter valid Details.').css('color', 'red');
+    	$('#display-result').html('Please enter valid details.').css('color', 'red');
     	contact.focus();
     	dataValidated=false;
     }
@@ -58,12 +58,7 @@ function submitFormResult() {
     {
 
     	for(i=0; i<JSON_Object.length; i++)
-    	{
-    		if(firstName.val().toLowerCase()==JSON_Object[i].firstName.toLowerCase())
-    			{
-    			alert('Hi');
-    			}
-    		
+    	{    		  		
     		if(firstName.val().toLowerCase().trim() == JSON_Object[i].firstName.toLowerCase() && classNo.val().toLowerCase().trim() == JSON_Object[i].className.toLowerCase() && contact.val().toLowerCase().trim() ==  JSON_Object[i].phoneNo.toLowerCase()  )
     		{
     			/*$('#display-result').html('');*/
@@ -75,16 +70,16 @@ function submitFormResult() {
     			studentMatch=true;
 
     		}
-    		if(studentMatch)
-    		{
-    			$('#details-form').addClass('noscreen');
-    			$('#display-result').html(innerHTML);
-    		}
-    		else
-    		{
-    			$('#display-result').html('Please check your details.One or more details entered is incorrect!!').css('color', 'red');
-    		}
     	}
+    	if(studentMatch)
+		{
+			$('#details-form').addClass('noscreen');
+			$('#display-result').html(innerHTML);
+		}
+		else
+		{
+			$('#display-result').html('Please check your details. One or more details entered is incorrect!!!').css('color', 'red');
+		}
 
     } 
 }
