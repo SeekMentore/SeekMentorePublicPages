@@ -1,5 +1,23 @@
-var studentJSON = "[ {\"firstName\":\"Shantanu\", \"lastName\":\"Mukherjee\", \"className\":\"VII\", \"phoneNo\":\"1234567890\", \"marks\":\"3\", \"learningStyle\":\"sdgashdgsahdsd\", \"suggestions\":\"dfdfdsfds\" },{\"firstName\":\"Jigyasa\", \"lastName\":\"Mukherjee\", \"className\":\"VII\", \"phoneNo\":\"1234567890\", \"marks\":\"3\", \"learningStyle\":\"sdgashdgsahdsd\", \"suggestions\":\"dfdfdsfds\" },	{\"firstName\":\"Silky\", \"lastName\":\"Mukherjee\", \"className\":\"VII\", \"phoneNo\":\"1234567890\", \"marks\":\"3\", \"learningStyle\":\"sdgashdgsahdsd\", \"suggestions\":\"dfdfdsfds\" } ]";
-
+//var studentJSON = "[ {\"firstName\":\"Shantanu\", \"lastName\":\"Mukherjee\", \"className\":\"VII\", \"phoneNo\":\"1234567890\", \"marks\":\"3\", \"learningStyle\":\"sdgashdgsahdsd\", \"suggestions\":\"dfdfdsfds\" },{\"firstName\":\"Jigyasa\", \"lastName\":\"Mukherjee\", \"className\":\"VII\", \"phoneNo\":\"1234567890\", \"marks\":\"3\", \"learningStyle\":\"sdgashdgsahdsd\", \"suggestions\":\"dfdfdsfds\" },	{\"firstName\":\"Silky\", \"lastName\":\"Mukherjee\", \"className\":\"VII\", \"phoneNo\":\"1234567890\", \"marks\":\"3\", \"learningStyle\":\"sdgashdgsahdsd\", \"suggestions\":\"dfdfdsfds\" } ]";
+var studentDataList = [{
+		firstName : "Shantanu",
+		lastName : "Mukherjee",
+		className : "VII",
+		phoneNo : "9739936482",
+		marks : 3,
+		learningStyle : "Shantanu's learning style",
+		suggestions : "Suggestions for Shantanu"
+	},{
+		firstName : "Jigyasa",
+		lastName : "Tomar",
+		className : "VIII",
+		phoneNo : "5855076802",
+		marks : 3,
+		learningStyle : "Jigyasa's learning style",
+		suggestions : "Suggestions for Jigyasa"
+	}
+]
+var studentJSON = JSON.stringify(studentDataList);
 function submitFormResult() {	
 	
 	var JSON_Object = JSON.parse(studentJSON);
