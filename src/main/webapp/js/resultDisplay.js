@@ -56,7 +56,7 @@ function submitFormResult() {
 
     		else
     		{
-    			$('#display-result').html('Please check your details.One or more details entered is incorrect!!');
+    			$('#display-result').html('Please check your details.One or more details entered is incorrect!!').css('color', 'red');
     		}
     	}
 
