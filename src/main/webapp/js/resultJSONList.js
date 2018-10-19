@@ -1,9 +1,9 @@
-//var NO_VALUE_HERE = 0;
+var NO_VALUE_HERE = 0;
 var studentDataList = [{
 	firstName : "ABHAY",
 	lastName : "AGNIHOTRI",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
+	phoneNo : "1234567890",
 	address : "NO_VALUE_HERE",
 	visualPrefScore : 28,
 	auditoryPrefScore : 32,
