@@ -69,7 +69,6 @@ function submitFormResult() {
 
     		}
     	}
-    	alert(studentMatch);
     	if(studentMatch) {
 			$('#details-form').addClass('noscreen');
 			$('#back-to-form-div').removeClass('noscreen');
