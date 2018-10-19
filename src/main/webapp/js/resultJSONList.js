@@ -1,4 +1,4 @@
-var NO_VALUE_HERE = 0;
+//var NO_VALUE_HERE = 0;
 var studentDataList = [{
 	firstName : "ABHAY",
 	lastName : "AGNIHOTRI",
