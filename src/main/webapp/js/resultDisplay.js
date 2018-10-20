@@ -8,29 +8,8 @@ function submitFormResult() {
 	var dataValidated = true;  
 	var studentMatch = false; 	
 
-	if (contact.val() != "") {
-    	// Verify contact info if it is entered
-    	if(!contact.val().trim().match(/^[0-9]+$/)) {
-    		$('#display-result').html('Please enter proper 10 digit "Contact Number".').css('color', 'red');
-    		contact.focus();
-    		dataValidated=false;
-    	}
-    }
-	if(!lastName.val().trim().match(/^[A-Za-z ]+$/)) {
-    	$('#display-result').html('Please enter proper "Last Name".').css('color', 'red');
-        lastName.focus();
-        dataValidated=false;
-    }
-    if(!firstName.val().trim().match(/^[A-Za-z ]+$/)) {
-    	$('#display-result').html('Please enter proper "First Name".').css('color', 'red');
-        firstName.focus();
-        dataValidated=false;
-    }
-    
     if(
     		firstName.val() == "" 
-			//|| contact.val() == "" 
-			|| lastName.val() == "" 
 			|| classNo.val() == ""
 	) {
     	$('#result-unavailable-message-box').html('One or more fields are empty. Please enter all the details.');
