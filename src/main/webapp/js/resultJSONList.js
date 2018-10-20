@@ -3,8 +3,8 @@ var studentDataList = [{
 	firstName : "ABHAY",
 	lastName : "AGNIHOTRI",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 28,
 	auditoryPrefScore : 32,
 	tacticalPrefScore : 16,
@@ -77,7 +77,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -113,8 +113,8 @@ var studentDataList = [{
 	firstName : "ABHISHEK",
 	lastName : "KASHYAP",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 28,
 	auditoryPrefScore : 38,
 	tacticalPrefScore : 24,
@@ -187,7 +187,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -223,8 +223,8 @@ var studentDataList = [{
 	firstName : "ADITI",
 	lastName : "TIWARI",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 30,
 	auditoryPrefScore : 32,
 	tacticalPrefScore : 24,
@@ -297,7 +297,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -333,8 +333,8 @@ var studentDataList = [{
 	firstName : "ADITYA",
 	lastName : "KUMAR RAI",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 30,
 	auditoryPrefScore : 30,
 	tacticalPrefScore : 22,
@@ -407,7 +407,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -443,8 +443,8 @@ var studentDataList = [{
 	firstName : "ADITYA",
 	lastName : "NARAYAN PRAJAPATI",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 30,
 	auditoryPrefScore : 32,
 	tacticalPrefScore : 18,
@@ -517,7 +517,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -553,8 +553,8 @@ var studentDataList = [{
 	firstName : "ADITYA",
 	lastName : "TIWARI",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 18,
 	auditoryPrefScore : 22,
 	tacticalPrefScore : 32,
@@ -627,7 +627,7 @@ var studentDataList = [{
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -663,8 +663,8 @@ var studentDataList = [{
 	firstName : "AGRIMAA",
 	lastName : "ROY",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 20,
 	auditoryPrefScore : 28,
 	tacticalPrefScore : 22,
@@ -737,7 +737,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -773,8 +773,8 @@ var studentDataList = [{
 	firstName : "AHANA",
 	lastName : "AWASTHI",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 30,
 	auditoryPrefScore : 32,
 	tacticalPrefScore : 12,
@@ -847,7 +847,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -883,8 +883,8 @@ var studentDataList = [{
 	firstName : "AKANSHA",
 	lastName : "PRAJAPATI",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 38,
 	auditoryPrefScore : 34,
 	tacticalPrefScore : 20,
@@ -957,7 +957,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -993,8 +993,8 @@ var studentDataList = [{
 	firstName : "AKANSHA",
 	lastName : "SINGH",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 32,
 	auditoryPrefScore : 36,
 	tacticalPrefScore : 24,
@@ -1067,7 +1067,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -1103,8 +1103,8 @@ var studentDataList = [{
 	firstName : "AKSHITA",
 	lastName : "TRIPATHI",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 28,
 	auditoryPrefScore : 28,
 	tacticalPrefScore : 27,
@@ -1173,7 +1173,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -1209,8 +1209,8 @@ var studentDataList = [{
 	firstName : "AMIT",
 	lastName : "KUMAR SINGH",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 28,
 	auditoryPrefScore : 30,
 	tacticalPrefScore : 24,
@@ -1283,7 +1283,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -1319,8 +1319,8 @@ var studentDataList = [{
 	firstName : "ANAMIKA",
 	lastName : "PRAJAPATI",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 28,
 	auditoryPrefScore : 22,
 	tacticalPrefScore : 12,
@@ -1393,7 +1393,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -1429,8 +1429,8 @@ var studentDataList = [{
 	firstName : "ANAMIKA",
 	lastName : "SINGH",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 30,
 	auditoryPrefScore : 28,
 	tacticalPrefScore : 24,
@@ -1503,7 +1503,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -1539,8 +1539,8 @@ var studentDataList = [{
 	firstName : "ANSHIKA",
 	lastName : "AWASTHI",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 20,
 	auditoryPrefScore : 26,
 	tacticalPrefScore : 26,
@@ -1613,7 +1613,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -1649,8 +1649,8 @@ var studentDataList = [{
 	firstName : "ANUSHKA",
 	lastName : "SINGH",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 26,
 	auditoryPrefScore : 24,
 	tacticalPrefScore : 20,
@@ -1723,7 +1723,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -1759,8 +1759,8 @@ var studentDataList = [{
 	firstName : "AUJES",
 	lastName : "SINGHAL",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 20,
 	auditoryPrefScore : 30,
 	tacticalPrefScore : 18,
@@ -1833,7 +1833,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -1869,8 +1869,8 @@ var studentDataList = [{
 	firstName : "ARYAN",
 	lastName : "SINGH",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 18,
 	auditoryPrefScore : 29,
 	tacticalPrefScore : 20,
@@ -1939,7 +1939,7 @@ var studentDataList = [{
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -1975,8 +1975,8 @@ var studentDataList = [{
 	firstName : "ATUL",
 	lastName : "KUMAR PAL",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 34,
 	auditoryPrefScore : 28,
 	tacticalPrefScore : 18,
@@ -2049,7 +2049,7 @@ var studentDataList = [{
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -2085,8 +2085,8 @@ var studentDataList = [{
 	firstName : "AYUSHMANN",
 	lastName : "LOHANI",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 20,
 	auditoryPrefScore : 28,
 	tacticalPrefScore : 16,
@@ -2159,7 +2159,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -2195,8 +2195,8 @@ var studentDataList = [{
 	firstName : "BHUMIKA",
 	lastName : "PANDEY",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 26,
 	auditoryPrefScore : 32,
 	tacticalPrefScore : 14,
@@ -2269,7 +2269,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -2305,8 +2305,8 @@ var studentDataList = [{
 	firstName : "DEEPTI",
 	lastName : "MISHRA",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 20,
 	auditoryPrefScore : 30,
 	tacticalPrefScore : 14,
@@ -2379,7 +2379,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -2415,8 +2415,8 @@ var studentDataList = [{
 	firstName : "DEVYANSHU",
 	lastName : "TIWARI",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 22,
 	auditoryPrefScore : 36,
 	tacticalPrefScore : 16,
@@ -2489,7 +2489,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -2525,8 +2525,8 @@ var studentDataList = [{
 	firstName : "FALAK",
 	lastName : "JAMUEL",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 26,
 	auditoryPrefScore : 36,
 	tacticalPrefScore : 18,
@@ -2599,7 +2599,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -2635,8 +2635,8 @@ var studentDataList = [{
 	firstName : "GARIMA",
 	lastName : "YADAV",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 32,
 	auditoryPrefScore : 26,
 	tacticalPrefScore : 20,
@@ -2709,7 +2709,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -2745,8 +2745,8 @@ var studentDataList = [{
 	firstName : "GAURAV",
 	lastName : "SONI",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 30,
 	auditoryPrefScore : 27,
 	tacticalPrefScore : 26,
@@ -2819,7 +2819,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -2851,8 +2851,8 @@ var studentDataList = [{
 	firstName : "HARSH",
 	lastName : "VARDHAN",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 24,
 	auditoryPrefScore : 28,
 	tacticalPrefScore : 18,
@@ -2925,7 +2925,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -2961,8 +2961,8 @@ var studentDataList = [{
 	firstName : "HARSHIT",
 	lastName : "SINGH",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 23,
 	auditoryPrefScore : 32,
 	tacticalPrefScore : 20,
@@ -3035,7 +3035,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -3067,8 +3067,8 @@ var studentDataList = [{
 	firstName : "HEMANT",
 	lastName : "KUMAR",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 30,
 	auditoryPrefScore : 34,
 	tacticalPrefScore : 26,
@@ -3141,7 +3141,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -3177,8 +3177,8 @@ var studentDataList = [{
 	firstName : "HIMANSHU",
 	lastName : "RAJ",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 22,
 	auditoryPrefScore : 24,
 	tacticalPrefScore : 24,
@@ -3251,7 +3251,7 @@ var studentDataList = [{
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -3287,8 +3287,8 @@ var studentDataList = [{
 	firstName : "ISHIKA",
 	lastName : "JAISWAL",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 24,
 	auditoryPrefScore : 26,
 	tacticalPrefScore : 28,
@@ -3361,7 +3361,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -3397,8 +3397,8 @@ var studentDataList = [{
 	firstName : "ISHITA",
 	lastName : "SINGH CHAUHAN",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 36,
 	auditoryPrefScore : 32,
 	tacticalPrefScore : 16,
@@ -3471,7 +3471,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -3507,8 +3507,8 @@ var studentDataList = [{
 	firstName : "JANVI",
 	lastName : "RASTOGI",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 22,
 	auditoryPrefScore : 30,
 	tacticalPrefScore : 14,
@@ -3581,7 +3581,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -3617,8 +3617,8 @@ var studentDataList = [{
 	firstName : "JAYA",
 	lastName : "YADAV",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 26,
 	auditoryPrefScore : 32,
 	tacticalPrefScore : 26,
@@ -3683,7 +3683,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -3719,8 +3719,8 @@ var studentDataList = [{
 	firstName : "JYOTI",
 	lastName : "PATHAK",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 34,
 	auditoryPrefScore : 32,
 	tacticalPrefScore : 20,
@@ -3793,7 +3793,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -3829,8 +3829,8 @@ var studentDataList = [{
 	firstName : "JYOTI",
 	lastName : "PRIYA",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 26,
 	auditoryPrefScore : 26,
 	tacticalPrefScore : 22,
@@ -3903,7 +3903,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -3939,8 +3939,8 @@ var studentDataList = [{
 	firstName : "KAJAL",
 	lastName : "YADAV",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 28,
 	auditoryPrefScore : 28,
 	tacticalPrefScore : 26,
@@ -4013,7 +4013,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -4049,8 +4049,8 @@ var studentDataList = [{
 	firstName : "KARAN",
 	lastName : "THAPA",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 26,
 	auditoryPrefScore : 20,
 	tacticalPrefScore : 18,
@@ -4123,7 +4123,7 @@ var studentDataList = [{
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -4159,8 +4159,8 @@ var studentDataList = [{
 	firstName : "KARTIKEY",
 	lastName : "BHATT",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 26,
 	auditoryPrefScore : 24,
 	tacticalPrefScore : 30,
@@ -4233,7 +4233,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -4269,8 +4269,8 @@ var studentDataList = [{
 	firstName : "KARTIKEY",
 	lastName : "SINGH",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 24,
 	auditoryPrefScore : 28,
 	tacticalPrefScore : 24,
@@ -4343,7 +4343,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -4379,8 +4379,8 @@ var studentDataList = [{
 	firstName : "KASHISH",
 	lastName : "YADAV",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 24,
 	auditoryPrefScore : 34,
 	tacticalPrefScore : 20,
@@ -4453,7 +4453,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -4489,8 +4489,8 @@ var studentDataList = [{
 	firstName : "KAUSHAL",
 	lastName : "SINGH KARKI",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 34,
 	auditoryPrefScore : 32,
 	tacticalPrefScore : 30,
@@ -4563,7 +4563,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -4599,8 +4599,8 @@ var studentDataList = [{
 	firstName : "KAUSHIK",
 	lastName : "YADAV",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 28,
 	auditoryPrefScore : 28,
 	tacticalPrefScore : 20,
@@ -4673,7 +4673,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -4709,8 +4709,8 @@ var studentDataList = [{
 	firstName : "KHUSHI",
 	lastName : "MAURYA",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 28,
 	auditoryPrefScore : 38,
 	tacticalPrefScore : 26,
@@ -4783,7 +4783,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -4817,10 +4817,10 @@ var studentDataList = [{
 	}]
 },{
 	firstName : "KIRTI",
-	lastName : "NO_VALUE_HERE",
+	lastName : "",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 26,
 	auditoryPrefScore : 30,
 	tacticalPrefScore : 24,
@@ -4829,13 +4829,108 @@ var studentDataList = [{
 	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
 	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
+		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I prefer to see information written on the board and supplemented by visual aids and assigned readings",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I like to write things down or take notes for visual review",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I prefer to use posters, models, or actual practice and other activities in class",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I require explanations of diagrams, graphs, or visual directions",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I enjoy working with my hands or making things",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I am skillful with and enjoy developing making graphs and charts",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I can tell if sounds match when presented with pairs of sounds",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I can remember best by writing things down several times",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I can easily understand and follow directions on a map",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I do best in academic subjects by listening to lectures and tapes",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I play with coins or keys in my pocket",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I learn to spell better by repeating words out loud than by writing the words on paper",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I can understand a news article better by reading about it in the newspaper or online rather than by listening to a report about it on the radio or internet",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I chew gum, smoke or snack while studying",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I think the best way to remember something is to picture it in my mind",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I would rather listen to a good lecture or speech than read about the same material",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I am good at working and solving jigsaw puzzles and mazes",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I grip objects in my hands during learning periods",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I prefer listening to the news on the radio or online rather than reading about it in a newspaper or on the internet",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I prefer obtaining information about an interesting subject by reading about it",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I feel very comfortable touching others hugging, handshaking, etc",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I follow oral directions better than written ones",
+		answer : 3,
+		answerResponse : "SOMETIMES",
 	}]
 },{
 	firstName : "MOHD. ARSHIL",
-	lastName : "NO_VALUE_HERE",
+	lastName : "",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 40,
 	auditoryPrefScore : 40,
 	tacticalPrefScore : 40,
@@ -4844,13 +4939,108 @@ var studentDataList = [{
 	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
 	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
+		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I prefer to see information written on the board and supplemented by visual aids and assigned readings",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I like to write things down or take notes for visual review",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I prefer to use posters, models, or actual practice and other activities in class",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I require explanations of diagrams, graphs, or visual directions",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I enjoy working with my hands or making things",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I am skillful with and enjoy developing making graphs and charts",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I can tell if sounds match when presented with pairs of sounds",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I can remember best by writing things down several times",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I can easily understand and follow directions on a map",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I do best in academic subjects by listening to lectures and tapes",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I play with coins or keys in my pocket",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I learn to spell better by repeating words out loud than by writing the words on paper",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I can understand a news article better by reading about it in the newspaper or online rather than by listening to a report about it on the radio or internet",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I chew gum, smoke or snack while studying",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I think the best way to remember something is to picture it in my mind",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I would rather listen to a good lecture or speech than read about the same material",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I am good at working and solving jigsaw puzzles and mazes",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I grip objects in my hands during learning periods",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I prefer listening to the news on the radio or online rather than reading about it in a newspaper or on the internet",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I prefer obtaining information about an interesting subject by reading about it",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I feel very comfortable touching others hugging, handshaking, etc",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I follow oral directions better than written ones",
+		answer : 5,
+		answerResponse : "OFTEN",
 	}]
 },{
 	firstName : "MOHD. DANISH",
 	lastName : "USMANI",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 32,
 	auditoryPrefScore : 32,
 	tacticalPrefScore : 28,
@@ -4923,7 +5113,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -4957,10 +5147,10 @@ var studentDataList = [{
 	}]
 },{
 	firstName : "MOHD. FAIZAN",
-	lastName : "NO_VALUE_HERE",
+	lastName : "",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 30,
 	auditoryPrefScore : 34,
 	tacticalPrefScore : 20,
@@ -4969,13 +5159,108 @@ var studentDataList = [{
 	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
 	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
+		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I prefer to see information written on the board and supplemented by visual aids and assigned readings",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I like to write things down or take notes for visual review",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I prefer to use posters, models, or actual practice and other activities in class",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I require explanations of diagrams, graphs, or visual directions",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I enjoy working with my hands or making things",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I am skillful with and enjoy developing making graphs and charts",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I can tell if sounds match when presented with pairs of sounds",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I can remember best by writing things down several times",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I can easily understand and follow directions on a map",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I do best in academic subjects by listening to lectures and tapes",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I play with coins or keys in my pocket",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I learn to spell better by repeating words out loud than by writing the words on paper",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I can understand a news article better by reading about it in the newspaper or online rather than by listening to a report about it on the radio or internet",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I chew gum, smoke or snack while studying",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I think the best way to remember something is to picture it in my mind",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I would rather listen to a good lecture or speech than read about the same material",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I am good at working and solving jigsaw puzzles and mazes",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I grip objects in my hands during learning periods",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I prefer listening to the news on the radio or online rather than reading about it in a newspaper or on the internet",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I prefer obtaining information about an interesting subject by reading about it",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I feel very comfortable touching others hugging, handshaking, etc",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I follow oral directions better than written ones",
+		answer : 5,
+		answerResponse : "OFTEN",
 	}]
 },{
 	firstName : "MADHUR",
 	lastName : "MOHAN SAINI",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 36,
 	auditoryPrefScore : 38,
 	tacticalPrefScore : 21,
@@ -5044,7 +5329,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -5080,8 +5365,8 @@ var studentDataList = [{
 	firstName : "MAHIMA",
 	lastName : "RAI",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 32,
 	auditoryPrefScore : 32,
 	tacticalPrefScore : 24,
@@ -5154,7 +5439,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -5190,8 +5475,8 @@ var studentDataList = [{
 	firstName : "MAMTA",
 	lastName : "MAURYA",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 26,
 	auditoryPrefScore : 30,
 	tacticalPrefScore : 22,
@@ -5264,7 +5549,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -5300,8 +5585,8 @@ var studentDataList = [{
 	firstName : "MANAS",
 	lastName : "KHARE",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 28,
 	auditoryPrefScore : 28,
 	tacticalPrefScore : 26,
@@ -5374,7 +5659,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -5411,7 +5696,7 @@ var studentDataList = [{
 	lastName : "SINGH",
 	className : "IX",
 	phoneNo : "9839022888",
-	address : "NO_VALUE_HERE",
+	address : "",
 	visualPrefScore : 30,
 	auditoryPrefScore : 28,
 	tacticalPrefScore : 28,
@@ -5484,7 +5769,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ?finger spelling? them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -5521,7 +5806,7 @@ var studentDataList = [{
 	lastName : "SINGH",
 	className : "IX",
 	phoneNo : "9415335713",
-	address : "NO_VALUE_HERE",
+	address : "",
 	visualPrefScore : 10,
 	auditoryPrefScore : 30,
 	tacticalPrefScore : 24,
@@ -5593,7 +5878,7 @@ var studentDataList = [{
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ?finger spelling? them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -5629,8 +5914,8 @@ var studentDataList = [{
 	firstName : "MAYANK",
 	lastName : "KUMAR MAURYA",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 24,
 	auditoryPrefScore : 28,
 	tacticalPrefScore : 16,
@@ -5703,7 +5988,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -5739,8 +6024,8 @@ var studentDataList = [{
 	firstName : "MEGHA",
 	lastName : "KHARE",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 22,
 	auditoryPrefScore : 28,
 	tacticalPrefScore : 32,
@@ -5813,7 +6098,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -5849,8 +6134,8 @@ var studentDataList = [{
 	firstName : "MOIN-UR-REHMAN",
 	lastName : "SIDDIQUI",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 32,
 	auditoryPrefScore : 32,
 	tacticalPrefScore : 26,
@@ -5923,7 +6208,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -5959,8 +6244,8 @@ var studentDataList = [{
 	firstName : "PRAHLAD",
 	lastName : "DEY",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 26,
 	auditoryPrefScore : 32,
 	tacticalPrefScore : 24,
@@ -6033,7 +6318,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -6069,8 +6354,8 @@ var studentDataList = [{
 	firstName : "NATANSH",
 	lastName : "PARTH",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 26,
 	auditoryPrefScore : 32,
 	tacticalPrefScore : 18,
@@ -6143,7 +6428,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -6179,8 +6464,8 @@ var studentDataList = [{
 	firstName : "NIDA",
 	lastName : "ROSHAN",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 32,
 	auditoryPrefScore : 26,
 	tacticalPrefScore : 28,
@@ -6253,7 +6538,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -6289,8 +6574,8 @@ var studentDataList = [{
 	firstName : "NISHA",
 	lastName : "YADAV",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 34,
 	auditoryPrefScore : 32,
 	tacticalPrefScore : 18,
@@ -6363,7 +6648,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -6399,8 +6684,8 @@ var studentDataList = [{
 	firstName : "NITIN",
 	lastName : "YADAV",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 22,
 	auditoryPrefScore : 32,
 	tacticalPrefScore : 22,
@@ -6473,7 +6758,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -6509,8 +6794,8 @@ var studentDataList = [{
 	firstName : "NIYATI",
 	lastName : "SINGH",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 30,
 	auditoryPrefScore : 32,
 	tacticalPrefScore : 22,
@@ -6583,7 +6868,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -6619,8 +6904,8 @@ var studentDataList = [{
 	firstName : "PARAS",
 	lastName : "BHARADWAJ",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 24,
 	auditoryPrefScore : 34,
 	tacticalPrefScore : 30,
@@ -6693,7 +6978,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -6729,8 +7014,8 @@ var studentDataList = [{
 	firstName : "PRACHI",
 	lastName : "SINGH RAWAT",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 32,
 	auditoryPrefScore : 30,
 	tacticalPrefScore : 16,
@@ -6803,7 +7088,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -6839,8 +7124,8 @@ var studentDataList = [{
 	firstName : "PRATHANA",
 	lastName : "SINGH",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 26,
 	auditoryPrefScore : 33,
 	tacticalPrefScore : 30,
@@ -6909,7 +7194,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -6945,8 +7230,8 @@ var studentDataList = [{
 	firstName : "PRANJAL",
 	lastName : "PAL",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 38,
 	auditoryPrefScore : 28,
 	tacticalPrefScore : 18,
@@ -7019,7 +7304,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -7055,8 +7340,8 @@ var studentDataList = [{
 	firstName : "PIYUSH",
 	lastName : "YADAV",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 24,
 	auditoryPrefScore : 32,
 	tacticalPrefScore : 18,
@@ -7129,7 +7414,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -7165,8 +7450,8 @@ var studentDataList = [{
 	firstName : "RESHAM",
 	lastName : "KHAN",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 28,
 	auditoryPrefScore : 30,
 	tacticalPrefScore : 20,
@@ -7239,7 +7524,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -7275,8 +7560,8 @@ var studentDataList = [{
 	firstName : "RISHAB",
 	lastName : "SINGH",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 32,
 	auditoryPrefScore : 24,
 	tacticalPrefScore : 30,
@@ -7349,7 +7634,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -7385,8 +7670,8 @@ var studentDataList = [{
 	firstName : "RITIK",
 	lastName : "DWIVEDI",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 22,
 	auditoryPrefScore : 36,
 	tacticalPrefScore : 16,
@@ -7459,7 +7744,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -7495,8 +7780,8 @@ var studentDataList = [{
 	firstName : "RICHA",
 	lastName : "TIWARI",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 22,
 	auditoryPrefScore : 28,
 	tacticalPrefScore : 20,
@@ -7569,7 +7854,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -7605,8 +7890,8 @@ var studentDataList = [{
 	firstName : "ROYCE",
 	lastName : "SAI",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 30,
 	auditoryPrefScore : 15,
 	tacticalPrefScore : 18,
@@ -7679,7 +7964,7 @@ var studentDataList = [{
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -7711,8 +7996,8 @@ var studentDataList = [{
 	firstName : "RUDRA",
 	lastName : "PRATAP SINGH",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 34,
 	auditoryPrefScore : 34,
 	tacticalPrefScore : 24,
@@ -7785,7 +8070,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -7821,8 +8106,8 @@ var studentDataList = [{
 	firstName : "SADAF",
 	lastName : "SAGEER",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 28,
 	auditoryPrefScore : 32,
 	tacticalPrefScore : 18,
@@ -7895,7 +8180,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -7931,8 +8216,8 @@ var studentDataList = [{
 	firstName : "SAMREEN",
 	lastName : "KHAN",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 22,
 	auditoryPrefScore : 30,
 	tacticalPrefScore : 26,
@@ -8005,7 +8290,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -8041,8 +8326,8 @@ var studentDataList = [{
 	firstName : "SARTHAK",
 	lastName : "KUMAR",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 32,
 	auditoryPrefScore : 24,
 	tacticalPrefScore : 18,
@@ -8115,7 +8400,7 @@ var studentDataList = [{
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -8151,8 +8436,8 @@ var studentDataList = [{
 	firstName : "SATVIK",
 	lastName : "YADAV",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 24,
 	auditoryPrefScore : 34,
 	tacticalPrefScore : 22,
@@ -8225,7 +8510,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -8261,8 +8546,8 @@ var studentDataList = [{
 	firstName : "SATYAM",
 	lastName : "SINGH",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 28,
 	auditoryPrefScore : 34,
 	tacticalPrefScore : 26,
@@ -8335,7 +8620,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -8371,8 +8656,8 @@ var studentDataList = [{
 	firstName : "SAUMYA",
 	lastName : "SRIVASTAVA",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 20,
 	auditoryPrefScore : 36,
 	tacticalPrefScore : 30,
@@ -8445,7 +8730,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -8481,8 +8766,8 @@ var studentDataList = [{
 	firstName : "SHAILJA",
 	lastName : "YADAV",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 20,
 	auditoryPrefScore : 28,
 	tacticalPrefScore : 14,
@@ -8555,7 +8840,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -8591,8 +8876,8 @@ var studentDataList = [{
 	firstName : "SHIKHAR",
 	lastName : "SWAROOP SAXENA",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 28,
 	auditoryPrefScore : 30,
 	tacticalPrefScore : 22,
@@ -8665,7 +8950,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -8701,8 +8986,8 @@ var studentDataList = [{
 	firstName : "SHIPRA",
 	lastName : "SINGH",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 26,
 	auditoryPrefScore : 24,
 	tacticalPrefScore : 22,
@@ -8775,7 +9060,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -8811,8 +9096,8 @@ var studentDataList = [{
 	firstName : "SHIVAM",
 	lastName : "SINGH",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 20,
 	auditoryPrefScore : 28,
 	tacticalPrefScore : 20,
@@ -8885,7 +9170,7 @@ var studentDataList = [{
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -8921,8 +9206,8 @@ var studentDataList = [{
 	firstName : "SHREYA",
 	lastName : "RAI",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 34,
 	auditoryPrefScore : 22,
 	tacticalPrefScore : 14,
@@ -8995,7 +9280,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -9031,8 +9316,8 @@ var studentDataList = [{
 	firstName : "SHIVANSH",
 	lastName : "YADAV",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 22,
 	auditoryPrefScore : 28,
 	tacticalPrefScore : 20,
@@ -9105,7 +9390,7 @@ var studentDataList = [{
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -9141,8 +9426,8 @@ var studentDataList = [{
 	firstName : "SHIVENDRA",
 	lastName : "PRATAP SINGH",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 22,
 	auditoryPrefScore : 36,
 	tacticalPrefScore : 16,
@@ -9215,7 +9500,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -9251,8 +9536,8 @@ var studentDataList = [{
 	firstName : "SMRITI",
 	lastName : "KASHYAP",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 38,
 	auditoryPrefScore : 34,
 	tacticalPrefScore : 20,
@@ -9325,7 +9610,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -9361,8 +9646,8 @@ var studentDataList = [{
 	firstName : "STUTI",
 	lastName : "UPADHYAY",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 21,
 	auditoryPrefScore : 36,
 	tacticalPrefScore : 22,
@@ -9435,7 +9720,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -9467,8 +9752,8 @@ var studentDataList = [{
 	firstName : "SUMIT",
 	lastName : "KUMAR YADAV",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 22,
 	auditoryPrefScore : 34,
 	tacticalPrefScore : 20,
@@ -9541,7 +9826,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -9577,8 +9862,8 @@ var studentDataList = [{
 	firstName : "SUNNY",
 	lastName : "SINGH",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 40,
 	auditoryPrefScore : 40,
 	tacticalPrefScore : 40,
@@ -9651,7 +9936,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -9685,10 +9970,10 @@ var studentDataList = [{
 	}]
 },{
 	firstName : "SYED MOHD. SAHAB",
-	lastName : "NO_VALUE_HERE",
+	lastName : "",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 36,
 	auditoryPrefScore : 35,
 	tacticalPrefScore : 26,
@@ -9697,13 +9982,108 @@ var studentDataList = [{
 	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
 	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
+		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I prefer to see information written on the board and supplemented by visual aids and assigned readings",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I like to write things down or take notes for visual review",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I prefer to use posters, models, or actual practice and other activities in class",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I require explanations of diagrams, graphs, or visual directions",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I enjoy working with my hands or making things",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I am skillful with and enjoy developing making graphs and charts",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I can tell if sounds match when presented with pairs of sounds",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I can remember best by writing things down several times",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I can easily understand and follow directions on a map",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I do best in academic subjects by listening to lectures and tapes",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I play with coins or keys in my pocket",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I learn to spell better by repeating words out loud than by writing the words on paper",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I can understand a news article better by reading about it in the newspaper or online rather than by listening to a report about it on the radio or internet",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I chew gum, smoke or snack while studying",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I think the best way to remember something is to picture it in my mind",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I would rather listen to a good lecture or speech than read about the same material",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I am good at working and solving jigsaw puzzles and mazes",
+		answer : 6,
+		answerResponse : "",
+	},{
+		question : "I grip objects in my hands during learning periods",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I prefer listening to the news on the radio or online rather than reading about it in a newspaper or on the internet",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I prefer obtaining information about an interesting subject by reading about it",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I feel very comfortable touching others hugging, handshaking, etc",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I follow oral directions better than written ones",
+		answer : 5,
+		answerResponse : "OFTEN",
 	}]
 },{
 	firstName : "TANUSHKA",
 	lastName : "SINGH",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 28,
 	auditoryPrefScore : 28,
 	tacticalPrefScore : 18,
@@ -9776,7 +10156,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -9810,10 +10190,10 @@ var studentDataList = [{
 	}]
 },{
 	firstName : "VAISHNAVI",
-	lastName : "NO_VALUE_HERE",
+	lastName : "",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 26,
 	auditoryPrefScore : 24,
 	tacticalPrefScore : 18,
@@ -9822,13 +10202,108 @@ var studentDataList = [{
 	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
 	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
+		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I prefer to see information written on the board and supplemented by visual aids and assigned readings",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I like to write things down or take notes for visual review",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I prefer to use posters, models, or actual practice and other activities in class",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I require explanations of diagrams, graphs, or visual directions",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I enjoy working with my hands or making things",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I am skillful with and enjoy developing making graphs and charts",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I can tell if sounds match when presented with pairs of sounds",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I can remember best by writing things down several times",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I can easily understand and follow directions on a map",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I do best in academic subjects by listening to lectures and tapes",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I play with coins or keys in my pocket",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I learn to spell better by repeating words out loud than by writing the words on paper",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I can understand a news article better by reading about it in the newspaper or online rather than by listening to a report about it on the radio or internet",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I chew gum, smoke or snack while studying",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I think the best way to remember something is to picture it in my mind",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I would rather listen to a good lecture or speech than read about the same material",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I am good at working and solving jigsaw puzzles and mazes",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I grip objects in my hands during learning periods",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I prefer listening to the news on the radio or online rather than reading about it in a newspaper or on the internet",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I prefer obtaining information about an interesting subject by reading about it",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I feel very comfortable touching others hugging, handshaking, etc",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I follow oral directions better than written ones",
+		answer : 5,
+		answerResponse : "OFTEN",
 	}]
 },{
 	firstName : "VARTIKA",
 	lastName : "CHAUHAN",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 28,
 	auditoryPrefScore : 34,
 	tacticalPrefScore : 22,
@@ -9901,7 +10376,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -9937,8 +10412,8 @@ var studentDataList = [{
 	firstName : "VIJAY",
 	lastName : "SINGH",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 30,
 	auditoryPrefScore : 32,
 	tacticalPrefScore : 26,
@@ -10011,7 +10486,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -10047,8 +10522,8 @@ var studentDataList = [{
 	firstName : "VIKAS",
 	lastName : "YADAV",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 22,
 	auditoryPrefScore : 36,
 	tacticalPrefScore : 16,
@@ -10121,7 +10596,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -10157,8 +10632,8 @@ var studentDataList = [{
 	firstName : "VISHAL",
 	lastName : "YADAV",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 28,
 	auditoryPrefScore : 30,
 	tacticalPrefScore : 17,
@@ -10263,8 +10738,8 @@ var studentDataList = [{
 	firstName : "YASH",
 	lastName : "SONI",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 30,
 	auditoryPrefScore : 34,
 	tacticalPrefScore : 26,
@@ -10337,7 +10812,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -10373,8 +10848,8 @@ var studentDataList = [{
 	firstName : "YASHIKA",
 	lastName : "JOSHI",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 23,
 	auditoryPrefScore : 26,
 	tacticalPrefScore : 24,
@@ -10443,7 +10918,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -10479,8 +10954,8 @@ var studentDataList = [{
 	firstName : "YOGITA",
 	lastName : "SINGH",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 36,
 	auditoryPrefScore : 26,
 	tacticalPrefScore : 20,
@@ -10553,7 +11028,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -10589,8 +11064,8 @@ var studentDataList = [{
 	firstName : "AARUSH",
 	lastName : "SRIVASTAVA",
 	className : "VII",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 30,
 	auditoryPrefScore : 34,
 	tacticalPrefScore : 18,
@@ -10663,7 +11138,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -10699,8 +11174,8 @@ var studentDataList = [{
 	firstName : "AASTHA",
 	lastName : "PAL",
 	className : "VII",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 32,
 	auditoryPrefScore : 30,
 	tacticalPrefScore : 26,
@@ -10773,7 +11248,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -10809,8 +11284,8 @@ var studentDataList = [{
 	firstName : "AGRIMA",
 	lastName : "SINGH",
 	className : "VII",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 30,
 	auditoryPrefScore : 34,
 	tacticalPrefScore : 23,
@@ -10879,7 +11354,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -10915,8 +11390,8 @@ var studentDataList = [{
 	firstName : "AKASH",
 	lastName : "KUMAR",
 	className : "VII",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 20,
 	auditoryPrefScore : 18,
 	tacticalPrefScore : 26,
@@ -10989,7 +11464,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -11025,8 +11500,8 @@ var studentDataList = [{
 	firstName : "AKHILESH",
 	lastName : "KUMAR",
 	className : "VII",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 32,
 	auditoryPrefScore : 36,
 	tacticalPrefScore : 28,
@@ -11099,7 +11574,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -11135,8 +11610,8 @@ var studentDataList = [{
 	firstName : "ANAMIKA",
 	lastName : "SINGH",
 	className : "VII",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 28,
 	auditoryPrefScore : 32,
 	tacticalPrefScore : 20,
@@ -11209,7 +11684,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -11245,8 +11720,8 @@ var studentDataList = [{
 	firstName : "ANANYA",
 	lastName : "PANDEY",
 	className : "VII",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 24,
 	auditoryPrefScore : 34,
 	tacticalPrefScore : 18,
@@ -11319,7 +11794,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -11355,8 +11830,8 @@ var studentDataList = [{
 	firstName : "ANJALI",
 	lastName : "RAI",
 	className : "VII",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 26,
 	auditoryPrefScore : 32,
 	tacticalPrefScore : 24,
@@ -11429,7 +11904,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -11465,8 +11940,8 @@ var studentDataList = [{
 	firstName : "ANSHIKA",
 	lastName : "SINGH",
 	className : "VII",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 24,
 	auditoryPrefScore : 34,
 	tacticalPrefScore : 24,
@@ -11539,7 +12014,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -11575,8 +12050,8 @@ var studentDataList = [{
 	firstName : "ANUJ",
 	lastName : "SINGH",
 	className : "VII",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 28,
 	auditoryPrefScore : 27,
 	tacticalPrefScore : 13,
@@ -11641,7 +12116,7 @@ var studentDataList = [{
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -11677,8 +12152,8 @@ var studentDataList = [{
 	firstName : "ANUKRITI",
 	lastName : "PATEL",
 	className : "VII",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 26,
 	auditoryPrefScore : 28,
 	tacticalPrefScore : 30,
@@ -11751,7 +12226,7 @@ var studentDataList = [{
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -11787,8 +12262,8 @@ var studentDataList = [{
 	firstName : "ARAV",
 	lastName : "CHANDRA",
 	className : "VII",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 26,
 	auditoryPrefScore : 30,
 	tacticalPrefScore : 30,
@@ -11861,7 +12336,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -11897,8 +12372,8 @@ var studentDataList = [{
 	firstName : "ARPAN",
 	lastName : "MODI",
 	className : "VII",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 28,
 	auditoryPrefScore : 30,
 	tacticalPrefScore : 28,
@@ -11971,7 +12446,7 @@ var studentDataList = [{
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -12007,8 +12482,8 @@ var studentDataList = [{
 	firstName : "ASHIRWAD",
 	lastName : "CHAUHAN",
 	className : "VII",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 36,
 	auditoryPrefScore : 18,
 	tacticalPrefScore : 18,
@@ -12081,7 +12556,7 @@ var studentDataList = [{
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -12117,8 +12592,8 @@ var studentDataList = [{
 	firstName : "BABLI",
 	lastName : "MISHRA",
 	className : "VII",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 32,
 	auditoryPrefScore : 34,
 	tacticalPrefScore : 20,
@@ -12191,7 +12666,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -12227,8 +12702,8 @@ var studentDataList = [{
 	firstName : "BIRENDRA",
 	lastName : "SINGH KUNWAR",
 	className : "VII",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 20,
 	auditoryPrefScore : 30,
 	tacticalPrefScore : 22,
@@ -12301,7 +12776,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -12337,8 +12812,8 @@ var studentDataList = [{
 	firstName : "CHANDRASHU",
 	lastName : "SHARMA",
 	className : "VII",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 28,
 	auditoryPrefScore : 26,
 	tacticalPrefScore : 22,
@@ -12411,7 +12886,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -12447,8 +12922,8 @@ var studentDataList = [{
 	firstName : "CHHAVI",
 	lastName : "MISHRA",
 	className : "VII",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 26,
 	auditoryPrefScore : 34,
 	tacticalPrefScore : 20,
@@ -12521,7 +12996,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -12557,8 +13032,8 @@ var studentDataList = [{
 	firstName : "DISHA",
 	lastName : "KAPOOR",
 	className : "VII",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 30,
 	auditoryPrefScore : 16,
 	tacticalPrefScore : 22,
@@ -12631,7 +13106,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -12667,8 +13142,8 @@ var studentDataList = [{
 	firstName : "GAURAV",
 	lastName : "KASHYAP",
 	className : "VII",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 30,
 	auditoryPrefScore : 29,
 	tacticalPrefScore : 20,
@@ -12737,7 +13212,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -12773,8 +13248,8 @@ var studentDataList = [{
 	firstName : "MEGHA",
 	lastName : "RAI",
 	className : "VII",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 26,
 	auditoryPrefScore : 30,
 	tacticalPrefScore : 28,
@@ -12847,7 +13322,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -12881,10 +13356,10 @@ var studentDataList = [{
 	}]
 },{
 	firstName : "MOHD. JUNAID",
-	lastName : "NO_VALUE_HERE",
+	lastName : "",
 	className : "VII",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 30,
 	auditoryPrefScore : 26,
 	tacticalPrefScore : 28,
@@ -12893,13 +13368,108 @@ var studentDataList = [{
 	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
 	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
+		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I prefer to see information written on the board and supplemented by visual aids and assigned readings",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I like to write things down or take notes for visual review",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I prefer to use posters, models, or actual practice and other activities in class",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I require explanations of diagrams, graphs, or visual directions",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I enjoy working with my hands or making things",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I am skillful with and enjoy developing making graphs and charts",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I can tell if sounds match when presented with pairs of sounds",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I can remember best by writing things down several times",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I can easily understand and follow directions on a map",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I do best in academic subjects by listening to lectures and tapes",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I play with coins or keys in my pocket",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I learn to spell better by repeating words out loud than by writing the words on paper",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I can understand a news article better by reading about it in the newspaper or online rather than by listening to a report about it on the radio or internet",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I chew gum, smoke or snack while studying",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I think the best way to remember something is to picture it in my mind",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I would rather listen to a good lecture or speech than read about the same material",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I am good at working and solving jigsaw puzzles and mazes",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I grip objects in my hands during learning periods",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I prefer listening to the news on the radio or online rather than reading about it in a newspaper or on the internet",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I prefer obtaining information about an interesting subject by reading about it",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I feel very comfortable touching others hugging, handshaking, etc",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I follow oral directions better than written ones",
+		answer : 5,
+		answerResponse : "OFTEN",
 	}]
 },{
 	firstName : "MOHD. VAISH",
-	lastName : "NO_VALUE_HERE",
+	lastName : "",
 	className : "VII",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 32,
 	auditoryPrefScore : 30,
 	tacticalPrefScore : 22,
@@ -12908,13 +13478,108 @@ var studentDataList = [{
 	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
 	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
+		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I prefer to see information written on the board and supplemented by visual aids and assigned readings",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I like to write things down or take notes for visual review",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I prefer to use posters, models, or actual practice and other activities in class",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I require explanations of diagrams, graphs, or visual directions",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I enjoy working with my hands or making things",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I am skillful with and enjoy developing making graphs and charts",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I can tell if sounds match when presented with pairs of sounds",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I can remember best by writing things down several times",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I can easily understand and follow directions on a map",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I do best in academic subjects by listening to lectures and tapes",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I play with coins or keys in my pocket",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I learn to spell better by repeating words out loud than by writing the words on paper",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I can understand a news article better by reading about it in the newspaper or online rather than by listening to a report about it on the radio or internet",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I chew gum, smoke or snack while studying",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I think the best way to remember something is to picture it in my mind",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I would rather listen to a good lecture or speech than read about the same material",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I am good at working and solving jigsaw puzzles and mazes",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I grip objects in my hands during learning periods",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I prefer listening to the news on the radio or online rather than reading about it in a newspaper or on the internet",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I prefer obtaining information about an interesting subject by reading about it",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I feel very comfortable touching others hugging, handshaking, etc",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I follow oral directions better than written ones",
+		answer : 5,
+		answerResponse : "OFTEN",
 	}]
 },{
 	firstName : "PAHAL",
-	lastName : "NO_VALUE_HERE",
+	lastName : "",
 	className : "VII",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 30,
 	auditoryPrefScore : 34,
 	tacticalPrefScore : 24,
@@ -12923,13 +13588,108 @@ var studentDataList = [{
 	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
 	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
+		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I prefer to see information written on the board and supplemented by visual aids and assigned readings",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I like to write things down or take notes for visual review",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I prefer to use posters, models, or actual practice and other activities in class",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I require explanations of diagrams, graphs, or visual directions",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I enjoy working with my hands or making things",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I am skillful with and enjoy developing making graphs and charts",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I can tell if sounds match when presented with pairs of sounds",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I can remember best by writing things down several times",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I can easily understand and follow directions on a map",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I do best in academic subjects by listening to lectures and tapes",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I play with coins or keys in my pocket",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I learn to spell better by repeating words out loud than by writing the words on paper",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I can understand a news article better by reading about it in the newspaper or online rather than by listening to a report about it on the radio or internet",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I chew gum, smoke or snack while studying",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I think the best way to remember something is to picture it in my mind",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I would rather listen to a good lecture or speech than read about the same material",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I am good at working and solving jigsaw puzzles and mazes",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I grip objects in my hands during learning periods",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I prefer listening to the news on the radio or online rather than reading about it in a newspaper or on the internet",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I prefer obtaining information about an interesting subject by reading about it",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I feel very comfortable touching others hugging, handshaking, etc",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I follow oral directions better than written ones",
+		answer : 3,
+		answerResponse : "SOMETIMES",
 	}]
 },{
 	firstName : "RAHUL",
 	lastName : "JAMTA",
 	className : "VII",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 18,
 	auditoryPrefScore : 24,
 	tacticalPrefScore : 32,
@@ -13002,7 +13762,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -13038,8 +13798,8 @@ var studentDataList = [{
 	firstName : "RAVI",
 	lastName : "CHAUHAN",
 	className : "VII",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 28,
 	auditoryPrefScore : 30,
 	tacticalPrefScore : 24,
@@ -13112,7 +13872,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -13148,8 +13908,8 @@ var studentDataList = [{
 	firstName : "RIMJHIM",
 	lastName : "VERMA",
 	className : "VII",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 18,
 	auditoryPrefScore : 28,
 	tacticalPrefScore : 26,
@@ -13222,7 +13982,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -13258,8 +14018,8 @@ var studentDataList = [{
 	firstName : "SAHIL",
 	lastName : "KUMAR",
 	className : "VII",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 23,
 	auditoryPrefScore : 24,
 	tacticalPrefScore : 32,
@@ -13328,7 +14088,7 @@ var studentDataList = [{
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -13364,8 +14124,8 @@ var studentDataList = [{
 	firstName : "SALONI",
 	lastName : "SINGH",
 	className : "VII",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 26,
 	auditoryPrefScore : 18,
 	tacticalPrefScore : 20,
@@ -13438,7 +14198,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -13474,8 +14234,8 @@ var studentDataList = [{
 	firstName : "SARA",
 	lastName : "NAQVI",
 	className : "VII",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 33,
 	auditoryPrefScore : 30,
 	tacticalPrefScore : 22,
@@ -13544,7 +14304,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -13580,8 +14340,8 @@ var studentDataList = [{
 	firstName : "SATYAM",
 	lastName : "KUMAR",
 	className : "VII",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 30,
 	auditoryPrefScore : 30,
 	tacticalPrefScore : 36,
@@ -13654,7 +14414,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -13688,10 +14448,10 @@ var studentDataList = [{
 	}]
 },{
 	firstName : "SHIKHAR",
-	lastName : "NO_VALUE_HERE",
+	lastName : "",
 	className : "VII",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 28,
 	auditoryPrefScore : 30,
 	tacticalPrefScore : 26,
@@ -13700,13 +14460,108 @@ var studentDataList = [{
 	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
 	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
+		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I prefer to see information written on the board and supplemented by visual aids and assigned readings",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I like to write things down or take notes for visual review",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I prefer to use posters, models, or actual practice and other activities in class",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I require explanations of diagrams, graphs, or visual directions",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I enjoy working with my hands or making things",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I am skillful with and enjoy developing making graphs and charts",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I can tell if sounds match when presented with pairs of sounds",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I can remember best by writing things down several times",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I can easily understand and follow directions on a map",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I do best in academic subjects by listening to lectures and tapes",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I play with coins or keys in my pocket",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I learn to spell better by repeating words out loud than by writing the words on paper",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I can understand a news article better by reading about it in the newspaper or online rather than by listening to a report about it on the radio or internet",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I chew gum, smoke or snack while studying",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I think the best way to remember something is to picture it in my mind",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I would rather listen to a good lecture or speech than read about the same material",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I am good at working and solving jigsaw puzzles and mazes",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I grip objects in my hands during learning periods",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I prefer listening to the news on the radio or online rather than reading about it in a newspaper or on the internet",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I prefer obtaining information about an interesting subject by reading about it",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I feel very comfortable touching others hugging, handshaking, etc",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I follow oral directions better than written ones",
+		answer : 3,
+		answerResponse : "SOMETIMES",
 	}]
 },{
-	firstName : "Shivam",
+	firstName : "SHIVAM",
 	lastName : "YADAV",
 	className : "VII",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 32,
 	auditoryPrefScore : 28,
 	tacticalPrefScore : 32,
@@ -13715,13 +14570,108 @@ var studentDataList = [{
 	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
 	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
+		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I prefer to see information written on the board and supplemented by visual aids and assigned readings",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I like to write things down or take notes for visual review",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I prefer to use posters, models, or actual practice and other activities in class",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I require explanations of diagrams, graphs, or visual directions",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I enjoy working with my hands or making things",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I am skillful with and enjoy developing making graphs and charts",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I can tell if sounds match when presented with pairs of sounds",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I can remember best by writing things down several times",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I can easily understand and follow directions on a map",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I do best in academic subjects by listening to lectures and tapes",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I play with coins or keys in my pocket",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I learn to spell better by repeating words out loud than by writing the words on paper",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I can understand a news article better by reading about it in the newspaper or online rather than by listening to a report about it on the radio or internet",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I chew gum, smoke or snack while studying",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I think the best way to remember something is to picture it in my mind",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I would rather listen to a good lecture or speech than read about the same material",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I am good at working and solving jigsaw puzzles and mazes",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I grip objects in my hands during learning periods",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I prefer listening to the news on the radio or online rather than reading about it in a newspaper or on the internet",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I prefer obtaining information about an interesting subject by reading about it",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I feel very comfortable touching others hugging, handshaking, etc",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I follow oral directions better than written ones",
+		answer : 1,
+		answerResponse : "SELDOM",
 	}]
 },{
 	firstName : "SHRESHTH",
 	lastName : "MISHRA",
 	className : "VII",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 23,
 	auditoryPrefScore : 34,
 	tacticalPrefScore : 30,
@@ -13790,7 +14740,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -13826,8 +14776,8 @@ var studentDataList = [{
 	firstName : "SHRISHTI",
 	lastName : "RASTOGI",
 	className : "VII",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 28,
 	auditoryPrefScore : 28,
 	tacticalPrefScore : 24,
@@ -13900,7 +14850,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -13936,8 +14886,8 @@ var studentDataList = [{
 	firstName : "SHUBHAM",
 	lastName : "JHA",
 	className : "VII",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 20,
 	auditoryPrefScore : 24,
 	tacticalPrefScore : 30,
@@ -14010,7 +14960,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -14046,8 +14996,8 @@ var studentDataList = [{
 	firstName : "SUPRIYA",
 	lastName : "GAUTAM",
 	className : "VII",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 28,
 	auditoryPrefScore : 26,
 	tacticalPrefScore : 28,
@@ -14120,7 +15070,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -14156,8 +15106,8 @@ var studentDataList = [{
 	firstName : "SUDEEKSHA",
 	lastName : "KHANNA",
 	className : "VII",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 30,
 	auditoryPrefScore : 36,
 	tacticalPrefScore : 18,
@@ -14230,7 +15180,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -14266,8 +15216,8 @@ var studentDataList = [{
 	firstName : "VAIBHAV",
 	lastName : "AWASTHI",
 	className : "VII",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 26,
 	auditoryPrefScore : 36,
 	tacticalPrefScore : 26,
@@ -14340,7 +15290,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -14376,8 +15326,8 @@ var studentDataList = [{
 	firstName : "VAISHNAVI",
 	lastName : "MISHRA",
 	className : "VII",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 30,
 	auditoryPrefScore : 34,
 	tacticalPrefScore : 18,
@@ -14450,7 +15400,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -14486,8 +15436,8 @@ var studentDataList = [{
 	firstName : "VAISHNAVI",
 	lastName : "SRIVASTAVA",
 	className : "VII",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 22,
 	auditoryPrefScore : 28,
 	tacticalPrefScore : 26,
@@ -14560,7 +15510,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -14596,8 +15546,8 @@ var studentDataList = [{
 	firstName : "YASHASVI",
 	lastName : "DUBEY",
 	className : "VII",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 26,
 	auditoryPrefScore : 34,
 	tacticalPrefScore : 22,
@@ -14670,7 +15620,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -14706,8 +15656,8 @@ var studentDataList = [{
 	firstName : "AABHYA",
 	lastName : "MODI",
 	className : "XI",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 32,
 	auditoryPrefScore : 26,
 	tacticalPrefScore : 22,
@@ -14780,7 +15730,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -14816,8 +15766,8 @@ var studentDataList = [{
 	firstName : "AAKASH",
 	lastName : "CHAUDHARY",
 	className : "XI",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 32,
 	auditoryPrefScore : 34,
 	tacticalPrefScore : 22,
@@ -14890,7 +15840,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -14926,8 +15876,8 @@ var studentDataList = [{
 	firstName : "ADARSH",
 	lastName : "DUBEY",
 	className : "XI",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 30,
 	auditoryPrefScore : 20,
 	tacticalPrefScore : 32,
@@ -15000,7 +15950,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -15036,8 +15986,8 @@ var studentDataList = [{
 	firstName : "ADARSH",
 	lastName : "MAURYA",
 	className : "XI",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 14,
 	auditoryPrefScore : 28,
 	tacticalPrefScore : 26,
@@ -15110,7 +16060,7 @@ var studentDataList = [{
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -15146,8 +16096,8 @@ var studentDataList = [{
 	firstName : "ADITI",
 	lastName : "SINGH",
 	className : "XI",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 28,
 	auditoryPrefScore : 28,
 	tacticalPrefScore : 16,
@@ -15220,7 +16170,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -15256,8 +16206,8 @@ var studentDataList = [{
 	firstName : "AJAY",
 	lastName : "SINGH",
 	className : "XI",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 26,
 	auditoryPrefScore : 21,
 	tacticalPrefScore : 16,
@@ -15330,7 +16280,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -15362,8 +16312,8 @@ var studentDataList = [{
 	firstName : "ANMOL",
 	lastName : "GUPTA",
 	className : "XI",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 38,
 	auditoryPrefScore : 36,
 	tacticalPrefScore : 24,
@@ -15436,7 +16386,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -15472,8 +16422,8 @@ var studentDataList = [{
 	firstName : "ANNUSHKAA",
 	lastName : "SHUKLA",
 	className : "XI",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 32,
 	auditoryPrefScore : 28,
 	tacticalPrefScore : 28,
@@ -15546,7 +16496,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -15582,8 +16532,8 @@ var studentDataList = [{
 	firstName : "ANSHIKA",
 	lastName : "VERMA",
 	className : "XI",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 28,
 	auditoryPrefScore : 32,
 	tacticalPrefScore : 30,
@@ -15656,7 +16606,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -15690,10 +16640,10 @@ var studentDataList = [{
 	}]
 },{
 	firstName : "ANULITA",
-	lastName : "NO_VALUE_HERE",
+	lastName : "",
 	className : "XI",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 31,
 	auditoryPrefScore : 24,
 	tacticalPrefScore : 26,
@@ -15702,13 +16652,104 @@ var studentDataList = [{
 	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
 	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
+		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I prefer to see information written on the board and supplemented by visual aids and assigned readings",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I like to write things down or take notes for visual review",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I prefer to use posters, models, or actual practice and other activities in class",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I require explanations of diagrams, graphs, or visual directions",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I enjoy working with my hands or making things",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I am skillful with and enjoy developing making graphs and charts",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I can remember best by writing things down several times",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I can easily understand and follow directions on a map",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I do best in academic subjects by listening to lectures and tapes",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I play with coins or keys in my pocket",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I learn to spell better by repeating words out loud than by writing the words on paper",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I can understand a news article better by reading about it in the newspaper or online rather than by listening to a report about it on the radio or internet",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I chew gum, smoke or snack while studying",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I think the best way to remember something is to picture it in my mind",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I would rather listen to a good lecture or speech than read about the same material",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I am good at working and solving jigsaw puzzles and mazes",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I grip objects in my hands during learning periods",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I prefer listening to the news on the radio or online rather than reading about it in a newspaper or on the internet",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I prefer obtaining information about an interesting subject by reading about it",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I feel very comfortable touching others hugging, handshaking, etc",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I follow oral directions better than written ones",
+		answer : 3,
+		answerResponse : "SOMETIMES",
 	}]
 },{
 	firstName : "AREESHA",
 	lastName : "SIDDIQUI",
 	className : "XI",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 20,
 	auditoryPrefScore : 38,
 	tacticalPrefScore : 26,
@@ -15781,7 +16822,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -15817,8 +16858,8 @@ var studentDataList = [{
 	firstName : "ARYAN",
 	lastName : "ROY",
 	className : "XI",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 28,
 	auditoryPrefScore : 38,
 	tacticalPrefScore : 22,
@@ -15891,7 +16932,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -15927,8 +16968,8 @@ var studentDataList = [{
 	firstName : "ASHUTOSH",
 	lastName : "VERMA",
 	className : "XI",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 28,
 	auditoryPrefScore : 32,
 	tacticalPrefScore : 28,
@@ -16001,7 +17042,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -16037,8 +17078,8 @@ var studentDataList = [{
 	firstName : "AAYUSHI",
 	lastName : "YADAV",
 	className : "XI",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 27,
 	auditoryPrefScore : 30,
 	tacticalPrefScore : 28,
@@ -16107,7 +17148,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -16143,8 +17184,8 @@ var studentDataList = [{
 	firstName : "BIBIN",
 	lastName : "C. BAIJU",
 	className : "XI",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 34,
 	auditoryPrefScore : 28,
 	tacticalPrefScore : 28,
@@ -16217,7 +17258,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -16253,8 +17294,8 @@ var studentDataList = [{
 	firstName : "DEEKSHA",
 	lastName : "SINGH",
 	className : "XI",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 34,
 	auditoryPrefScore : 24,
 	tacticalPrefScore : 22,
@@ -16327,7 +17368,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -16363,8 +17404,8 @@ var studentDataList = [{
 	firstName : "HARSHA",
 	lastName : "SHUKLA",
 	className : "XI",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 30,
 	auditoryPrefScore : 22,
 	tacticalPrefScore : 32,
@@ -16437,7 +17478,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -16473,8 +17514,8 @@ var studentDataList = [{
 	firstName : "MOHD. AHSAN",
 	lastName : "FARAZ",
 	className : "XI",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 22,
 	auditoryPrefScore : 29,
 	tacticalPrefScore : 22,
@@ -16543,7 +17584,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -16579,8 +17620,8 @@ var studentDataList = [{
 	firstName : "MOHD. SAALIM",
 	lastName : "USMANI",
 	className : "XI",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 30,
 	auditoryPrefScore : 34,
 	tacticalPrefScore : 26,
@@ -16653,7 +17694,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -16689,8 +17730,8 @@ var studentDataList = [{
 	firstName : "MUSKAAN",
 	lastName : "SINGH",
 	className : "XI",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 18,
 	auditoryPrefScore : 30,
 	tacticalPrefScore : 18,
@@ -16763,7 +17804,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -16799,8 +17840,8 @@ var studentDataList = [{
 	firstName : "MUSKAAN",
 	lastName : "VERMA",
 	className : "XI",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 36,
 	auditoryPrefScore : 26,
 	tacticalPrefScore : 22,
@@ -16873,7 +17914,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -16909,8 +17950,8 @@ var studentDataList = [{
 	firstName : "NAIMISH",
 	lastName : "SINGH RATHOUR",
 	className : "XI",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 24,
 	auditoryPrefScore : 34,
 	tacticalPrefScore : 12,
@@ -16983,7 +18024,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -17019,8 +18060,8 @@ var studentDataList = [{
 	firstName : "PRIYANKA",
 	lastName : "CHAURASIYA",
 	className : "XI",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 26,
 	auditoryPrefScore : 28,
 	tacticalPrefScore : 24,
@@ -17093,7 +18134,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -17129,8 +18170,8 @@ var studentDataList = [{
 	firstName : "ROHIT",
 	lastName : "YADAV",
 	className : "XI",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 24,
 	auditoryPrefScore : 30,
 	tacticalPrefScore : 24,
@@ -17203,7 +18244,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -17239,8 +18280,8 @@ var studentDataList = [{
 	firstName : "RITIK",
 	lastName : "SRIVASTAVA",
 	className : "XI",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 27,
 	auditoryPrefScore : 30,
 	tacticalPrefScore : 28,
@@ -17309,7 +18350,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -17345,8 +18386,8 @@ var studentDataList = [{
 	firstName : "SAKSHI",
 	lastName : "SINGH",
 	className : "XI",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 30,
 	auditoryPrefScore : 26,
 	tacticalPrefScore : 26,
@@ -17419,7 +18460,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -17455,8 +18496,8 @@ var studentDataList = [{
 	firstName : "SAMREEN",
 	lastName : "BANO",
 	className : "XI",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 32,
 	auditoryPrefScore : 24,
 	tacticalPrefScore : 24,
@@ -17529,7 +18570,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -17565,8 +18606,8 @@ var studentDataList = [{
 	firstName : "SANSKRITI",
 	lastName : "TIWARI",
 	className : "XI",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 26,
 	auditoryPrefScore : 30,
 	tacticalPrefScore : 20,
@@ -17639,7 +18680,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -17675,8 +18716,8 @@ var studentDataList = [{
 	firstName : "SHRADDHA",
 	lastName : "YADAV",
 	className : "XI",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 26,
 	auditoryPrefScore : 30,
 	tacticalPrefScore : 26,
@@ -17749,7 +18790,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -17785,8 +18826,8 @@ var studentDataList = [{
 	firstName : "SHWETA",
 	lastName : "GUPTA",
 	className : "XI",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 34,
 	auditoryPrefScore : 28,
 	tacticalPrefScore : 28,
@@ -17859,7 +18900,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -17895,8 +18936,8 @@ var studentDataList = [{
 	firstName : "SHRISHTI",
 	lastName : "KANAUJIA",
 	className : "XI",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 26,
 	auditoryPrefScore : 30,
 	tacticalPrefScore : 32,
@@ -17969,7 +19010,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -18005,8 +19046,8 @@ var studentDataList = [{
 	firstName : "SMRITI",
 	lastName : "YADAV",
 	className : "XI",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 32,
 	auditoryPrefScore : 34,
 	tacticalPrefScore : 28,
@@ -18079,7 +19120,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -18115,8 +19156,8 @@ var studentDataList = [{
 	firstName : "TANU",
 	lastName : "KUMARI",
 	className : "XI",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 25,
 	auditoryPrefScore : 29,
 	tacticalPrefScore : 28,
@@ -18181,7 +19222,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -18217,8 +19258,8 @@ var studentDataList = [{
 	firstName : "TARUN",
 	lastName : "SINGH PARIHAR",
 	className : "XI",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 20,
 	auditoryPrefScore : 36,
 	tacticalPrefScore : 26,
@@ -18291,7 +19332,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -18325,10 +19366,10 @@ var studentDataList = [{
 	}]
 },{
 	firstName : "TASNEEM",
-	lastName : "NO_VALUE_HERE",
+	lastName : "",
 	className : "XI",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 22,
 	auditoryPrefScore : 30,
 	tacticalPrefScore : 32,
@@ -18337,13 +19378,108 @@ var studentDataList = [{
 	learningMethod : "Practice on paper whatever you have to learn, Writing again n again will help you to learn better. Participation in school projects, in cultural and sports events will help you to grow better. Keep Lecture notes for sure.",
 	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
+		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I prefer to see information written on the board and supplemented by visual aids and assigned readings",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I like to write things down or take notes for visual review",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I prefer to use posters, models, or actual practice and other activities in class",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I require explanations of diagrams, graphs, or visual directions",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I enjoy working with my hands or making things",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I am skillful with and enjoy developing making graphs and charts",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I can tell if sounds match when presented with pairs of sounds",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I can remember best by writing things down several times",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I can easily understand and follow directions on a map",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I do best in academic subjects by listening to lectures and tapes",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I play with coins or keys in my pocket",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I learn to spell better by repeating words out loud than by writing the words on paper",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I can understand a news article better by reading about it in the newspaper or online rather than by listening to a report about it on the radio or internet",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I chew gum, smoke or snack while studying",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I think the best way to remember something is to picture it in my mind",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I would rather listen to a good lecture or speech than read about the same material",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I am good at working and solving jigsaw puzzles and mazes",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I grip objects in my hands during learning periods",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I prefer listening to the news on the radio or online rather than reading about it in a newspaper or on the internet",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I prefer obtaining information about an interesting subject by reading about it",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I feel very comfortable touching others hugging, handshaking, etc",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I follow oral directions better than written ones",
+		answer : 1,
+		answerResponse : "SELDOM",
 	}]
 },{
 	firstName : "VIJITA",
 	lastName : "SINGH",
 	className : "XI",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 26,
 	auditoryPrefScore : 34,
 	tacticalPrefScore : 18,
@@ -18416,7 +19552,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -18452,8 +19588,8 @@ var studentDataList = [{
 	firstName : "YASH",
 	lastName : "MAURYA",
 	className : "XI",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 30,
 	auditoryPrefScore : 28,
 	tacticalPrefScore : 22,
@@ -18526,7 +19662,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -18562,8 +19698,8 @@ var studentDataList = [{
 	firstName : "YUSHRA",
 	lastName : "JAMEEL",
 	className : "XI",
-	phoneNo : "NO_VALUE_HERE",
-	address : "NO_VALUE_HERE",
+	phoneNo : "",
+	address : "",
 	visualPrefScore : 24,
 	auditoryPrefScore : 32,
 	tacticalPrefScore : 18,
@@ -18636,7 +19772,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ìfinger spellingî them",
+		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{

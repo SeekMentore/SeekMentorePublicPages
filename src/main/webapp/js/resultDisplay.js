@@ -18,11 +18,12 @@ function submitFormResult() {
     }
     var numberOfStudents = 0;
     var studentIndex = -1;
-
     if(dataValidated) {
     	var completeName = firstName.val().toLowerCase().trim() + ' ' + lastName.val().toLowerCase().trim();
+    	completeName = completeName.trim();
     	for(i=0; i<studentDataList.length; i++) {
     		var fullname = studentDataList[i].firstName.toLowerCase() + ' ' + studentDataList[i].lastName.toLowerCase();
+    		fullname = fullname.trim();
     		if (
     				completeName == fullname
     				&& classNo.val().toLowerCase().trim() == studentDataList[i].className.toLowerCase() 
