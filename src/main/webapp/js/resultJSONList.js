@@ -3,14 +3,15 @@ var studentDataList = [{
 	firstName : "ABHAY",
 	lastName : "AGNIHOTRI",
 	className : "IX",
-	phoneNo : "1234567890",
+	phoneNo : "NO_VALUE_HERE",
 	address : "NO_VALUE_HERE",
 	visualPrefScore : 28,
 	auditoryPrefScore : 32,
 	tacticalPrefScore : 16,
 	marks : 32,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -76,7 +77,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -119,7 +120,8 @@ var studentDataList = [{
 	tacticalPrefScore : 24,
 	marks : 38,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -185,7 +187,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -228,7 +230,8 @@ var studentDataList = [{
 	tacticalPrefScore : 24,
 	marks : 32,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -294,7 +297,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -337,7 +340,8 @@ var studentDataList = [{
 	tacticalPrefScore : 22,
 	marks : 30,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -403,7 +407,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -446,7 +450,8 @@ var studentDataList = [{
 	tacticalPrefScore : 18,
 	marks : 32,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -512,7 +517,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -555,7 +560,8 @@ var studentDataList = [{
 	tacticalPrefScore : 32,
 	marks : 32,
 	learningStyle : "Tactile",
-	suggestions : "No suggestions",
+	learningMethod : "Practice on paper whatever you have to learn, Writing again n again will help you to learn better. Participation in school projects, in cultural and sports events will help you to grow better. Keep Lecture notes for sure.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -621,7 +627,7 @@ var studentDataList = [{
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -664,7 +670,8 @@ var studentDataList = [{
 	tacticalPrefScore : 22,
 	marks : 28,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -730,7 +737,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -773,7 +780,8 @@ var studentDataList = [{
 	tacticalPrefScore : 12,
 	marks : 32,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -839,7 +847,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -882,7 +890,8 @@ var studentDataList = [{
 	tacticalPrefScore : 20,
 	marks : 38,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -948,7 +957,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -991,7 +1000,8 @@ var studentDataList = [{
 	tacticalPrefScore : 24,
 	marks : 36,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -1057,7 +1067,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -1100,7 +1110,8 @@ var studentDataList = [{
 	tacticalPrefScore : 27,
 	marks : 28,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -1162,7 +1173,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -1205,7 +1216,8 @@ var studentDataList = [{
 	tacticalPrefScore : 24,
 	marks : 30,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -1271,7 +1283,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -1314,7 +1326,8 @@ var studentDataList = [{
 	tacticalPrefScore : 12,
 	marks : 28,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -1380,7 +1393,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -1423,7 +1436,8 @@ var studentDataList = [{
 	tacticalPrefScore : 24,
 	marks : 30,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -1489,7 +1503,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -1532,7 +1546,8 @@ var studentDataList = [{
 	tacticalPrefScore : 26,
 	marks : 26,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 1,
@@ -1598,7 +1613,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -1641,7 +1656,8 @@ var studentDataList = [{
 	tacticalPrefScore : 20,
 	marks : 26,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -1707,7 +1723,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -1750,7 +1766,8 @@ var studentDataList = [{
 	tacticalPrefScore : 18,
 	marks : 30,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 1,
@@ -1816,7 +1833,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -1859,7 +1876,8 @@ var studentDataList = [{
 	tacticalPrefScore : 20,
 	marks : 29,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -1921,7 +1939,7 @@ var studentDataList = [{
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -1964,7 +1982,8 @@ var studentDataList = [{
 	tacticalPrefScore : 18,
 	marks : 34,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -2030,7 +2049,7 @@ var studentDataList = [{
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -2073,7 +2092,8 @@ var studentDataList = [{
 	tacticalPrefScore : 16,
 	marks : 28,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -2139,7 +2159,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -2182,7 +2202,8 @@ var studentDataList = [{
 	tacticalPrefScore : 14,
 	marks : 32,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -2248,7 +2269,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -2291,7 +2312,8 @@ var studentDataList = [{
 	tacticalPrefScore : 14,
 	marks : 30,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -2357,7 +2379,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -2400,7 +2422,8 @@ var studentDataList = [{
 	tacticalPrefScore : 16,
 	marks : 36,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -2466,7 +2489,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -2509,7 +2532,8 @@ var studentDataList = [{
 	tacticalPrefScore : 18,
 	marks : 36,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 1,
@@ -2575,7 +2599,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -2618,7 +2642,8 @@ var studentDataList = [{
 	tacticalPrefScore : 20,
 	marks : 32,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -2684,7 +2709,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -2727,7 +2752,8 @@ var studentDataList = [{
 	tacticalPrefScore : 26,
 	marks : 30,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -2793,7 +2819,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -2832,7 +2858,8 @@ var studentDataList = [{
 	tacticalPrefScore : 18,
 	marks : 28,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -2898,7 +2925,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -2941,7 +2968,8 @@ var studentDataList = [{
 	tacticalPrefScore : 20,
 	marks : 32,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -3007,7 +3035,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -3046,7 +3074,8 @@ var studentDataList = [{
 	tacticalPrefScore : 26,
 	marks : 34,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -3112,7 +3141,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -3155,7 +3184,8 @@ var studentDataList = [{
 	tacticalPrefScore : 24,
 	marks : 24,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -3221,7 +3251,7 @@ var studentDataList = [{
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -3264,7 +3294,8 @@ var studentDataList = [{
 	tacticalPrefScore : 28,
 	marks : 28,
 	learningStyle : "Tactile",
-	suggestions : "No suggestions",
+	learningMethod : "Practice on paper whatever you have to learn, Writing again n again will help you to learn better. Participation in school projects, in cultural and sports events will help you to grow better. Keep Lecture notes for sure.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -3330,7 +3361,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -3373,7 +3404,8 @@ var studentDataList = [{
 	tacticalPrefScore : 16,
 	marks : 36,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -3439,7 +3471,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -3482,7 +3514,8 @@ var studentDataList = [{
 	tacticalPrefScore : 14,
 	marks : 30,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -3548,7 +3581,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -3591,7 +3624,8 @@ var studentDataList = [{
 	tacticalPrefScore : 26,
 	marks : 32,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -3649,7 +3683,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -3692,7 +3726,8 @@ var studentDataList = [{
 	tacticalPrefScore : 20,
 	marks : 34,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -3758,7 +3793,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -3801,7 +3836,8 @@ var studentDataList = [{
 	tacticalPrefScore : 22,
 	marks : 26,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -3867,7 +3903,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -3910,7 +3946,8 @@ var studentDataList = [{
 	tacticalPrefScore : 26,
 	marks : 28,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -3976,7 +4013,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -4019,7 +4056,8 @@ var studentDataList = [{
 	tacticalPrefScore : 18,
 	marks : 26,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -4085,7 +4123,7 @@ var studentDataList = [{
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -4128,7 +4166,8 @@ var studentDataList = [{
 	tacticalPrefScore : 30,
 	marks : 30,
 	learningStyle : "Tactile",
-	suggestions : "No suggestions",
+	learningMethod : "Practice on paper whatever you have to learn, Writing again n again will help you to learn better. Participation in school projects, in cultural and sports events will help you to grow better. Keep Lecture notes for sure.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -4194,7 +4233,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -4237,7 +4276,8 @@ var studentDataList = [{
 	tacticalPrefScore : 24,
 	marks : 28,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -4303,7 +4343,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -4346,7 +4386,8 @@ var studentDataList = [{
 	tacticalPrefScore : 20,
 	marks : 34,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -4412,7 +4453,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -4455,7 +4496,8 @@ var studentDataList = [{
 	tacticalPrefScore : 30,
 	marks : 34,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -4521,7 +4563,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -4564,7 +4606,8 @@ var studentDataList = [{
 	tacticalPrefScore : 20,
 	marks : 28,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -4630,7 +4673,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -4673,7 +4716,8 @@ var studentDataList = [{
 	tacticalPrefScore : 26,
 	marks : 38,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -4739,7 +4783,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -4782,11 +4826,12 @@ var studentDataList = [{
 	tacticalPrefScore : 24,
 	marks : 30,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 	}]
 },{
-	firstName : "MOHD",
+	firstName : "MOHD. ARSHIL",
 	lastName : "NO_VALUE_HERE",
 	className : "IX",
 	phoneNo : "NO_VALUE_HERE",
@@ -4796,11 +4841,12 @@ var studentDataList = [{
 	tacticalPrefScore : 40,
 	marks : 40,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 	}]
 },{
-	firstName : "MOHD",
+	firstName : "MOHD. DANISH",
 	lastName : "USMANI",
 	className : "IX",
 	phoneNo : "NO_VALUE_HERE",
@@ -4810,7 +4856,8 @@ var studentDataList = [{
 	tacticalPrefScore : 28,
 	marks : 32,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -4876,7 +4923,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -4909,7 +4956,7 @@ var studentDataList = [{
 		answerResponse : "SOMETIMES",
 	}]
 },{
-	firstName : "MOHD",
+	firstName : "MOHD. FAIZAN",
 	lastName : "NO_VALUE_HERE",
 	className : "IX",
 	phoneNo : "NO_VALUE_HERE",
@@ -4919,7 +4966,8 @@ var studentDataList = [{
 	tacticalPrefScore : 20,
 	marks : 34,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 	}]
 },{
@@ -4933,7 +4981,8 @@ var studentDataList = [{
 	tacticalPrefScore : 21,
 	marks : 38,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -4995,7 +5044,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -5038,7 +5087,8 @@ var studentDataList = [{
 	tacticalPrefScore : 24,
 	marks : 32,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 1,
@@ -5104,7 +5154,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -5147,7 +5197,8 @@ var studentDataList = [{
 	tacticalPrefScore : 22,
 	marks : 30,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -5213,7 +5264,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -5256,7 +5307,8 @@ var studentDataList = [{
 	tacticalPrefScore : 26,
 	marks : 28,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -5322,7 +5374,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -5358,70 +5410,142 @@ var studentDataList = [{
 	firstName : "MANSI",
 	lastName : "SINGH",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
+	phoneNo : "9839022888",
 	address : "NO_VALUE_HERE",
 	visualPrefScore : 30,
 	auditoryPrefScore : 28,
 	tacticalPrefScore : 28,
 	marks : 30,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
+		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I prefer to see information written on the board and supplemented by visual aids and assigned readings",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I like to write things down or take notes for visual review",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I prefer to use posters, models, or actual practice and other activities in class",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I require explanations of diagrams, graphs, or visual directions",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I enjoy working with my hands or making things",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I am skillful with and enjoy developing making graphs and charts",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I can tell if sounds match when presented with pairs of sounds",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I can remember best by writing things down several times",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I can easily understand and follow directions on a map",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I do best in academic subjects by listening to lectures and tapes",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I play with coins or keys in my pocket",
+		answer : 1,
+		answerResponse : "SELDOM",
+	},{
+		question : "I learn to spell better by repeating words out loud than by writing the words on paper",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I can understand a news article better by reading about it in the newspaper or online rather than by listening to a report about it on the radio or internet",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I chew gum, smoke or snack while studying",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I think the best way to remember something is to picture it in my mind",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I learn the spelling of words by ìfinger spellingî them",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I would rather listen to a good lecture or speech than read about the same material",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I am good at working and solving jigsaw puzzles and mazes",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I grip objects in my hands during learning periods",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I prefer listening to the news on the radio or online rather than reading about it in a newspaper or on the internet",
+		answer : 3,
+		answerResponse : "SOMETIMES",
+	},{
+		question : "I prefer obtaining information about an interesting subject by reading about it",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I feel very comfortable touching others hugging, handshaking, etc",
+		answer : 5,
+		answerResponse : "OFTEN",
+	},{
+		question : "I follow oral directions better than written ones",
+		answer : 1,
+		answerResponse : "SELDOM",
 	}]
 },{
 	firstName : "MANSI",
 	lastName : "SINGH",
 	className : "IX",
-	phoneNo : "NO_VALUE_HERE",
+	phoneNo : "9415335713",
 	address : "NO_VALUE_HERE",
 	visualPrefScore : 10,
 	auditoryPrefScore : 30,
 	tacticalPrefScore : 24,
 	marks : 30,
-	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
-		answer : 1,
-		answerResponse : "SELDOM",
-	},{
 		question : "I prefer to see information written on the board and supplemented by visual aids and assigned readings",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I prefer to see information written on the board and supplemented by visual aids and assigned readings",
-		answer : 5,
-		answerResponse : "OFTEN",
-	},{
 		question : "I like to write things down or take notes for visual review",
 		answer : 3,
 		answerResponse : "SOMETIMES",
-	},{
-		question : "I like to write things down or take notes for visual review",
-		answer : 5,
-		answerResponse : "OFTEN",
-	},{
-		question : "I prefer to use posters, models, or actual practice and other activities in class",
-		answer : 5,
-		answerResponse : "OFTEN",
 	},{
 		question : "I prefer to use posters, models, or actual practice and other activities in class",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
 		question : "I require explanations of diagrams, graphs, or visual directions",
-		answer : 3,
-		answerResponse : "SOMETIMES",
-	},{
-		question : "I require explanations of diagrams, graphs, or visual directions",
-		answer : 1,
-		answerResponse : "SELDOM",
-	},{
-		question : "I enjoy working with my hands or making things",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -5430,22 +5554,10 @@ var studentDataList = [{
 		answerResponse : "OFTEN",
 	},{
 		question : "I am skillful with and enjoy developing making graphs and charts",
-		answer : 1,
-		answerResponse : "SELDOM",
-	},{
-		question : "I am skillful with and enjoy developing making graphs and charts",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
 		question : "I can tell if sounds match when presented with pairs of sounds",
-		answer : 5,
-		answerResponse : "OFTEN",
-	},{
-		question : "I can tell if sounds match when presented with pairs of sounds",
-		answer : 3,
-		answerResponse : "SOMETIMES",
-	},{
-		question : "I can remember best by writing things down several times",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -5457,19 +5569,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I can easily understand and follow directions on a map",
-		answer : 3,
-		answerResponse : "SOMETIMES",
-	},{
 		question : "I do best in academic subjects by listening to lectures and tapes",
-		answer : 3,
-		answerResponse : "SOMETIMES",
-	},{
-		question : "I do best in academic subjects by listening to lectures and tapes",
-		answer : 1,
-		answerResponse : "SELDOM",
-	},{
-		question : "I play with coins or keys in my pocket",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -5478,70 +5578,34 @@ var studentDataList = [{
 		answerResponse : "OFTEN",
 	},{
 		question : "I learn to spell better by repeating words out loud than by writing the words on paper",
-		answer : 5,
-		answerResponse : "OFTEN",
-	},{
-		question : "I learn to spell better by repeating words out loud than by writing the words on paper",
 		answer : 1,
 		answerResponse : "SELDOM",
-	},{
-		question : "I can understand a news article better by reading about it in the newspaper or online rather than by listening to a report about it on the radio or internet",
-		answer : 3,
-		answerResponse : "SOMETIMES",
 	},{
 		question : "I can understand a news article better by reading about it in the newspaper or online rather than by listening to a report about it on the radio or internet",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
 		question : "I chew gum, smoke or snack while studying",
-		answer : 3,
-		answerResponse : "SOMETIMES",
-	},{
-		question : "I chew gum, smoke or snack while studying",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
 		question : "I think the best way to remember something is to picture it in my mind",
-		answer : 5,
-		answerResponse : "OFTEN",
-	},{
-		question : "I think the best way to remember something is to picture it in my mind",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
-		answer : 5,
-		answerResponse : "OFTEN",
-	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
-	},{
-		question : "I would rather listen to a good lecture or speech than read about the same material",
-		answer : 5,
-		answerResponse : "OFTEN",
 	},{
 		question : "I would rather listen to a good lecture or speech than read about the same material",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
 		question : "I am good at working and solving jigsaw puzzles and mazes",
-		answer : 5,
-		answerResponse : "OFTEN",
-	},{
-		question : "I am good at working and solving jigsaw puzzles and mazes",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
 		question : "I grip objects in my hands during learning periods",
-		answer : 5,
-		answerResponse : "OFTEN",
-	},{
-		question : "I grip objects in my hands during learning periods",
-		answer : 3,
-		answerResponse : "SOMETIMES",
-	},{
-		question : "I prefer listening to the news on the radio or online rather than reading about it in a newspaper or on the internet",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -5553,21 +5617,9 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I prefer obtaining information about an interesting subject by reading about it",
-		answer : 5,
-		answerResponse : "OFTEN",
-	},{
-		question : "I feel very comfortable touching others hugging, handshaking, etc",
-		answer : 5,
-		answerResponse : "OFTEN",
-	},{
 		question : "I feel very comfortable touching others hugging, handshaking, etc",
 		answer : 3,
 		answerResponse : "SOMETIMES",
-	},{
-		question : "I follow oral directions better than written ones",
-		answer : 1,
-		answerResponse : "SELDOM",
 	},{
 		question : "I follow oral directions better than written ones",
 		answer : 1,
@@ -5584,7 +5636,8 @@ var studentDataList = [{
 	tacticalPrefScore : 16,
 	marks : 28,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -5650,7 +5703,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -5693,7 +5746,8 @@ var studentDataList = [{
 	tacticalPrefScore : 32,
 	marks : 32,
 	learningStyle : "Tactile",
-	suggestions : "No suggestions",
+	learningMethod : "Practice on paper whatever you have to learn, Writing again n again will help you to learn better. Participation in school projects, in cultural and sports events will help you to grow better. Keep Lecture notes for sure.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 1,
@@ -5759,7 +5813,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -5802,7 +5856,8 @@ var studentDataList = [{
 	tacticalPrefScore : 26,
 	marks : 32,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -5868,7 +5923,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -5911,7 +5966,8 @@ var studentDataList = [{
 	tacticalPrefScore : 24,
 	marks : 32,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -5977,7 +6033,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -6020,7 +6076,8 @@ var studentDataList = [{
 	tacticalPrefScore : 18,
 	marks : 32,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -6086,7 +6143,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -6129,7 +6186,8 @@ var studentDataList = [{
 	tacticalPrefScore : 28,
 	marks : 32,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -6195,7 +6253,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -6238,7 +6296,8 @@ var studentDataList = [{
 	tacticalPrefScore : 18,
 	marks : 34,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -6304,7 +6363,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -6347,7 +6406,8 @@ var studentDataList = [{
 	tacticalPrefScore : 22,
 	marks : 32,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -6413,7 +6473,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -6456,7 +6516,8 @@ var studentDataList = [{
 	tacticalPrefScore : 22,
 	marks : 32,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -6522,7 +6583,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -6565,7 +6626,8 @@ var studentDataList = [{
 	tacticalPrefScore : 30,
 	marks : 34,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -6631,7 +6693,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -6674,7 +6736,8 @@ var studentDataList = [{
 	tacticalPrefScore : 16,
 	marks : 32,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -6740,7 +6803,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -6783,7 +6846,8 @@ var studentDataList = [{
 	tacticalPrefScore : 30,
 	marks : 33,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -6845,7 +6909,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -6888,7 +6952,8 @@ var studentDataList = [{
 	tacticalPrefScore : 18,
 	marks : 38,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -6954,7 +7019,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -6997,7 +7062,8 @@ var studentDataList = [{
 	tacticalPrefScore : 18,
 	marks : 32,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -7063,7 +7129,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -7106,7 +7172,8 @@ var studentDataList = [{
 	tacticalPrefScore : 20,
 	marks : 30,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -7172,7 +7239,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -7215,7 +7282,8 @@ var studentDataList = [{
 	tacticalPrefScore : 30,
 	marks : 32,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -7281,7 +7349,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -7324,7 +7392,8 @@ var studentDataList = [{
 	tacticalPrefScore : 16,
 	marks : 36,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -7390,7 +7459,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -7433,7 +7502,8 @@ var studentDataList = [{
 	tacticalPrefScore : 20,
 	marks : 28,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -7499,7 +7569,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -7542,7 +7612,8 @@ var studentDataList = [{
 	tacticalPrefScore : 18,
 	marks : 30,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -7608,7 +7679,7 @@ var studentDataList = [{
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -7647,7 +7718,8 @@ var studentDataList = [{
 	tacticalPrefScore : 24,
 	marks : 34,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -7713,7 +7785,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -7756,7 +7828,8 @@ var studentDataList = [{
 	tacticalPrefScore : 18,
 	marks : 32,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -7822,7 +7895,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -7865,7 +7938,8 @@ var studentDataList = [{
 	tacticalPrefScore : 26,
 	marks : 30,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -7931,7 +8005,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -7974,7 +8048,8 @@ var studentDataList = [{
 	tacticalPrefScore : 18,
 	marks : 32,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -8040,7 +8115,7 @@ var studentDataList = [{
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -8083,7 +8158,8 @@ var studentDataList = [{
 	tacticalPrefScore : 22,
 	marks : 34,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -8149,7 +8225,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -8192,7 +8268,8 @@ var studentDataList = [{
 	tacticalPrefScore : 26,
 	marks : 34,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -8258,7 +8335,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -8301,7 +8378,8 @@ var studentDataList = [{
 	tacticalPrefScore : 30,
 	marks : 36,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -8367,7 +8445,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -8410,7 +8488,8 @@ var studentDataList = [{
 	tacticalPrefScore : 14,
 	marks : 28,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -8476,7 +8555,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -8519,7 +8598,8 @@ var studentDataList = [{
 	tacticalPrefScore : 22,
 	marks : 30,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -8585,7 +8665,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -8628,7 +8708,8 @@ var studentDataList = [{
 	tacticalPrefScore : 22,
 	marks : 26,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -8694,7 +8775,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -8737,7 +8818,8 @@ var studentDataList = [{
 	tacticalPrefScore : 20,
 	marks : 28,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -8803,7 +8885,7 @@ var studentDataList = [{
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -8846,7 +8928,8 @@ var studentDataList = [{
 	tacticalPrefScore : 14,
 	marks : 34,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -8912,7 +8995,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -8955,7 +9038,8 @@ var studentDataList = [{
 	tacticalPrefScore : 20,
 	marks : 28,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -9021,7 +9105,7 @@ var studentDataList = [{
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -9064,7 +9148,8 @@ var studentDataList = [{
 	tacticalPrefScore : 16,
 	marks : 36,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -9130,7 +9215,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -9173,7 +9258,8 @@ var studentDataList = [{
 	tacticalPrefScore : 20,
 	marks : 38,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -9239,7 +9325,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -9282,7 +9368,8 @@ var studentDataList = [{
 	tacticalPrefScore : 22,
 	marks : 36,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -9348,7 +9435,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -9387,7 +9474,8 @@ var studentDataList = [{
 	tacticalPrefScore : 20,
 	marks : 34,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -9453,7 +9541,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -9496,7 +9584,8 @@ var studentDataList = [{
 	tacticalPrefScore : 40,
 	marks : 40,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -9562,7 +9651,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -9595,7 +9684,7 @@ var studentDataList = [{
 		answerResponse : "OFTEN",
 	}]
 },{
-	firstName : "SYED MOHD",
+	firstName : "SYED MOHD. SAHAB",
 	lastName : "NO_VALUE_HERE",
 	className : "IX",
 	phoneNo : "NO_VALUE_HERE",
@@ -9605,7 +9694,8 @@ var studentDataList = [{
 	tacticalPrefScore : 26,
 	marks : 36,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 	}]
 },{
@@ -9619,7 +9709,8 @@ var studentDataList = [{
 	tacticalPrefScore : 18,
 	marks : 28,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -9685,7 +9776,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -9728,7 +9819,8 @@ var studentDataList = [{
 	tacticalPrefScore : 18,
 	marks : 26,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 	}]
 },{
@@ -9742,7 +9834,8 @@ var studentDataList = [{
 	tacticalPrefScore : 22,
 	marks : 34,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -9808,7 +9901,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -9851,7 +9944,8 @@ var studentDataList = [{
 	tacticalPrefScore : 26,
 	marks : 32,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -9917,7 +10011,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -9960,7 +10054,8 @@ var studentDataList = [{
 	tacticalPrefScore : 16,
 	marks : 36,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -10026,7 +10121,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -10069,7 +10164,8 @@ var studentDataList = [{
 	tacticalPrefScore : 17,
 	marks : 30,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -10174,7 +10270,8 @@ var studentDataList = [{
 	tacticalPrefScore : 26,
 	marks : 34,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -10240,7 +10337,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -10283,7 +10380,8 @@ var studentDataList = [{
 	tacticalPrefScore : 24,
 	marks : 26,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -10345,7 +10443,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -10388,7 +10486,8 @@ var studentDataList = [{
 	tacticalPrefScore : 20,
 	marks : 36,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -10454,7 +10553,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -10497,7 +10596,8 @@ var studentDataList = [{
 	tacticalPrefScore : 18,
 	marks : 34,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -10563,7 +10663,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -10606,7 +10706,8 @@ var studentDataList = [{
 	tacticalPrefScore : 26,
 	marks : 32,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -10672,7 +10773,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -10715,7 +10816,8 @@ var studentDataList = [{
 	tacticalPrefScore : 23,
 	marks : 34,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -10777,7 +10879,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -10820,7 +10922,8 @@ var studentDataList = [{
 	tacticalPrefScore : 26,
 	marks : 26,
 	learningStyle : "Tactile",
-	suggestions : "No suggestions",
+	learningMethod : "Practice on paper whatever you have to learn, Writing again n again will help you to learn better. Participation in school projects, in cultural and sports events will help you to grow better. Keep Lecture notes for sure.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -10886,7 +10989,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -10929,7 +11032,8 @@ var studentDataList = [{
 	tacticalPrefScore : 28,
 	marks : 36,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -10995,7 +11099,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -11038,7 +11142,8 @@ var studentDataList = [{
 	tacticalPrefScore : 20,
 	marks : 32,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -11104,7 +11209,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -11147,7 +11252,8 @@ var studentDataList = [{
 	tacticalPrefScore : 18,
 	marks : 34,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -11213,7 +11319,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -11256,7 +11362,8 @@ var studentDataList = [{
 	tacticalPrefScore : 24,
 	marks : 32,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -11322,7 +11429,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -11365,7 +11472,8 @@ var studentDataList = [{
 	tacticalPrefScore : 24,
 	marks : 34,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -11431,7 +11539,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -11474,7 +11582,8 @@ var studentDataList = [{
 	tacticalPrefScore : 13,
 	marks : 28,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -11532,7 +11641,7 @@ var studentDataList = [{
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -11575,7 +11684,8 @@ var studentDataList = [{
 	tacticalPrefScore : 30,
 	marks : 30,
 	learningStyle : "Tactile",
-	suggestions : "No suggestions",
+	learningMethod : "Practice on paper whatever you have to learn, Writing again n again will help you to learn better. Participation in school projects, in cultural and sports events will help you to grow better. Keep Lecture notes for sure.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -11641,7 +11751,7 @@ var studentDataList = [{
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -11684,7 +11794,8 @@ var studentDataList = [{
 	tacticalPrefScore : 30,
 	marks : 30,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -11750,7 +11861,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -11793,7 +11904,8 @@ var studentDataList = [{
 	tacticalPrefScore : 28,
 	marks : 30,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -11859,7 +11971,7 @@ var studentDataList = [{
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -11902,7 +12014,8 @@ var studentDataList = [{
 	tacticalPrefScore : 18,
 	marks : 36,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -11968,7 +12081,7 @@ var studentDataList = [{
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -12011,7 +12124,8 @@ var studentDataList = [{
 	tacticalPrefScore : 20,
 	marks : 34,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -12077,7 +12191,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -12120,7 +12234,8 @@ var studentDataList = [{
 	tacticalPrefScore : 22,
 	marks : 30,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -12186,7 +12301,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -12229,7 +12344,8 @@ var studentDataList = [{
 	tacticalPrefScore : 22,
 	marks : 28,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -12295,7 +12411,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -12338,7 +12454,8 @@ var studentDataList = [{
 	tacticalPrefScore : 20,
 	marks : 34,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -12404,7 +12521,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -12447,7 +12564,8 @@ var studentDataList = [{
 	tacticalPrefScore : 22,
 	marks : 30,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -12513,7 +12631,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -12556,7 +12674,8 @@ var studentDataList = [{
 	tacticalPrefScore : 20,
 	marks : 30,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -12618,7 +12737,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -12661,7 +12780,8 @@ var studentDataList = [{
 	tacticalPrefScore : 28,
 	marks : 30,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -12727,7 +12847,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -12760,7 +12880,7 @@ var studentDataList = [{
 		answerResponse : "SELDOM",
 	}]
 },{
-	firstName : "MOHD",
+	firstName : "MOHD. JUNAID",
 	lastName : "NO_VALUE_HERE",
 	className : "VII",
 	phoneNo : "NO_VALUE_HERE",
@@ -12770,11 +12890,12 @@ var studentDataList = [{
 	tacticalPrefScore : 28,
 	marks : 30,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 	}]
 },{
-	firstName : "MOHD",
+	firstName : "MOHD. VAISH",
 	lastName : "NO_VALUE_HERE",
 	className : "VII",
 	phoneNo : "NO_VALUE_HERE",
@@ -12784,7 +12905,8 @@ var studentDataList = [{
 	tacticalPrefScore : 22,
 	marks : 32,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 	}]
 },{
@@ -12798,7 +12920,8 @@ var studentDataList = [{
 	tacticalPrefScore : 24,
 	marks : 34,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 	}]
 },{
@@ -12812,7 +12935,8 @@ var studentDataList = [{
 	tacticalPrefScore : 32,
 	marks : 32,
 	learningStyle : "Tactile",
-	suggestions : "No suggestions",
+	learningMethod : "Practice on paper whatever you have to learn, Writing again n again will help you to learn better. Participation in school projects, in cultural and sports events will help you to grow better. Keep Lecture notes for sure.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -12878,7 +13002,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -12921,7 +13045,8 @@ var studentDataList = [{
 	tacticalPrefScore : 24,
 	marks : 30,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -12987,7 +13112,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -13030,7 +13155,8 @@ var studentDataList = [{
 	tacticalPrefScore : 26,
 	marks : 28,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 1,
@@ -13096,7 +13222,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -13139,7 +13265,8 @@ var studentDataList = [{
 	tacticalPrefScore : 32,
 	marks : 32,
 	learningStyle : "Tactile",
-	suggestions : "No suggestions",
+	learningMethod : "Practice on paper whatever you have to learn, Writing again n again will help you to learn better. Participation in school projects, in cultural and sports events will help you to grow better. Keep Lecture notes for sure.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -13201,7 +13328,7 @@ var studentDataList = [{
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -13244,7 +13371,8 @@ var studentDataList = [{
 	tacticalPrefScore : 20,
 	marks : 26,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -13310,7 +13438,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -13353,7 +13481,8 @@ var studentDataList = [{
 	tacticalPrefScore : 22,
 	marks : 33,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -13415,7 +13544,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -13458,7 +13587,8 @@ var studentDataList = [{
 	tacticalPrefScore : 36,
 	marks : 36,
 	learningStyle : "Tactile",
-	suggestions : "No suggestions",
+	learningMethod : "Practice on paper whatever you have to learn, Writing again n again will help you to learn better. Participation in school projects, in cultural and sports events will help you to grow better. Keep Lecture notes for sure.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -13524,7 +13654,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -13567,7 +13697,8 @@ var studentDataList = [{
 	tacticalPrefScore : 26,
 	marks : 30,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 	}]
 },{
@@ -13581,7 +13712,8 @@ var studentDataList = [{
 	tacticalPrefScore : 32,
 	marks : 32,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 	}]
 },{
@@ -13595,7 +13727,8 @@ var studentDataList = [{
 	tacticalPrefScore : 30,
 	marks : 34,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -13657,7 +13790,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -13700,7 +13833,8 @@ var studentDataList = [{
 	tacticalPrefScore : 24,
 	marks : 28,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -13766,7 +13900,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -13809,7 +13943,8 @@ var studentDataList = [{
 	tacticalPrefScore : 30,
 	marks : 30,
 	learningStyle : "Tactile",
-	suggestions : "No suggestions",
+	learningMethod : "Practice on paper whatever you have to learn, Writing again n again will help you to learn better. Participation in school projects, in cultural and sports events will help you to grow better. Keep Lecture notes for sure.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 1,
@@ -13875,7 +14010,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -13918,7 +14053,8 @@ var studentDataList = [{
 	tacticalPrefScore : 28,
 	marks : 28,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -13984,7 +14120,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -14027,7 +14163,8 @@ var studentDataList = [{
 	tacticalPrefScore : 18,
 	marks : 36,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -14093,7 +14230,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -14136,7 +14273,8 @@ var studentDataList = [{
 	tacticalPrefScore : 26,
 	marks : 36,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -14202,7 +14340,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -14245,7 +14383,8 @@ var studentDataList = [{
 	tacticalPrefScore : 18,
 	marks : 34,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -14311,7 +14450,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -14354,7 +14493,8 @@ var studentDataList = [{
 	tacticalPrefScore : 26,
 	marks : 28,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -14420,7 +14560,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -14458,12 +14598,13 @@ var studentDataList = [{
 	className : "VII",
 	phoneNo : "NO_VALUE_HERE",
 	address : "NO_VALUE_HERE",
-	visualPrefScore : NO_VALUE_HERE,
+	visualPrefScore : 26,
 	auditoryPrefScore : 34,
 	tacticalPrefScore : 22,
 	marks : 34,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -14529,7 +14670,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -14572,7 +14713,8 @@ var studentDataList = [{
 	tacticalPrefScore : 22,
 	marks : 32,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -14638,7 +14780,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -14681,7 +14823,8 @@ var studentDataList = [{
 	tacticalPrefScore : 22,
 	marks : 34,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -14747,7 +14890,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -14790,7 +14933,8 @@ var studentDataList = [{
 	tacticalPrefScore : 32,
 	marks : 32,
 	learningStyle : "Tactile",
-	suggestions : "No suggestions",
+	learningMethod : "Practice on paper whatever you have to learn, Writing again n again will help you to learn better. Participation in school projects, in cultural and sports events will help you to grow better. Keep Lecture notes for sure.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -14856,7 +15000,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -14899,7 +15043,8 @@ var studentDataList = [{
 	tacticalPrefScore : 26,
 	marks : 28,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 1,
@@ -14965,7 +15110,7 @@ var studentDataList = [{
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -15008,7 +15153,8 @@ var studentDataList = [{
 	tacticalPrefScore : 16,
 	marks : 28,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -15074,7 +15220,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -15117,7 +15263,8 @@ var studentDataList = [{
 	tacticalPrefScore : 16,
 	marks : 26,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -15183,7 +15330,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -15222,7 +15369,8 @@ var studentDataList = [{
 	tacticalPrefScore : 24,
 	marks : 38,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -15288,7 +15436,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -15331,7 +15479,8 @@ var studentDataList = [{
 	tacticalPrefScore : 28,
 	marks : 32,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -15397,7 +15546,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -15440,7 +15589,8 @@ var studentDataList = [{
 	tacticalPrefScore : 30,
 	marks : 32,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -15506,7 +15656,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -15549,7 +15699,8 @@ var studentDataList = [{
 	tacticalPrefScore : 26,
 	marks : 31,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 	}]
 },{
@@ -15563,7 +15714,8 @@ var studentDataList = [{
 	tacticalPrefScore : 26,
 	marks : 38,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -15629,7 +15781,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -15672,7 +15824,8 @@ var studentDataList = [{
 	tacticalPrefScore : 22,
 	marks : 38,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -15738,7 +15891,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -15781,7 +15934,8 @@ var studentDataList = [{
 	tacticalPrefScore : 28,
 	marks : 32,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -15847,7 +16001,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -15890,7 +16044,8 @@ var studentDataList = [{
 	tacticalPrefScore : 28,
 	marks : 30,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -15952,7 +16107,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -15986,7 +16141,7 @@ var studentDataList = [{
 	}]
 },{
 	firstName : "BIBIN",
-	lastName : "C",
+	lastName : "C. BAIJU",
 	className : "XI",
 	phoneNo : "NO_VALUE_HERE",
 	address : "NO_VALUE_HERE",
@@ -15995,7 +16150,8 @@ var studentDataList = [{
 	tacticalPrefScore : 28,
 	marks : 34,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -16061,7 +16217,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -16104,7 +16260,8 @@ var studentDataList = [{
 	tacticalPrefScore : 22,
 	marks : 34,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -16170,7 +16327,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -16213,7 +16370,8 @@ var studentDataList = [{
 	tacticalPrefScore : 32,
 	marks : 32,
 	learningStyle : "Tactile",
-	suggestions : "No suggestions",
+	learningMethod : "Practice on paper whatever you have to learn, Writing again n again will help you to learn better. Participation in school projects, in cultural and sports events will help you to grow better. Keep Lecture notes for sure.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -16279,7 +16437,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -16312,7 +16470,7 @@ var studentDataList = [{
 		answerResponse : "OFTEN",
 	}]
 },{
-	firstName : "MOHD",
+	firstName : "MOHD. AHSAN",
 	lastName : "FARAZ",
 	className : "XI",
 	phoneNo : "NO_VALUE_HERE",
@@ -16322,7 +16480,8 @@ var studentDataList = [{
 	tacticalPrefScore : 22,
 	marks : 29,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -16384,7 +16543,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -16417,7 +16576,7 @@ var studentDataList = [{
 		answerResponse : "SOMETIMES",
 	}]
 },{
-	firstName : "MOHD",
+	firstName : "MOHD. SAALIM",
 	lastName : "USMANI",
 	className : "XI",
 	phoneNo : "NO_VALUE_HERE",
@@ -16427,7 +16586,8 @@ var studentDataList = [{
 	tacticalPrefScore : 26,
 	marks : 34,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -16493,7 +16653,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -16536,7 +16696,8 @@ var studentDataList = [{
 	tacticalPrefScore : 18,
 	marks : 30,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 1,
@@ -16602,7 +16763,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -16645,7 +16806,8 @@ var studentDataList = [{
 	tacticalPrefScore : 22,
 	marks : 36,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -16711,7 +16873,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -16754,7 +16916,8 @@ var studentDataList = [{
 	tacticalPrefScore : 12,
 	marks : 34,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -16820,7 +16983,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -16863,7 +17026,8 @@ var studentDataList = [{
 	tacticalPrefScore : 24,
 	marks : 28,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -16929,7 +17093,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -16972,7 +17136,8 @@ var studentDataList = [{
 	tacticalPrefScore : 24,
 	marks : 30,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -17038,7 +17203,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -17081,7 +17246,8 @@ var studentDataList = [{
 	tacticalPrefScore : 28,
 	marks : 30,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -17143,7 +17309,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -17186,7 +17352,8 @@ var studentDataList = [{
 	tacticalPrefScore : 26,
 	marks : 30,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -17252,7 +17419,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -17295,7 +17462,8 @@ var studentDataList = [{
 	tacticalPrefScore : 24,
 	marks : 32,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -17361,7 +17529,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -17404,7 +17572,8 @@ var studentDataList = [{
 	tacticalPrefScore : 20,
 	marks : 30,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -17470,7 +17639,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -17513,7 +17682,8 @@ var studentDataList = [{
 	tacticalPrefScore : 26,
 	marks : 30,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -17579,7 +17749,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -17622,7 +17792,8 @@ var studentDataList = [{
 	tacticalPrefScore : 28,
 	marks : 34,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -17688,7 +17859,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -17731,7 +17902,8 @@ var studentDataList = [{
 	tacticalPrefScore : 32,
 	marks : 32,
 	learningStyle : "Tactile",
-	suggestions : "No suggestions",
+	learningMethod : "Practice on paper whatever you have to learn, Writing again n again will help you to learn better. Participation in school projects, in cultural and sports events will help you to grow better. Keep Lecture notes for sure.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -17797,7 +17969,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -17840,7 +18012,8 @@ var studentDataList = [{
 	tacticalPrefScore : 28,
 	marks : 34,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -17906,7 +18079,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -17949,7 +18122,8 @@ var studentDataList = [{
 	tacticalPrefScore : 28,
 	marks : 29,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -18007,7 +18181,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
@@ -18050,7 +18224,8 @@ var studentDataList = [{
 	tacticalPrefScore : 26,
 	marks : 36,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -18116,7 +18291,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
@@ -18159,7 +18334,8 @@ var studentDataList = [{
 	tacticalPrefScore : 32,
 	marks : 32,
 	learningStyle : "Tactile",
-	suggestions : "No suggestions",
+	learningMethod : "Practice on paper whatever you have to learn, Writing again n again will help you to learn better. Participation in school projects, in cultural and sports events will help you to grow better. Keep Lecture notes for sure.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 	}]
 },{
@@ -18173,7 +18349,8 @@ var studentDataList = [{
 	tacticalPrefScore : 18,
 	marks : 34,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 3,
@@ -18239,7 +18416,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -18282,7 +18459,8 @@ var studentDataList = [{
 	tacticalPrefScore : 22,
 	marks : 30,
 	learningStyle : "Visual",
-	suggestions : "No suggestions",
+	learningMethod : "Use different colour pens to write, Highlighters will be a good choice while you go through the books. Colourful charts can be used for marking different important points on book or on notebooks. Try to sit in rows near to teacher, so that Teacher's face is visible when they deliver lectures. Try to imagine whatever you are reading or learning, Creating colourful pictures in your mind will help you to learn better.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 5,
@@ -18348,7 +18526,7 @@ var studentDataList = [{
 		answer : 5,
 		answerResponse : "OFTEN",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
@@ -18391,7 +18569,8 @@ var studentDataList = [{
 	tacticalPrefScore : 18,
 	marks : 32,
 	learningStyle : "Auditory",
-	suggestions : "No suggestions",
+	learningMethod : "Sit in rows from where you can hear leactures well. Read aloud the notes to yourself again and again. Record the Lessons on phone/Tablet/Tape recorder/Laptop etc eg. History notes, Shakespeare dialogues, Poems etc., Listen those recorded lectures as Songs.",
+	suggestions : "Teach yourself new methods to learn.  Adapt new learning styles. Develop new personal study habits, following the instructions in the leaflet provided to you during session. This will help you to educate yourself in different subjects and field.",
 	questions : [{
 		question : "I can remember best by listening to a lecture that includes information, explanations and discussions",
 		answer : 1,
@@ -18457,7 +18636,7 @@ var studentDataList = [{
 		answer : 3,
 		answerResponse : "SOMETIMES",
 	},{
-		question : "I learn the spelling of words by ‚Äúfinger spelling‚Äù them",
+		question : "I learn the spelling of words by ìfinger spellingî them",
 		answer : 1,
 		answerResponse : "SELDOM",
 	},{
