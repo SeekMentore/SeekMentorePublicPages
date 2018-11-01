@@ -33,13 +33,9 @@ td, th {
     text-align: left;
     padding: 8px;
 }
-/* tr:nth-child(odd) {
-    background-color: black; /* #004b72 */
-    color: white;
-} */
+
 </style>
-</head>
-	</head>
+</head>	
 	<body class="page">
 		<!-- Header Wrapper -->
 		<div class="small-screen-top-menu wrapper style1 top-menu">
@@ -102,7 +98,7 @@ td, th {
 			<!-- <header class="major page-header">
 				<h2>Find Your Learning Style</h2>
 			</header> -->
-			<div class="blinking">Results for 'Learning Style' session @ Nirmala Inter College</div></br>
+			<div class="blinking">Results for 'Learning Style' session @ Nirmala Inter College</div><br/>
 			<!-- <hr class="page-header" /> -->
 			<div class="row">
 				<!-- Sidebar -->
@@ -230,6 +226,48 @@ td, th {
 				</ul>
 			</div>
 			<hr />
+			<div id="contact-us-form-handler">
+				<div id="contact-us-form">
+					<form>
+						<div class="input-form-content-withput-border-and-bgcolor" >
+							<div class="row input-form-row">
+								<div class="12u skel-cell-important input-form-column-first-row">
+									<div class="big-screen">
+										<input type="text" name="email" id="email-big-screen" placeholder="Type your Email Id here (eg: firstname_surname@domain.com)" />
+									</div>
+									<div class="small-screen">
+										<input type="text" name="email" id="email-small-screen" placeholder="Type your Email Id" />
+									</div>
+								</div>
+							</div>
+							<div class="row input-form-row">
+								<div class="12u skel-cell-important input-form-column">
+									<textarea rows="4" cols="70" id="query-details" placeholder="Provide details of your query and hear back from us within 8 hrs!!!"></textarea>
+								</div>
+							</div>
+							<div class="row input-form-row">
+								<div class="6u skel-cell-important input-form-column">
+									<div class="g-recaptcha" 
+											data-sitekey="6LdFBlAUAAAAACzDGmG9pLG76RbV1YPhegqBOZq5" 
+											data-callback="captchaResponseCallback" 
+											data-expired-callback="captchaExpiredCallback" 
+											data-error-callback="captchaErrorCallback"></div>
+								</div>
+								<div class="6u">&nbsp;</div>
+							</div>
+							<div class="row input-form-row">
+								<div class="6u skel-cell-important input-form-column" align="right">
+									<input type="reset" id="submit-query-form-reset" class="noscreen" value="Reset form">
+									<a href="javascript:void(0);" onclick="resetForm('submit-query-form-reset')" class="button">Reset Form</a>
+								</div>
+								<div class="6u input-form-column" align="left">
+									<a href="javascript:void(0);" onclick="submitQuery()" class="button">Submit your query</a>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
 		</section>
 		<div id="footerlinks">
 			<div class="big-screen">
