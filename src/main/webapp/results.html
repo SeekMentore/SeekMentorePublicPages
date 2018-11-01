@@ -305,6 +305,19 @@ td, th {
 		</div>
 	</div>
 
+	<!-- The Modal -->
+		<div id="notification-popup-modal" class="modal noscreen">
+		  <!-- Modal content -->
+		  <div class="modal-content">
+		  	<div id="alert-title"></div>
+		    <div id="close-notification-popup-modal" class="close-modal" onclick="closeNotificationPopUpModal()">&times;</div>
+		    <hr class="modal-line" />
+		    <p id="notification-popup-model-content-section"></p>
+		    <hr class="modal-line" />
+		    <div onclick="closeNotificationPopUpModal()" class="close-modal-button">OK</div>
+		  </div>
+		</div>
+
 	<!-- Load Scripts -->
 		<script src="js/jquery.min.js"></script>
 		<script src="js/jquery.dropotron.min.js"></script>
@@ -313,9 +326,9 @@ td, th {
 		<script src="js/init.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<!--  Load Blinker -->
+		<script src="js/applicationCommon.js"></script>
+		<!--  Load Blinker -->
 		<script src="js/commonFunctions.js"></script>
-  		<!-- Load scripts for taking action on page -->
-  		<script src="js/applicationCommon.js"></script>
   		<script src="js/resultDisplay.js"></script>
   		<script src="js/resultJSONList.js"></script>
 	</body>
