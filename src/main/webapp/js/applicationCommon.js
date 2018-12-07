@@ -49,6 +49,7 @@ function decodeObjectFromJSON(json) {
 }
 
 // Configure Captcha settings and functions
+var switchOffCaptcha = true;
 var captchaAuthFulfilled = false;
 var captchaResponseToken = null; 
   
@@ -191,10 +192,10 @@ function getApplicationToBecomeTutor() {
 			subjects					: getAttributeValue('subjects', true, true),
 			locations 					: getAttributeValue('locations', true, true),
 			preferredTimeToCall 		: getAttributeValue('preferred-time', true, true),
-			additionalDetails 			: getAttributeValue('additional-details', false) + '<br> <br> AddressDetails <br>'+ getAttributeValue("address-details",false),
+			additionalDetails 			: getAttributeValue('additional-details', false),
 			preferredTeachingType       : getAttributeValue('preferred-teaching-type', true, true),
 			reference                   : getAttributeValue('reference', true),
-	//		addressDetails              : getAttributeValue("address-details",false),
+			addressDetails              : getAttributeValue("address-details",false),
 			captchaResponse				: captchaResponseToken,
 		};
 	return form;
@@ -242,7 +243,7 @@ function submitFormBecomeTutor() {
 		showNotificationModal('Please agree to Terms and Conditions.', false);
 		return;
 	}
-	if (!captchaAuthFulfilled) {
+	if (!switchOffCaptcha && !captchaAuthFulfilled) {
 		showNotificationModal('Please fill captcha.', false);
 		return;
 	}
@@ -257,7 +258,7 @@ function submitFormFindTutor() {
 		showNotificationModal('Please agree to Terms and Conditions.', false);
 		return;
 	}
-	if (!captchaAuthFulfilled) {
+	if (!switchOffCaptcha && !captchaAuthFulfilled) {
 		showNotificationModal('Please fill captcha.', false);
 		return;
 	}
@@ -272,7 +273,7 @@ function submitFormSubscribe() {
 		showNotificationModal('Please agree to Terms and Conditions.', false);
 		return;
 	}
-	if (!captchaAuthFulfilled) {
+	if (!switchOffCaptcha && !captchaAuthFulfilled) {
 		showNotificationModal('Please fill captcha.', false);
 		return;
 	}
@@ -283,7 +284,7 @@ function submitFormSubscribe() {
 }
 
 function submitQuery() {
-	if (!captchaAuthFulfilled) {
+	if (!switchOffCaptcha && !captchaAuthFulfilled) {
 		showNotificationModal('Please fill captcha.', false);
 		return;
 	}
