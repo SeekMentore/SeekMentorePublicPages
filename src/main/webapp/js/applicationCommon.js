@@ -30,9 +30,9 @@ commonErrorHandler = function(error) {
 	showNotificationModal('Connection lost.<br/>Please check your network connection and refresh the page.', false);
 }
 commmonSuccessHandler = function(response) {
-	var failure = response.FAILURE;
-	if (failure) {
-		showNotificationModal(response.FAILURE_MESSAGE, false);
+	var success = response.success;
+	if (!success) {
+		showNotificationModal(response.message, false);
 		return;
 	}
 	resetForm(resetButton);
