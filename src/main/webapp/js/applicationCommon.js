@@ -90,7 +90,7 @@ function callWebservice(url, data, success, failure, method, contentType) {
 	if (null != $('#loader-popup-modal')) {
 		$('#loader-popup-modal').removeClass('noscreen');
 	}
-	if (resetCaptcha) {
+	if (!switchOffCaptcha && resetCaptcha) {
 		// Reset Captcha
 		grecaptcha.reset();
 		resetCaptcha = false;
