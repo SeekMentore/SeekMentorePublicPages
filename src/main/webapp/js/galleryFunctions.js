@@ -1,3 +1,7 @@
+var maxNumberOfColumns = 4;
+var totalPicsArray = [2, 6, 1, 1, 7];
+var classArray = ['Nursery', 'Ist', 'IInd', 'IIIrd', 'IVth'];
+
 // Configure gallery-image popup modal and register events
 function closeGalleryImagePopUpModal() {
 	$('#gallery-image-popup-modal').addClass('noscreen');
@@ -20,9 +24,6 @@ function showGalleryImageModal(src) {
 	image.setAttribute('src', src);
 }
 
-var maxNumberOfColumns = 4;
-var totalPicsArray = [-1, 6, 1, 1];
-var classNamesArray = [null, 'Ist', 'IInd', 'IIIrd'];
 function loadPics(tileNumber) {
 	$('#gallery-tiles').addClass('noscreen');
 	$('#gallery-pics').html('');
@@ -43,7 +44,7 @@ function loadPics(tileNumber) {
 		var columnDiv = document.createElement('DIV');
 		columnDiv.setAttribute('class','3u');
 		var image = document.createElement('IMG');
-		var src = './images/nirmala-results/'+tileNumber+'/'+i+'.jpg';
+		var src = './images/nirmala-results/'+classArray[tileNumber]+'/'+i+'.jpg';
 		image.setAttribute('src', src);
 		image.setAttribute('class','full-container-responsive-element gallery-images');
 		image.setAttribute('width', '304');
@@ -65,13 +66,13 @@ function showTiles() {
 	$('#gallery-tiles').removeClass('noscreen');
 }
 
-function loadTiles(totalTiles) {
+function loadTiles() {
 	$('#gallery-pics-section').addClass('noscreen');
 	var galleryTilesDiv = document.getElementById('gallery-tiles');
 	var createNewRow = true;
 	var columnCount = 1;
 	var rowDiv = null;
-	for(var i = 1 ; i <= totalTiles; i++) {
+	for(var i = 0 ; i < classArray.length; i++) {
 		if (columnCount > maxNumberOfColumns) {
 			columnCount = 1;
 			createNewRow = true;
@@ -83,7 +84,7 @@ function loadTiles(totalTiles) {
 		var columnDiv = document.createElement('DIV');
 		columnDiv.setAttribute('class','3u text-image-container');
 		var image = document.createElement('IMG');
-		image.setAttribute('src', './images/nirmala-results/'+i+'/1.jpg');
+		image.setAttribute('src', './images/nirmala-results/'+classArray[i]+'/1.jpg');
 		image.setAttribute('class','full-container-responsive-element gallery-images');
 		image.setAttribute('width', '304');
 		image.setAttribute('height', '228');
@@ -92,7 +93,11 @@ function loadTiles(totalTiles) {
 		var textDiv = document.createElement('DIV');
 		textDiv.setAttribute('class','text-image-centered');
 		textDiv.setAttribute('onClick', 'loadPics('+i+')');
-		textDiv.innerHTML = 'Class ' + classNamesArray[i];
+		if (i == 0) {
+			textDiv.innerHTML = classArray[i];
+		} else {
+			textDiv.innerHTML = 'Class ' + classArray[i];
+		}
 		columnDiv.appendChild(textDiv);
 		rowDiv.appendChild(columnDiv);
 		columnCount += 1;
