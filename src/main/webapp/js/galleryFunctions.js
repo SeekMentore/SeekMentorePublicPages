@@ -1,5 +1,28 @@
+// Configure gallery-image popup modal and register events
+function closeGalleryImagePopUpModal() {
+	$('#gallery-image-popup-modal').addClass('noscreen');
+}
+
+window.onclick = function(event) {
+	var modalN = document.getElementById('notification-popup-modal');
+	if (event.target == modalN) {
+		$('#notification-popup-modal').addClass('noscreen');
+	}
+	var modalG = document.getElementById('gallery-image-popup-modal');
+	if (event.target == modalG) {
+		$('#gallery-image-popup-modal').addClass('noscreen');
+	}
+}
+
+function showGalleryImageModal(src) {
+	$('#gallery-image-popup-modal').removeClass('noscreen');
+	var image = document.getElementById('gallery-image-popup-modal-image-pic');
+	image.setAttribute('src', src);
+}
+
 var maxNumberOfColumns = 4;
 var totalPicsArray = [-1, 6, 1, 1];
+var classNamesArray = [null, 'Ist', 'IInd', 'IIIrd'];
 function loadPics(tileNumber) {
 	$('#gallery-tiles').addClass('noscreen');
 	$('#gallery-pics').html('');
@@ -19,15 +42,14 @@ function loadPics(tileNumber) {
 		}
 		var columnDiv = document.createElement('DIV');
 		columnDiv.setAttribute('class','3u');
-		var section = document.createElement('SECTION');
 		var image = document.createElement('IMG');
-		image.setAttribute('src', './images/nirmala-results/'+tileNumber+'/'+i+'.jpg');
+		var src = './images/nirmala-results/'+tileNumber+'/'+i+'.jpg';
+		image.setAttribute('src', src);
 		image.setAttribute('class','full-container-responsive-element gallery-images');
 		image.setAttribute('width', '304');
 		image.setAttribute('height', '228');
-		//image.setAttribute('onClick', 'loadPics('+i+')');
-		section.appendChild(image);
-		columnDiv.appendChild(section);
+		image.setAttribute('onClick', 'showGalleryImageModal(\''+src+'\')');
+		columnDiv.appendChild(image);
 		rowDiv.appendChild(columnDiv);
 		columnCount += 1;
 		if (createNewRow) {
@@ -35,11 +57,16 @@ function loadPics(tileNumber) {
 			createNewRow = false;
 		}
 	}
-	$('#gallery-pics').removeClass('noscreen');
+	$('#gallery-pics-section').removeClass('noscreen');
+}
+
+function showTiles() {
+	$('#gallery-pics-section').addClass('noscreen');
+	$('#gallery-tiles').removeClass('noscreen');
 }
 
 function loadTiles(totalTiles) {
-	$('#gallery-pics').addClass('noscreen');
+	$('#gallery-pics-section').addClass('noscreen');
 	var galleryTilesDiv = document.getElementById('gallery-tiles');
 	var createNewRow = true;
 	var columnCount = 1;
@@ -54,16 +81,19 @@ function loadTiles(totalTiles) {
 			rowDiv.setAttribute('class','row');
 		}
 		var columnDiv = document.createElement('DIV');
-		columnDiv.setAttribute('class','3u');
-		var section = document.createElement('SECTION');
+		columnDiv.setAttribute('class','3u text-image-container');
 		var image = document.createElement('IMG');
 		image.setAttribute('src', './images/nirmala-results/'+i+'/1.jpg');
 		image.setAttribute('class','full-container-responsive-element gallery-images');
 		image.setAttribute('width', '304');
 		image.setAttribute('height', '228');
 		image.setAttribute('onClick', 'loadPics('+i+')');
-		section.appendChild(image);
-		columnDiv.appendChild(section);
+		columnDiv.appendChild(image);
+		var textDiv = document.createElement('DIV');
+		textDiv.setAttribute('class','text-image-centered');
+		textDiv.setAttribute('onClick', 'loadPics('+i+')');
+		textDiv.innerHTML = 'Class ' + classNamesArray[i];
+		columnDiv.appendChild(textDiv);
 		rowDiv.appendChild(columnDiv);
 		columnCount += 1;
 		if (createNewRow) {
@@ -71,4 +101,5 @@ function loadTiles(totalTiles) {
 			createNewRow = false;
 		}
 	}
+	$('#gallery-tiles').removeClass('noscreen');
 }

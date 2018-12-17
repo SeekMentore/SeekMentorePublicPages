@@ -1432,3 +1432,20 @@ input{
 		border-radius: 40px;
 		cursor: pointer;
 	}
+	.text-image-centered {
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	  background: lightslategray;
+		width: -moz-available;
+		opacity: 0.9;
+		height: 40px;
+		font-size: 1.5em;
+		cursor: pointer;
+	}
+	.text-image-container {
+	  position: relative;
+	  text-align: center;
+	  color: white;
+	}
