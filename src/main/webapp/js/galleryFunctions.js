@@ -58,16 +58,19 @@ function loadPics(tileNumber) {
 			createNewRow = false;
 		}
 	}
-	$('#gallery-pics-section').removeClass('noscreen');
+	$('#gallery-pics').removeClass('noscreen');
+	$('#back-to-class-button').removeClass('visibilityHidden');
 }
 
 function showTiles() {
-	$('#gallery-pics-section').addClass('noscreen');
+	$('#gallery-pics').addClass('noscreen');
+	$('#back-to-class-button').addClass('visibilityHidden');
 	$('#gallery-tiles').removeClass('noscreen');
 }
 
 function loadTiles() {
-	$('#gallery-pics-section').addClass('noscreen');
+	$('#gallery-pics').addClass('noscreen');
+	$('#back-to-class-button').addClass('visibilityHidden');
 	var galleryTilesDiv = document.getElementById('gallery-tiles');
 	var createNewRow = true;
 	var columnCount = 1;

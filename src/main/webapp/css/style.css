@@ -1451,3 +1451,10 @@ input{
 	  text-align: center;
 	  color: white;
 	}
+	#back-to-class-button {
+		margin-left: 6%;
+	}
+	
+	.visibilityHidden {
+		visibility: hidden;
+	}
