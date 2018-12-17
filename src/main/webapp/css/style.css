@@ -1458,3 +1458,7 @@ input{
 	.visibilityHidden {
 		visibility: hidden;
 	}
+	
+	#drawing-result-header {
+		float: left;
+	}
