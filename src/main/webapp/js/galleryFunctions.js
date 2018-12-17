@@ -1,47 +1,74 @@
-function loadClass( className,  totalpics)
-{	$('#total-grades').addClass('noscreen');
-	for(var i=1;i<=totalpics;i++ )
-	 { 
-		 var columnNo = 3;
-		 var row = document.createElement("tr");
-		 while(columnNo > 0)
-		   {
-			  var column = document.createElement("td");
-			 
-			  var img = document.createElement("IMG");
-			  img.setAttribute("src", "C:/Users/jigya/Documents/GitHub/SeekMentorePublicPages/src/main/webapp/images/nirmala-results/"+className+"/"+i+".jpg");
-			  img.setAttribute("width", "304");
-			  img.setAttribute("height", "228");
-			  column.appendChild(img);
-			  row.appendChild(column);
-			  columnNo --;		
-			  totalpics--;
-		   }
-		 document.getElementById("gallery-section").appendChild(row);
-	 }
-	
+var maxNumberOfColumns = 4;
+var totalPicsArray = [-1, 6, 1, 1];
+function loadPics(tileNumber) {
+	$('#gallery-tiles').addClass('noscreen');
+	$('#gallery-pics').html('');
+	var galleryPicsDiv = document.getElementById('gallery-pics');
+	var createNewRow = true;
+	var columnCount = 1;
+	var rowDiv = null;
+	var totalPics = totalPicsArray[tileNumber];
+	for(var i = 1 ; i <= totalPics; i++) {
+		if (columnCount > maxNumberOfColumns) {
+			columnCount = 1;
+			createNewRow = true;
+		}
+		if (createNewRow) {
+			rowDiv = document.createElement('DIV');
+			rowDiv.setAttribute('class','row');
+		}
+		var columnDiv = document.createElement('DIV');
+		columnDiv.setAttribute('class','3u');
+		var section = document.createElement('SECTION');
+		var image = document.createElement('IMG');
+		image.setAttribute('src', './images/nirmala-results/'+tileNumber+'/'+i+'.jpg');
+		image.setAttribute('class','full-container-responsive-element gallery-images');
+		image.setAttribute('width', '304');
+		image.setAttribute('height', '228');
+		//image.setAttribute('onClick', 'loadPics('+i+')');
+		section.appendChild(image);
+		columnDiv.appendChild(section);
+		rowDiv.appendChild(columnDiv);
+		columnCount += 1;
+		if (createNewRow) {
+			galleryPicsDiv.appendChild(rowDiv);
+			createNewRow = false;
+		}
+	}
+	$('#gallery-pics').removeClass('noscreen');
 }
 
-function loadTotalGrades(totalGrades)
-{
-	$('#gallery-section').addClass('noscreen');
-	for(var i=1;i<=totalGrades;i++ )
-	 {
-		 var columnNo = 3;
-		 var row = document.createElement("tr");
-		 while(columnNo > 0)	
-		 {
-		  var column = document.createElement("td");
-		  var img = document.createElement("IMG");
-		  img.setAttribute("src", "C:/Users/jigya/Documents/GitHub/SeekMentorePublicPages/src/main/webapp/images/nirmala-results/"+i+"/1.jpg");
-		  img.setAttribute("width", "304");
-		  img.setAttribute("height", "228");
-		  column.appendChild(img);
-		  row.appendChild(column);
-		  columnNo --;		
-		  totalGrades--;
-	   }
-		 document.getElementById("total-grades").appendChild(row);
-	 }
-	
+function loadTiles(totalTiles) {
+	$('#gallery-pics').addClass('noscreen');
+	var galleryTilesDiv = document.getElementById('gallery-tiles');
+	var createNewRow = true;
+	var columnCount = 1;
+	var rowDiv = null;
+	for(var i = 1 ; i <= totalTiles; i++) {
+		if (columnCount > maxNumberOfColumns) {
+			columnCount = 1;
+			createNewRow = true;
+		}
+		if (createNewRow) {
+			rowDiv = document.createElement('DIV');
+			rowDiv.setAttribute('class','row');
+		}
+		var columnDiv = document.createElement('DIV');
+		columnDiv.setAttribute('class','3u');
+		var section = document.createElement('SECTION');
+		var image = document.createElement('IMG');
+		image.setAttribute('src', './images/nirmala-results/'+i+'/1.jpg');
+		image.setAttribute('class','full-container-responsive-element gallery-images');
+		image.setAttribute('width', '304');
+		image.setAttribute('height', '228');
+		image.setAttribute('onClick', 'loadPics('+i+')');
+		section.appendChild(image);
+		columnDiv.appendChild(section);
+		rowDiv.appendChild(columnDiv);
+		columnCount += 1;
+		if (createNewRow) {
+			galleryTilesDiv.appendChild(rowDiv);
+			createNewRow = false;
+		}
+	}
 }

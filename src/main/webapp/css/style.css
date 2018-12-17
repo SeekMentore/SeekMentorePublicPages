@@ -1426,3 +1426,9 @@ input{
 	{ display: inline-block;
 	}
 	
+	.gallery-images {
+		border: 2px solid aliceblue;
+		box-shadow: 3px 2px 24px 3px;
+		border-radius: 40px;
+		cursor: pointer;
+	}
