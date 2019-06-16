@@ -1,6 +1,5 @@
-// Placing Dev Server Path
-var serverPath = 'http://13.127.139.107:8080';
-//var serverPath = 'http://localhost:8080';
+// Placing Hosted Server Path
+var serverPath = 'http://13.127.141.184:8080';
 var ctxPath = '/seekmentore';
 var screenType = '';
 var output;

@@ -44,7 +44,7 @@ function loadPics(tileNumber) {
 		var columnDiv = document.createElement('DIV');
 		columnDiv.setAttribute('class','3u');
 		var image = document.createElement('IMG');
-		var src = './images/nirmala-results/'+classArray[tileNumber]+'/'+i+'.jpg';
+		var src = './images/nirmala-results/'+classArray[tileNumber]+'/'+i+'.jpg?dc=201906152245';
 		image.setAttribute('src', src);
 		image.setAttribute('class','full-container-responsive-element gallery-images');
 		image.setAttribute('width', '304');
@@ -87,7 +87,7 @@ function loadTiles() {
 		var columnDiv = document.createElement('DIV');
 		columnDiv.setAttribute('class','3u text-image-container');
 		var image = document.createElement('IMG');
-		image.setAttribute('src', './images/nirmala-results/'+classArray[i]+'/1.jpg');
+		image.setAttribute('src', './images/nirmala-results/'+classArray[i]+'/1.jpg?dc=201906152245');
 		image.setAttribute('class','full-container-responsive-element gallery-images');
 		image.setAttribute('width', '304');
 		image.setAttribute('height', '228');
