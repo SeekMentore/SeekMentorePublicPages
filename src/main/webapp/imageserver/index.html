@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="css/w3.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="shortcut icon" href="favicon.ico" />
+	<title>Seek Mentore</title>
+</head>
+<body>
+<div class="w3-container w3-green banner">
+  <div class="company-logo">
+	  <img src="images/company-logo-complete.png" />
+  </div>
+  <div class="user-info noscreen">
+	  <div id="user-name"></div>
+	  <div id="logout-link"></div>
+  </div>
+</div>
+<div class="banner-separator"></div>
+<!-- The Modal -->
+<div id="notification-popup-modal" class="modal noscreen">
+  <!-- Modal content -->
+  <div class="modal-content">
+  	<div id="alert-title"></div>
+    <div id="close-notification-popup-modal" class="close-modal" onclick="closeNotificationPopUpModal()">&times;</div>
+    <hr class="modal-line" />
+    <p id="notification-popup-model-content-section"></p>
+    <hr class="modal-line" />
+    <div onclick="closeNotificationPopUpModal()" class="close-modal-button">OK</div>
+  </div>
+</div>
+<!-- The Loader Modal -->
+<div id="loader-popup-modal" class="modal noscreen">
+	<div class="loader"></div>
+</div>
+<div class="w3-container footer">
+  © Developed and Maintained by <a href="http://www.seekmentore.com">Seek Mentore</a>
+</div>
+<script src="scripts/jquery-3.1.1.min.js"></script>
+<script src="scripts/utilities.js?dc=201812231706"></script>
+<script>
+	showNotificationModal('Information', 'This is SeekMentore\'s Image Server', true);
+</script>
+</body>
+</html>
