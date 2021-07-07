@@ -20,7 +20,7 @@
 		<!-- Load chosen -->
 		<link rel="stylesheet" href="chosen/chosen.css">
 		<!-- ReCaptcha V2 Script -->
-  		<script src="https://www.google.com/recaptcha/api.js"></script>
+  		<!-- <script src="https://www.google.com/recaptcha/api.js"></script> -->
   		</head>
 	<body class="page">
 
@@ -30,15 +30,15 @@
 			<div id="banner">
 				<section class="container">
 					<div id="company-strip">
-						<a href="index.html" class="just-link-no-css">
+						<a href="index.html?dc=201906152245" class="just-link-no-css">
 							<img src="images/company-logo-complete.png" alt="logo"/>
 						</a>
 					</div>
 					<div id="primary-action" >
 						<ul>
-						    <li><a href="./subscribe.html" class="button">Subscribe with Us</a></li>
-							<li><a href="./find-tutor.html" class="button">Find Your Tutor</a></li>
-							<li><a href="./become-tutor.html" class="button">Become a Tutor</a></li>
+						    <li><a href="./subscribe.html?dc=201906152245" class="button">Subscribe with Us</a></li>
+							<li><a href="./find-tutor.html?dc=201906152245" class="button">Find Your Tutor</a></li>
+							<li><a href="./become-tutor.html?dc=201906152245" class="button">Become a Tutor</a></li>
 						</ul>
 					</div>
 				</section>
@@ -50,25 +50,28 @@
 					<nav id="nav">
 						<ul>
 							<li>
-								<a href="index.html">Home</a>
+								<a href="index.html?dc=201906152245">Home</a>
 							</li>
 							<li>
-								<a href="our-specialty.html">Our Specialty</a>
+								<a href="our-specialty.html?dc=201906152245">Our Specialty</a>
 							</li>
 							<li>
-								<a href="our-services.html">Our Services</a>
+								<a href="our-services.html?dc=201906152245">Our Services</a>
 								<ul>
-									<li><a href="private-tutor.html">Private Tutor</a></li>
-									<li><a href="combined-tutoring.html">Combined Tutoring</a></li>
-									<li><a href="study-materials.html">Study Materials</a></li>
-									<li><a href="career-focussed-counselling.html">Career Focussed Counselling</a></li>
+									<li><a href="private-tutor.html?dc=201906152245">Private Tutor</a></li>
+									<li><a href="combined-tutoring.html?dc=201906152245">Combined Tutoring</a></li>
+									<li><a href="study-materials.html?dc=201906152245">Study Materials</a></li>
+									<li><a href="career-focussed-counselling.html?dc=201906152245">Career Focussed Counselling</a></li>
 								</ul>
 							</li>
 							<li>
-								<a href="about-us.html">About Us</a>
+								<a href="about-us.html?dc=201906152245">About Us</a>
 							</li>
 							<li>
-								<a href="faqs.html">Faq's</a>
+								<a href="faqs.html?dc=201906152245">Faq's</a>
+							</li>
+							<li class="blink">
+								<!-- <a color="red" href="drawing-results.html?dc=201906152245">Drawing Results</a> -->
 							</li>
 						</ul>
 					</nav>
@@ -91,7 +94,7 @@
 				<div id="sidebar" class="3u big-screen">
 					<section>
 						<img class="full-container-responsive-element "
-							src="images/parent.png"  />
+							src="images/parent_1.png"  />
 					</section>
 				</div>
 				<!-- Content -->
@@ -156,6 +159,37 @@
 									</div>
 								</div>
 								<div class="row input-form-row">
+									<div class="6u skel-cell-important input-form-column">
+										<div class="big-screen">
+											<select name="reference" id="reference-big-screen" class="chosen-select-deselect" data-placeholder="From where you get to know about us">
+												<option value=""></option>
+											</select>
+										</div>
+										<div class="small-screen">
+											<select name="reference" id="reference-small-screen" >
+												<option value="">From where you get to know about us</option>
+											</select>
+										</div>
+									</div>
+									<div class="6u input-form-column">
+										<div class="big-screen">
+											<select name="location" id="location-big-screen" class="chosen-select-deselect" data-placeholder="Your Location">
+												<option value=""></option>
+											</select>
+										</div>
+										<div class="small-screen">
+											<select name="location" id="location-small-screen">
+												<option value="">Your Location</option>
+											</select>
+										</div>
+									</div>
+								</div>
+									<div class="row input-form-row">
+									<div class="12u skel-cell-important input-form-column">
+										<textarea rows="2" cols="70" id="address-details" placeholder="Please provide address details"></textarea>
+									</div>
+								</div>
+								<div class="row input-form-row">
 									<div class="12u skel-cell-important input-form-column">
 										<textarea rows="4" cols="70" id="additional-details" placeholder="Please provide any additional details and we will get back within 8 hrs!!!"></textarea>
 									</div>
@@ -168,15 +202,17 @@
 										</label>
 									</div>
 								</div>
-								<div class="row input-form-row">
-								    <div class="6u skel-cell-important input-form-column">
-								        <div class="g-recaptcha" 
-							        		  data-sitekey="6LdFBlAUAAAAACzDGmG9pLG76RbV1YPhegqBOZq5" 
-							        		  data-callback="captchaResponseCallback" 
-							        		  data-expired-callback="captchaExpiredCallback" 
-							        		  data-error-callback="captchaErrorCallback"></div>
-								    </div>
-								</div>
+								<!-- 
+									<div class="row input-form-row">
+									    <div class="6u skel-cell-important input-form-column">
+									        <div class="g-recaptcha" 
+								        		  data-sitekey="6LdFBlAUAAAAACzDGmG9pLG76RbV1YPhegqBOZq5" 
+								        		  data-callback="captchaResponseCallback" 
+								        		  data-expired-callback="captchaExpiredCallback" 
+								        		  data-error-callback="captchaErrorCallback"></div>
+									    </div>
+									</div>
+								 -->
 								<div class="row input-form-row">
 									<div class="6u skel-cell-important input-form-column" align="center">
 										<input type="reset" id="subscribe-form-reset" class="noscreen" value="Reset form">
@@ -223,22 +259,22 @@
 		<div id="footerlinks">
 			<div class="big-screen">
 				<ul>
-					<li><a href="our-team.html">Our Team</a></li>
-					<li><a href="testimonials.html">Testimonials</a></li>
-					<li><a href="social-communications.html">Blog</a></li>
+					<li><a href="our-team.html?dc=201906152245">Our Team</a></li>
+					<li><a href="testimonials.html?dc=201906152245">Testimonials</a></li>
+					<li><a href="social-communications.html?dc=201906152245">Blog</a></li>
 				</ul>
 				<ul>
-					<li><a href="terms-of-use.html">Terms of Use</a></li>
-					<li><a href="privacy-policy.html">Privacy Policy</a></li>
+					<li><a href="terms-of-use.html?dc=201906152245">Terms of Use</a></li>
+					<li><a href="privacy-policy.html?dc=201906152245">Privacy Policy</a></li>
 				</ul>
 			</div>
 			<div class="small-screen">
 				<ul>
-					<li><a href="our-team.html">Our Team</a></li>
-					<li><a href="testimonials.html">Testimonials</a></li>
-					<li><a href="social-communications.html">Blog</a></li>
-					<li><a href="terms-of-use.html">Terms of Use</a></li>
-					<li><a href="privacy-policy.html">Privacy Policy</a></li>
+					<li><a href="our-team.html?dc=201906152245">Our Team</a></li>
+					<li><a href="testimonials.html?dc=201906152245">Testimonials</a></li>
+					<li><a href="social-communications.html?dc=201906152245">Blog</a></li>
+					<li><a href="terms-of-use.html?dc=201906152245">Terms of Use</a></li>
+					<li><a href="privacy-policy.html?dc=201906152245">Privacy Policy</a></li>
 				</ul>
 			</div>
 			<ul>
@@ -280,12 +316,12 @@
 		<script src="js/init.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<!--  Load Blinker -->
-		<script src="js/commonFunctions.js"></script>
+		<script src="js/commonFunctions.js?dc=201906152245"></script>
 		<!-- Load chosen -->
 		<script src="chosen/chosen.jquery.js" type="text/javascript"></script>
   		<script src="chosen/docsupport/init.js" type="text/javascript" charset="utf-8"></script>
   		<!-- Load scripts for taking action on page -->
-  		<script src="js/applicationCommon.js"></script>
+  		<script src="js/applicationCommon.js?dc=201906152245"></script>
   		<script>
   			loadDropdowns('CUSTOMER_SUBSCRIBE');
   		</script>

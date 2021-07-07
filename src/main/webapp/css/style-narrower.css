@@ -279,3 +279,12 @@
 		.tub-basket {
 		    width: 95% !important;
 		}
+		
+		.text-image-centered {
+			width: 93%;
+			margin-left: 2%;
+		}
+		
+		#drawing-result-header {
+			float: none;
+		}
